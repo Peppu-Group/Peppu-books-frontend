@@ -1,0 +1,178 @@
+.home-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.home-navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: space-around;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.search-icon{
+   margin-top: 20px;
+}
+.home-navbar button{
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.body-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.body-header span{
+    color: green;
+}
+.first-paragragh{
+    text-align: center;
+}
+.body-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+.button-green{
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.button-white{
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+    background-color: white;
+    border-style: none;
+    padding: 10px 20px;
+    border: solid green;
+    color: green;
+    border-radius: 5px;
+}
+
+.offers-main{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    margin: 20px 20px;
+}
+.offer-list-1{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.offer-list-2{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.offer-list-3{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.icon{
+    margin-top: 20px;
+    color: green;
+}
+.image img{
+    width: 30rem;
+    height: 10rem;
+}
+
+.Automate-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15%; 
+    margin: 20px 20px;
+}
+.computerman img{
+    width: 30rem;
+    height: 10rem;
+}
+.Automate{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.learn-more{
+    color: green;
+}
+.orderly-accounting-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15%; 
+    margin: 20px 20px;
+}
+.orderly-accounting-container img{
+    width: 30rem;
+    height: 10rem;
+}
+.professional-invoice-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15%; 
+    margin: 20px 20px;
+}
+.professional-invoice-container img{
+    width: 30rem;
+    height: 10rem;
+}
+.custom-schedule-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15%; 
+    margin: 20px 20px;
+}
+.custom-schedule-container img{
+    width: 30rem;
+    height: 10rem;
+}
+.why-peppu{
+    text-align: center;
+}
+.easy-to-use{
+    background-color: grey;
+    padding: 50px;
+    border-radius: 15px;
+}
+.easy-to-use p{
+    text-align: center;
+    color: white;
+}
+.easy-to-use h1{
+    color: white;
+}
+
+.easy-to-use-icon{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.why-peppu-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.hear-from{
+    text-align: center;
+}

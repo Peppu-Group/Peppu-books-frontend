@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiOutlineSearch, AiOutlineUserSwitch, AiOutlineArrowRight, AiFillCheckSquare} from 'react-icons/ai'
+import {AiOutlineUserSwitch, AiOutlineArrowRight, AiFillCheckSquare} from 'react-icons/ai'
 import {SiSpringsecurity} from 'react-icons/si'
 import {GiHumanTarget} from 'react-icons/gi'
 import readers from '../assets/readers.jpeg'
@@ -8,29 +8,16 @@ import manaccounting from '../assets/manaccounting.jpeg'
 import mancomputer from '../assets/mancomputer.jpeg'
 import womanscreen from '../assets/womanscreen.png'
 import mansmiling from '../assets/mansmiling.jpeg'
-import mansmiling2 from '../assets/mansmiling2.jpeg'
-import womansmiling from '../assets/womansmiling.jpeg'
-import womansmiling1 from '../assets/womansmiling1.jpeg'
+import Navbar from '../Components/Navbar'
+import IMG_2437 from '../assets/IMG_2437.png'
 
 
 const Homepage = () => {
   return (
     <div className='home-page'>
-
-      {/*Home page Nave-bar components */}
-      <div className='home-navbar'>
-        <image />
-        <h4>Home</h4>
-        <h4>Features</h4>
-        <h4>Products</h4>
-        <h4>Pricing</h4>
-        <h4>About Us</h4>
-        <div className='search-icon'>
-        <AiOutlineSearch />
-        </div>
-        <button>Get started</button>
+      <div>
+      <Navbar />
       </div>
-
       <div className='body-header'>
        <span><h1>Book Keeping</h1></span>
         <h1>Done Seemlessly</h1>
@@ -179,6 +166,32 @@ const Homepage = () => {
                 </div>
               </div>
             </div>
+
+              <div className='we-are-content'>
+                <p>We are the best <br /> accounting experience</p>
+                <button className='button-green'>Start free</button>
+                <button className='button-white'>Learn More</button>
+              </div>
+
+              <div className='subscribe'>
+                <div className="subscribe-body">
+                <img src={IMG_2437} style={{width: 60, height: 10}} />
+                <div>
+                <input />
+                <p>Subscribe to our newsletter to <br/> get updated news on our <br/> services</p>
+                </div>
+
+                </div>
+                <div className='Quick-link'>
+                  <h1>Quick Links</h1>
+                  <ul>
+                    <li>About</li>
+                    <li>Services </li>
+                    <li>Products </li>
+                    <li>Contact Us </li>
+                  </ul>
+                </div>
+              </div>
     </div>
 
   )

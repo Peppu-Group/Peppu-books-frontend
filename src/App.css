@@ -198,3 +198,36 @@
     justify-content: space-between;
     gap: 10px;
 }
+
+.we-are-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    margin-right: 160px;
+    margin-left: 190px;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.we-are-content p{
+    text-align: center;
+}
+.subscribe{
+  display: flex;
+  flex-direction: row;
+  background-color: lime;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.subscribe-body{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.Quick-link{
+    
+}

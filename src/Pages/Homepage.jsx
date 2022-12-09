@@ -7,6 +7,11 @@ import computerman from '../assets/computerman.jpeg'
 import manaccounting from '../assets/manaccounting.jpeg'
 import mancomputer from '../assets/mancomputer.jpeg'
 import womanscreen from '../assets/womanscreen.png'
+import mansmiling from '../assets/mansmiling.jpeg'
+import mansmiling2 from '../assets/mansmiling2.jpeg'
+import womansmiling from '../assets/womansmiling.jpeg'
+import womansmiling1 from '../assets/womansmiling1.jpeg'
+
 
 const Homepage = () => {
   return (
@@ -135,6 +140,44 @@ const Homepage = () => {
           </div>
             <div className='hear-from'>
               <h1> Hear from our Users</h1>
+            </div>
+
+            <div className='testimonies'>
+              <div className='first-testimony'>
+                <img src={mansmiling } /> 
+                <div className='testimony'>
+                  <p>Book keeping have never <br/> been this easy, Peppu!</p>
+
+                  <h4>James Neerd</h4>
+                </div>
+              </div>
+
+              <div className='first-testimony'>
+                <img src={mansmiling } /> 
+                <div className='testimony'>
+                  <p>Book keeping have never <br/> been this easy, Peppu!</p>
+
+                  <h4>James Neerd</h4>
+                </div>
+              </div>
+
+              <div className='first-testimony'>
+                <img src={mansmiling } /> 
+                <div className='testimony'>
+                  <p>Book keeping have never <br/> been this easy, Peppu!</p>
+
+                  <h4>James Neerd</h4>
+                </div>
+              </div>
+
+              <div className='first-testimony'>
+                <img src={mansmiling } /> 
+                <div className='testimony'>
+                  <p>Book keeping have never <br/> been this easy, Peppu!</p>
+
+                  <h4>James Neerd</h4>
+                </div>
+              </div>
             </div>
     </div>
 

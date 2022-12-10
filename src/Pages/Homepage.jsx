@@ -15,9 +15,13 @@ import IMG_2437 from '../assets/IMG_2437.png'
 const Homepage = () => {
   return (
     <div className='home-page'>
+
+      {/** NavBar component */}
       <div>
       <Navbar />
       </div>
+
+      {/** Home Page body beginning Text */}
       <div className='body-header'>
        <span><h1>Book Keeping</h1></span>
         <h1>Done Seemlessly</h1>
@@ -31,6 +35,7 @@ const Homepage = () => {
         <button className='button-white'>How it works</button>
       </div>
 
+      {/** Home Page body list of features*/}
       <div className='offers-main'>
         <div>
         <div className='offer-list-1'>
@@ -100,6 +105,8 @@ const Homepage = () => {
           <h1>Why PEPPU BOOKS?</h1>
           </div>
 
+          {/** Why you should choose us */}
+
           <div className='why-peppu-content'>
             <div className='easy-to-use'>
               <div className='easy-to-use-icon'>
@@ -125,6 +132,8 @@ const Homepage = () => {
               <p>We get all your book<br/> keeping processes <br/> done in one place <br/> with a custom feel <br/> of your choice</p>
             </div>
           </div>
+
+          {/** Users Testimony */}
             <div className='hear-from'>
               <h1> Hear from our Users</h1>
             </div>
@@ -167,6 +176,7 @@ const Homepage = () => {
               </div>
             </div>
 
+              {/** Contact us and link to other pages */}
               <div className='we-are-content'>
                 <p>We are the best <br /> accounting experience</p>
                 <button className='button-green'>Start free</button>
@@ -189,6 +199,23 @@ const Homepage = () => {
                     <li>Services </li>
                     <li>Products </li>
                     <li>Contact Us </li>
+                  </ul>
+                </div>
+
+                <div className='Quick-link'>
+                  <h1>Follow Us</h1>
+                  <ul>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Facebook </li>
+                  </ul>
+                </div>
+
+                <div className='Quick-link'>
+                  <h1>Terms & Policy</h1>
+                  <ul>
+                    <li>Privacy Policies</li>
+                    <li>Terms & Conditions</li>
                   </ul>
                 </div>
               </div>

@@ -23,6 +23,11 @@
     justify-content: space-around;
     margin: 20px;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
 .search-icon{
    margin-top: 20px;
 }
@@ -253,4 +258,74 @@ li{
 li::before{
     color: white;
 }
-/*HomePage style ends here* /
+
+/* Home Page style ends here*/
+
+/* Get started Page style starts here*/
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container-text{
+    margin-top: 80px;
+    text-align: center;
+}
+.container-paragraph{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.works{
+    display: flex;
+    flex-direction: row;
+    margin-top: 178px;
+    gap: 1rem;
+    color: green;
+}
+
+.works:hover{
+    border: solid green;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.h3 {
+    border: solid green;
+}
+.h3 h3{
+    color: green;
+}
+
+/* Get started page style ends here*/
+
+/* features page style starts here*/
+
+.features-header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pricing-header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.products-header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

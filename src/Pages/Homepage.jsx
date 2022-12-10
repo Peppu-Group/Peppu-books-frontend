@@ -16,11 +16,6 @@ const Homepage = () => {
   return (
     <div className='home-page'>
 
-      {/** NavBar component */}
-      <div>
-      <Navbar />
-      </div>
-
       {/** Home Page body beginning Text */}
       <div className='body-header'>
        <span><h1>Book Keeping</h1></span>

@@ -1,22 +1,28 @@
 import React from 'react'
-import {AiOutlineUserSwitch, AiOutlineArrowRight, AiFillCheckSquare} from 'react-icons/ai'
+import {AiOutlineUserSwitch, AiOutlineArrowRight,} from 'react-icons/ai'
 import {SiSpringsecurity} from 'react-icons/si'
+import  {MdLibraryAddCheck} from 'react-icons/md'
 import {GiHumanTarget} from 'react-icons/gi'
-import readers from '../assets/readers.jpeg'
-import computerman from '../assets/computerman.jpeg'
-import manaccounting from '../assets/manaccounting.jpeg'
-import mancomputer from '../assets/mancomputer.jpeg'
-import womanscreen from '../assets/womanscreen.png'
-import mansmiling from '../assets/mansmiling.jpeg'
 import Navbar from '../Components/Navbar'
+import herosection from '../assets/herosection.png'
+import Invoice from '../assets/Invoice.png'
+import OrderlyAccounting from '../assets/OrderlyAccounting.png'
+import Schedule from '../assets/Schedule.png'
+import Automate from '../assets/Automate.png'
+import user1 from '../assets/user1.png'
+import user2 from '../assets/user2.png'
+import user3 from '../assets/user3.png'
+import user4 from '../assets/user4.png'
 import IMG_2437 from '../assets/IMG_2437.png'
-
 
 const Homepage = () => {
   return (
     <div className='home-page'>
-
+      <div>
+        <Navbar />
+      </div>
       {/** Home Page body beginning Text */}
+      <div className='body'>
       <div className='body-header'>
        <span><h1>Book Keeping</h1></span>
         <h1>Done Seemlessly</h1>
@@ -26,39 +32,45 @@ const Homepage = () => {
       </div>
 
       <div className='body-buttons'>
-        <button className='button-green'>Get Started</button>
+        <button className='button-green'>Start for free</button>
         <button className='button-white'>How it works</button>
       </div>
 
       {/** Home Page body list of features*/}
       <div className='offers-main'>
-        <div>
+        <div className='check-offers'>
         <div className='offer-list-1'>
         <div className='icon'>
-          <AiFillCheckSquare />
-          </div>
-           <p>Create estimates, convert to quotes</p>
+          <MdLibraryAddCheck />
         </div>
+           <p>Create estimates, convert to <br/> quotes</p>
+        </div>
+
+        
         <div className='offer-list-2'>
           <div className='icon'>
-          <AiFillCheckSquare />
+          <MdLibraryAddCheck />
           </div>
-          <p>Generate accounting reports, record journal</p>
+          <p>Generate accounting reports, <br/> record journal</p>
         </div>
         <div className='offer-list-3'>
         <div className='icon'>
-          <AiFillCheckSquare />
-          </div>
+          <MdLibraryAddCheck />
+        </div>
           <p>Custom schedules and reminders to automate your processes</p>
         </div>
         </div>
         <div className='image'>
-          <img  src={readers}/>
+          <img  src={herosection}/>
         </div>
+      </div>
+
+
+
         </div>
         <div className='Automate-container'>
           <div className='computerman'>
-          <img src={computerman} />
+          <img src={Automate} />
           </div>
           <div>
           <div className='Automate'> 
@@ -75,11 +87,11 @@ const Homepage = () => {
             <p>Arrange share and <br/> retrieve all accounting <br/> processes in one place</p>
             <p className='learn-more'>LEARN MORE <AiOutlineArrowRight/> </p>
             </div>
-            <img src={manaccounting} />
+            <img src={OrderlyAccounting} />
           </div>
 
           <div className='professional-invoice-container'>
-            <img src={mancomputer} />
+            <img src={Invoice} />
             <div className='professional-invoice'>
             <h1>Professional Invoices</h1>
             <p>Create Professional Invoices and <br/> receipts with few clicks, schedule<br/> and track payments</p>
@@ -94,7 +106,7 @@ const Homepage = () => {
             <p>Create custom schedules and <br/> reminders to automate your<br/>processes</p>
             <p className='learn-more'>LEARN MORE <AiOutlineArrowRight/> </p>
             </div>
-            <img src={womanscreen} />
+            <img src={Schedule} />
           </div>
           <div className='why-peppu'>
           <h1>Why PEPPU BOOKS?</h1>
@@ -135,7 +147,7 @@ const Homepage = () => {
 
             <div className='testimonies'>
               <div className='first-testimony'>
-                <img src={mansmiling } /> 
+                <img src={user1} /> 
                 <div className='testimony'>
                   <p>Book keeping have never <br/> been this easy, Peppu!</p>
 
@@ -144,7 +156,7 @@ const Homepage = () => {
               </div>
 
               <div className='first-testimony'>
-                <img src={mansmiling } /> 
+                <img src={user2} /> 
                 <div className='testimony'>
                   <p>Book keeping have never <br/> been this easy, Peppu!</p>
 
@@ -153,7 +165,7 @@ const Homepage = () => {
               </div>
 
               <div className='first-testimony'>
-                <img src={mansmiling } /> 
+                <img src={user3} /> 
                 <div className='testimony'>
                   <p>Book keeping have never <br/> been this easy, Peppu!</p>
 
@@ -162,7 +174,7 @@ const Homepage = () => {
               </div>
 
               <div className='first-testimony'>
-                <img src={mansmiling } /> 
+                <img src={user4 } /> 
                 <div className='testimony'>
                   <p>Book keeping have never <br/> been this easy, Peppu!</p>
 
@@ -174,13 +186,13 @@ const Homepage = () => {
               {/** Contact us and link to other pages */}
               <div className='we-are-content'>
                 <p>We are the best <br /> accounting experience</p>
-                <button className='button-green'>Start free</button>
+                <button className='button-green'>Start for free</button>
                 <button className='button-white'>Learn More</button>
               </div>
 
               <div className='subscribe'>
                 <div className="subscribe-body">
-                <img src={IMG_2437} style={{width: 60, height: 10}} />
+                <img src={IMG_2437} style={{width: 80, height: 30}} />
                 <div>
                 <input />
                 <p>Subscribe to our newsletter to <br/> get updated news on our <br/> services</p>
@@ -207,7 +219,7 @@ const Homepage = () => {
                 </div>
 
                 <div className='Quick-link'>
-                  <h1>Terms & Policy</h1>
+                  <h1>Terms & Policies</h1>
                   <ul>
                     <li>Privacy Policies</li>
                     <li>Terms & Conditions</li>

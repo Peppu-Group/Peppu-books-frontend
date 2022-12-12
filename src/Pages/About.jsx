@@ -2,7 +2,9 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import Invoice from '../assets/Invoice.png'
 import getstarted from '../assets/getstarted.png'
-
+import user1 from '../assets/user1.png'
+import {BsFillArrowRightCircleFill, BsArrowLeftCircle, BsFacebook} from 'react-icons/bs'
+import {AiOutlineGoogle, AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai'
 const About = () => {
   return (
   <div>
@@ -66,8 +68,93 @@ const About = () => {
 
 
 
-    <div>
+    <div className='meet-the-team'> 
+      
       <h1>Meet the team</h1>
+
+      <div className='team'>
+      <div className='the-team'>
+        <img src={user1}/>
+        <p>Ferdinad Okpeghene</p>
+        <p className='position'>UI/UX Designer</p>
+      </div>
+
+
+      <div className='the-team'> 
+        <img src={user1}/>
+        <p>Ferdinad Okpeghene</p>
+        <p className='position'>UI/UX Designer</p>
+      </div>
+
+
+      <div className='the-team'>
+        <img src={user1}/>
+        <p>Ferdinad Okpeghene</p>
+        <p className='position'>UI/UX Designer</p>
+      </div>
+
+
+      <div className='the-team'>
+        <img src={user1}/>
+        <p>Ferdinad Okpeghene</p>
+        <p className='position'>UI/UX Designer</p>
+      </div>
+
+
+      <div className='the-team'>
+        <img src={user1}/>
+        <p>Ferdinad Okpeghene</p>
+        <p className='position'>UI/UX Designer</p>
+      </div>
+      </div>
+
+      <div className='arrow-icon'>
+        <div className='left'>
+            <BsArrowLeftCircle/>
+        </div>
+        <div className='right'>
+            <BsFillArrowRightCircleFill/>
+        </div>
+      </div>
+
+      <div className='start'> 
+        <div className='start-buttons'>
+          <div>
+            <button className='green-button'>start for free</button>
+          </div>
+          <div >
+            <button className='white-button'>How it works</button>
+          </div>
+        </div>
+        <div className='get-in-touch'>
+           <h1>Get in touch</h1>
+            <div className='socials'>
+                <div className='icons'>    
+                    <AiOutlineGoogle/>
+                </div>
+              <p>Peppubooks@gmail.com</p>
+            </div>
+            <div className='socials'>
+                <div className='icons'>   
+                  <AiOutlineTwitter/>
+                </div>
+              <p>Peppubooks</p>
+            </div>
+            <div className='socials'>
+              <div className='icons'>  
+                <AiOutlineInstagram/>
+              </div>
+              <p>Peppubooks</p>
+            </div>
+            <div className='socials'>
+                <div className='icons'>  
+                   <BsFacebook/>
+                </div>
+               <p>Peppubooks</p>
+            </div>
+          </div>
+       </div>
+
     </div>
     </div>
   </div>

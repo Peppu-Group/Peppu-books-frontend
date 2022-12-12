@@ -231,6 +231,7 @@ a{
     gap: 10px;
 }
 
+
 .we-are-content{
     display: flex;
     flex-direction: row;
@@ -391,4 +392,104 @@ li::before{
     background-color:rgb(155, 232, 155);
     width: 250%;
     padding: 60px;
+}
+.the-team img{
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+    margin-top: 29px;
+    margin-left: 30px;
+}
+.the-team{
+    background-color: rgb(156, 146, 146);
+    border-radius: 10px;
+    padding-right: 20px ;
+    padding-left: 20px ;
+}
+.arrow-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 2rem;
+    font-size: 60px;
+}
+.left{
+    color: green;
+    text-align: center;
+}
+.right{
+    color: green;
+}
+.team{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.meet-the-team{
+    margin-left: 60px;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+.start-buttons{
+    background-color: rgb(138, 215, 138, 0.8);
+    padding-bottom: 100px;
+    padding-top: 20px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    z-index: -1;
+    position: relative;
+}
+.get-in-touch{
+    margin-top: -95px;
+    background-color: rgb(213, 200, 200);
+    top: 0;
+    padding-left: 40px;
+    border-radius: 20px;
+    margin-right: 260px;
+    margin-left: 300px;
+}
+.green-button{
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+    color: white;
+    border-style: none;
+    padding: 10px 20px;
+    background-color: green;
+    border-radius: 5px;
+}
+.white-button{
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+    background-color: white;
+    color: green;
+    border-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+}
+.socials{
+    color: blue;
+}
+.icons{
+    padding-top: 15px;
+    padding-right: 10px;
 }

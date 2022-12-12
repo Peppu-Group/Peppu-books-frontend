@@ -332,6 +332,8 @@ li::before{
     flex-direction: column;
 }
 
+/* Features style ends here*/
+
 .pricing-header{
     height: 100vh;
     display: flex;

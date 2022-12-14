@@ -21,8 +21,8 @@
     flex-direction: row;
     gap: 5%;
     justify-content: space-around;
-    margin-bottom: 30px;
-    margin-top: 10px;
+    margin-bottom: 3%;
+    margin-top: 3%;
     box-shadow: 10px 10px 10px 10px whitesmoke;
 }
 
@@ -34,7 +34,7 @@ a{
     color: black;
 }
 .search-icon{
-   margin-top: 20px;
+   margin-top: 2%;
 }
 .home-navbar button{
     width: auto;
@@ -67,21 +67,21 @@ a{
 }
 .button-green{
     width: auto;
-    height: 40px;
-    margin-top: 10px;
+    height: 15%;
+    margin-top: 1%;
     background-color: green;
     color: white;
     border-style: none;
-    padding: 10px 20px;
+    padding: 1% 2%;
     border-radius: 5px;
 }
 .button-white{
     width: auto;
-    height: 40px;
-    margin-top: 10px;
+    height: 15%;
+    margin-top: 1%;
     background-color: white;
     border-style: none;
-    padding: 10px 20px;
+    padding: 1% 2%;
     border: solid green;
     color: green;
     border-radius: 5px;
@@ -91,7 +91,7 @@ a{
     display: flex;
     flex-direction: row;
     gap: 20%;
-    margin: 20px 20px;
+    margin: 5% 5%;
 }
 .offer-list-1{
     display: flex;
@@ -112,7 +112,7 @@ a{
 .icon{
     margin-top: 20px;
     color: green;
-    font-size: 30px;
+    font-size: 200%;
 }
 .image img{
     width: 30rem;
@@ -123,7 +123,7 @@ a{
     display: flex;
     flex-direction: row;
     gap: 15%; 
-    padding: 90px;
+    padding: 5%;
     background-color: aliceblue;
 }
 .computerman img{
@@ -139,15 +139,15 @@ a{
     border: solid green;
     cursor: pointer;
     width: auto;
-    height: 40px;
-    padding: 10px 20px;
+    height: 15%;
+    padding: 5% 10%;
 }
 .orderly-accounting-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 15%; 
-    padding: 80px;
+    padding: 10%;
     background-color: #e8eaed;
 }
 .orderly-accounting-container img{
@@ -158,7 +158,7 @@ a{
     display: flex;
     flex-direction: row;
     gap: 15%; 
-    padding: 90px;
+    padding: 5%;
    background-color: aliceblue;
 }
 .professional-invoice-container img{
@@ -170,8 +170,8 @@ a{
     flex-direction: row;
     justify-content: space-between;
     gap: 15%; 
-    margin-bottom: 90px;
-    padding: 80px;
+    margin-bottom: 10%;
+    padding: 10%;
     background-color: #e8eaed;
 }
 .custom-schedule-container img{
@@ -183,8 +183,8 @@ a{
 }
 .easy-to-use{
     background-color: grey;
-    padding: 50px;
-    border-radius: 15px;
+    padding: 3%;
+    border-radius: 5%;
 }
 .easy-to-use p{
     text-align: center;
@@ -195,7 +195,7 @@ a{
 }
 
 .easy-to-use-icon{
-    font-size: 50px;
+    font-size: 280%;
     text-align: center;
     color: white;
 }
@@ -203,7 +203,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    gap: 1rem;
 }
 .hear-from{
     text-align: center;
@@ -228,7 +228,7 @@ a{
     flex-direction: row;
     flex-flow: row wrap;
     justify-content: space-between;
-    gap: 10px;
+    gap: 1rem;
 }
 
 
@@ -237,12 +237,12 @@ a{
     flex-direction: row;
     justify-content: center;
     gap: 2rem;
-    margin-right: 160px;
-    margin-left: 190px;
-    margin-top: 20px;
-    margin-bottom: -15px;
-    border-radius: 15px;
-    padding: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 8%;
+    margin-bottom: -1%;
+    border-radius: 2%;
+    padding: 5%;
     background-color: whitesmoke;
 }
 .we-are-content p{
@@ -254,19 +254,19 @@ a{
   justify-content: space-around;
   background-color: rgb(122, 185, 122);
   position: relative;
-  left: 0px;
-  top: 0px;
+  left: 0%;
+  top: 0%;
   z-index: -1;
 }
 .subscribe-body{
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
 }
 
 li{
     list-style-type: none;
-    padding-top: 30px;
+    padding-top: 20%;
 }
 li::before{
     color: white;
@@ -283,38 +283,38 @@ li::before{
 }
 
 .container-text{
-    margin-top: 80px;
+    margin-top: 10%;
     text-align: center;
 }
 .container-paragraph{
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 4%;
 }
 
 .works{
     display: flex;
     flex-direction: row;
-    margin-top: 178px;
+    margin-top: 70%;
     gap: 1rem;
     color: green;
 }
 
 .works:hover{
     border: solid green;
-    padding-left: 10px;
+    padding-left: 10%;
     cursor: pointer;
 }
 .h3 {
     border: solid green;
     display: flex;
     flex-direction: row;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
     gap: 1rem;
 }
 
 .h3 img{
-    margin-top: 15px;
+    margin-top: 5%;
 }
 .h3 h3{
     color: green;
@@ -355,11 +355,11 @@ li::before{
     background-image: url("../src/assets/IMG_2430.png");
     background-repeat: no-repeat;
     height: 100vh;
-    background-position:0 50px;
+    background-position:0 15%;
 }
 
 .about-peppu{
-    margin-left: 148px;
+    margin-left: 12%;
     background-image: linear-gradient(to right,  #cbf3d6,#ffffff, #e8eaed, #f6e8bf);
    
 }
@@ -377,23 +377,23 @@ li::before{
     justify-content: space-around;
 }
 .about-us{
-    padding-left: 126px;
+    padding-left: 12%;
 }
 
 .mission-class{
     background-color:rgb(122, 185, 122);
     display: flex;
     flex-direction: row;
-    gap: 200px;
+    gap: 20%;
 }
 .mission-class img{
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 9%;
+    padding-bottom: 9%;
 }
 .mission-vision{
     background-color:rgb(155, 232, 155);
     width: 250%;
-    padding: 60px;
+    padding: 6%;
 }
 .the-team img{
     border-radius: 50%;
@@ -404,17 +404,17 @@ li::before{
 }
 .the-team{
     background-color: rgb(156, 146, 146);
-    border-radius: 10px;
-    padding-right: 20px ;
-    padding-left: 20px ;
+    border-radius: 10%;
+    padding-right: 2% ;
+    padding-left: 2%;
 }
 .arrow-icon{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 4%;
     gap: 2rem;
-    font-size: 60px;
+    font-size: 200%;
 }
 .left{
     color: green;
@@ -428,25 +428,25 @@ li::before{
     flex-direction: row;
     flex-flow: row wrap;
     justify-content: space-between;
-    gap: 10px;
+    gap: 1rem;
 }
 .meet-the-team{
-    margin-left: 60px;
+    margin-left: 6%;
 }
 .start{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    margin-top: 20px;
-    padding-top: 20px;
-    padding-bottom: 90px;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 9%;
 }
 .start-buttons{
     background-color: rgb(138, 215, 138, 0.8);
-    padding-bottom: 100px;
-    padding-top: 20px;
-    margin-top: 0px;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    margin-top: 0;
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -455,12 +455,12 @@ li::before{
     position: relative;
 }
 .get-in-touch{
-    margin-top: -95px;
+    margin-top: -9.5%;
     background-color: rgb(213, 200, 200);
     top: 0;
-    padding-left: 40px;
-    border-radius: 20px;
-    margin-right: 260px;
+    padding-left: 4%;
+    border-radius: 2%;
+    margin-right: 26%;
     margin-left: 300px;
 }
 .green-button{
@@ -492,6 +492,6 @@ li::before{
     color: blue;
 }
 .icons{
-    padding-top: 15px;
-    padding-right: 10px;
+    padding-top: 3.5%;
+    padding-right: 3%;
 }

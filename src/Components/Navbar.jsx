@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
         {/*Home page Nave-bar components */}
       <div className='home-navbar'>
-        <img src={IMG_2437} style={{width: 34, height: 40, marginTop: 13}}/>
+        <img src={IMG_2437} style={{width: 74, height: 30, marginTop: 13}}/>
          <a href="/"><h4>Home</h4></a>
          <a href="/features"> <h4>Features</h4></a>
          <a href='/products'> <h4>Products</h4></a>
@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className='search-icon'>
         <AiOutlineSearch />
         </div>
-        <button>Get started</button>
+        <a href='/getstarted'> <button>Get started</button></a>
       </div>
 
     </div>

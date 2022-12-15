@@ -42,7 +42,7 @@ const Homepage = () => {
 
 
 
-  <div className='body-buttons '>
+  <div className='body-buttons'>
               <a href="/getstarted">
                  <button className='button-green'>Start&nbsp;for&nbsp;free</button>
               </a>
@@ -86,17 +86,11 @@ const Homepage = () => {
           <img  src={herosection}/>
         </div>
       </div>
-
-
- </div>
-        
-        
-        
-        <div className='Automate-container'>
+      <div className='Automate-container'>
           <div className='computerman'>
               <img src={Automate} />
           </div>
-              <div>
+              <div className='Automate-head'>
                 <div className='Automate'> 
                  <h1>Automate</h1>
                 </div>
@@ -104,6 +98,13 @@ const Homepage = () => {
                    <p className='learn-more'>LEARN MORE <AiOutlineArrowRight/> </p>
                 </div>
         </div>
+
+
+ </div>
+        
+        
+        
+        
 
 
         <div className='orderly-accounting-container'>

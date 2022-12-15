@@ -294,10 +294,13 @@ a{
 .subscribe{
  display: flex;
  flex-direction: row;
+ gap: 3%;
  padding-top: 10%;
  background-color: rgb(184, 235, 184);
 }
 .subscribe-body{
+    display: flex;
+    flex-direction: column;
     padding-right: 5%;
     padding-left: 5%;
     padding-top: 5%;

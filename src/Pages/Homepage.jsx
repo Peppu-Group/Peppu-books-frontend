@@ -230,7 +230,7 @@ const Homepage = () => {
               <div className='subscribe'>
                 <div className="subscribe-body">
                 <img src={IMG_2437} style={{width: 80, height: 30}} />
-               
+                    <input />
                   <p>Subscribe to our newsletter to <br/> get updated news on our <br/> services</p>
 
                 </div>

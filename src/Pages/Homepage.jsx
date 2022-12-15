@@ -43,10 +43,14 @@ const Homepage = () => {
 
 
 
-           <div className='body-buttons'>
-              <button className='button-green'>Start for free</button>
-              <button className='button-white'>How it works</button>
-            </div>
+  
+              <a href="/getstarted">
+                 <button className='button-green'>Start for free</button>
+              </a>
+             <a href="/about">
+                <button className='button-white'>How it works</button>
+             </a>
+      
 
              {/** list of features*/}
             <div className='offers-main'>

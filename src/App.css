@@ -27,8 +27,6 @@
 
 .home-navbar .logo img{
     width: 8vw;
-    
-   
 }
 .home-navbar .nav-menu{
     display: flex;
@@ -44,6 +42,10 @@
 
 .body{
     background-image: linear-gradient(to right,  #cbf3d6,#ffffff, #e8eaed, #f6e8bf);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+     font-size: 62.5%;
 }
 a{
     text-decoration: none;
@@ -72,25 +74,32 @@ a{
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
+    font-size: 2rem;
     
 }
 .body-header span{
-    color: green;
+    color: #34a853;
 }
 .first-paragragh{
+    margin-top: -4%;
     text-align: center;
+    font-size: 1.4rem;
 }
 .body-buttons{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
+    
+}
+.body-buttons button{
+    font-size:1.6rem;
 }
 .button-green{
     width: auto;
     height: 15%;
     margin-top: 1%;
-    background-color: green;
+    background-color: #34a853;
     color: white;
     border-style: none;
     padding: 1% 2%;

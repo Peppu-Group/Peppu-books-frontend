@@ -22,9 +22,13 @@
     justify-content: space-around;
     margin-bottom: 1%;
     box-shadow:10px 5px 5px rgb(206, 199, 199) ;
+    width: 100%;
+    position: fixed;
+    background-color: white;
 }
 
 .body{
+    margin-top: 5%;
     background-image: linear-gradient(to right,  #cbf3d6,#ffffff, #e8eaed, #f6e8bf);
 }
 a{

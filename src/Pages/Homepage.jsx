@@ -42,10 +42,14 @@ const Homepage = () => {
 
 
 
-           <div className='body-buttons'>
-              <button className='button-green'>Start for free</button>
-              <button className='button-white'>How it works</button>
-            </div>
+  
+              <a href="/getstarted">
+                 <button className='button-green'>Start for free</button>
+              </a>
+             <a href="/about">
+                <button className='button-white'>How it works</button>
+             </a>
+      
 
              {/** list of features*/}
             <div className='offers-main'>
@@ -205,8 +209,19 @@ const Homepage = () => {
               {/** Contact us and link to other pages */}
               <div className='we-are-content'>
                 <p>We are the best <br /> accounting experience</p>
-                <button className='button-green'>Start for free</button>
-                <button className='button-white'>Learn More</button>
+               <div>
+
+
+                <div className='footer-button'>
+                  <a href='/getstarted'>
+                    <button className='green'>Start for free</button>
+                  </a>
+                
+                  <a href='/about'>
+                    <button className='white'>Learn More</button>
+                  </a>
+                </div>
+               </div>
               </div>
 
               <div className='subscribe'>

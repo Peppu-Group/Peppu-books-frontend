@@ -63,7 +63,7 @@ a{
    
     height: 5vh;
     margin-top: 25%;
-    background-color: green;
+    background-color: #34a853;
     color: white;
     border-style: none;
     padding: 1.5% 10%;
@@ -89,34 +89,31 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 1rem;
-    
+    gap: 2.5rem;
 }
-.body-buttons button{
-    font-size:1.6rem;
+.body-buttons a button{
+    font-size:1.3rem;
 }
-.button-green{
+.button-green,.button-white{
     width: auto;
-    height: 15%;
+    height: auto;
     margin-top: 1%;
     background-color: #34a853;
     color: white;
     border-style: none;
-    padding: 1% 2%;
-    border-radius: 5px;
+    padding: 8% 4%;
+    border-radius: 5%;
 }
 .button-white{
-    width: auto;
-    height: 15%;
-    margin-top: 1%;
+   
     background-color: white;
-    border-style: none;
-    padding: 1% 2%;
-    border: solid green;
-    color: green;
-    border-radius: 5px;
+    border: solid #34a853;
+    color: #34a853;
+    padding: 6% 4%;
 }
-
+.check-offers{
+    font-size: 1.2rem;
+}
 .offers-main{
     display: flex;
     flex-direction: row;
@@ -145,8 +142,8 @@ a{
     font-size: 200%;
 }
 .image img{
-    width: 30rem;
-    height: 10rem;
+    width:40vw;
+    height: 60vh;
 }
 
 .Automate-container{

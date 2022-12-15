@@ -42,15 +42,15 @@ const Homepage = () => {
 
 
 
-  
+  <div className='body-buttons '>
               <a href="/getstarted">
-                 <button className='button-green'>Start for free</button>
+                 <button className='button-green'>Start&nbsp;for&nbsp;free</button>
               </a>
              <a href="/about">
-                <button className='button-white'>How it works</button>
+                <button className='button-white'>How&nbsp;it&nbsp;works</button>
              </a>
       
-
+             </div>
              {/** list of features*/}
             <div className='offers-main'>
                <div className='check-offers'>

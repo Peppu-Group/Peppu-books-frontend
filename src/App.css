@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: row;
     gap: 5%;
+    top: 0;
     justify-content: space-around;
     margin-bottom: 1%;
     box-shadow:10px 5px 5px rgb(206, 199, 199) ;
@@ -356,6 +357,7 @@ li::before{
 /* About page style*/
 
 .about-header{
+    margin-top: 5%;
     background-image: url("../src/assets/IMG_2430.png");
     background-repeat: no-repeat;
     height: 100vh;

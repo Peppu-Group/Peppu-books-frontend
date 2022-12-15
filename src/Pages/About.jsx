@@ -117,10 +117,14 @@ const About = () => {
         </div>
       </div>
 
-      <div className='start'> 
+      <div className='start-container'> 
+      <div className='start-box'>
+
         <div className='start-buttons'>
           <div>
+            <a href='/getstarted'>
             <button className='green-button'>start for free</button>
+            </a>
           </div>
           <div >
             <button className='white-button'>How it works</button>
@@ -132,7 +136,7 @@ const About = () => {
                 <div className='icons'>    
                     <AiOutlineGoogle/>
                 </div>
-              <p>Peppubooks@gmail.com</p>
+                   <p>Peppubooks@gmail.com</p>
             </div>
             <div className='socials'>
                 <div className='icons'>   
@@ -154,6 +158,7 @@ const About = () => {
             </div>
           </div>
        </div>
+      </div>
 
     </div>
     </div>

@@ -67,6 +67,8 @@ a{
     width: auto;
     height: 15%;
     margin-top: 1%;
+    margin-right: 1rem;
+    margin-left: 40%;
     background-color: green;
     color: white;
     border-style: none;

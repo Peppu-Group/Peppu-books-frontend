@@ -13,68 +13,93 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 .home-navbar{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5% 5%;
+    margin-bottom: 0.4vh;  
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.home-navbar .logo img{
+    width: 8vw;
+}
+.home-navbar .nav-menu{
     display: flex;
     flex-direction: row;
-    gap: 5%;
-    top: 0;
-    justify-content: space-around;
-    margin-bottom: 1%;
-    box-shadow:10px 5px 5px rgb(206, 199, 199) ;
-    width: 100%;
-    position: fixed;
-    background-color: white;
+    gap: 8%;
+    justify-content: space-evenly;
+    margin-top: -1%;
+    padding-left: 0%;
+    position: absolute;
+    right: 20%;
+   
 }
 
 .body{
-    margin-top: 5%;
     background-image: linear-gradient(to right,  #cbf3d6,#ffffff, #e8eaed, #f6e8bf);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+     font-size: 62.5%;
 }
 a{
     text-decoration: none;
     color: black;
 }
 .search-icon{
-   margin-top: 2%;
+    height: 4vh;
+    width: 5vw;
+   margin-top: 3.5%;
+   background-color: aliceblue;
+   border-radius: 50%;
+   padding: 2% 1.5% 0% 1.5%;
 }
 .home-navbar button{
-    width: auto;
-    height: 40px;
-    margin-top: 10px;
+   
+    height: 5vh;
+    margin-top: 25%;
     background-color: green;
     color: white;
     border-style: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 1.5% 10%;
+  
 }
 .body-header{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
+    font-size: 2rem;
     
 }
 .body-header span{
-    color: green;
+    color: #34a853;
 }
 .first-paragragh{
+    margin-top: -4%;
     text-align: center;
+    font-size: 1.4rem;
 }
 .body-buttons{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
+    
+}
+.body-buttons button{
+    font-size:1.6rem;
 }
 .button-green{
     width: auto;
     height: 15%;
     margin-top: 1%;
-    margin-right: 1rem;
-    margin-left: 40%;
-    background-color: green;
+    background-color: #34a853;
     color: white;
     border-style: none;
     padding: 1% 2%;
@@ -91,29 +116,7 @@ a{
     color: green;
     border-radius: 5px;
 }
-.green{
-    background-color: green;
-    padding: 20%;
-    color: white;
-    border-style: none;
-    white-space: nowrap;
-    border-radius: 5px;
-}
-.white{
-    background-color: white;
-    padding: 19%;
-    margin-top: 1%;
-    white-space: nowrap;
-    color: green;
-    border-style: none;
-    border: solid green;
-    border-radius: 5px;
-}
-.footer-button{
-    display: flex;
-    flex-direction: row;
-    gap: 25%;
-}
+
 .offers-main{
     display: flex;
     flex-direction: row;
@@ -379,7 +382,6 @@ li::before{
 /* About page style*/
 
 .about-header{
-    margin-top: 5%;
     background-image: url("../src/assets/IMG_2430.png");
     background-repeat: no-repeat;
     height: 100vh;
@@ -522,4 +524,20 @@ li::before{
 .icons{
     padding-top: 3.5%;
     padding-right: 3%;
+}
+
+/**MEDIA-QUERIES**/
+@media screen and (max-width:480px) {
+    /**nav**/
+    .home-navbar{
+        height: 10vh;
+    }
+    .home-navbar img{
+         margin-left: -24%;
+    }
+    .home-navbar a{
+        display: none;
+    }
+
+    
 }

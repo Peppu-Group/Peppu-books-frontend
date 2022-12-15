@@ -33,9 +33,8 @@ const Homepage = () => {
 
          <div className='body-header'>
            <span><h1>Book Keeping</h1></span>
-           <h1>Done Seemlessly</h1>
+           <h1>done seemlessly</h1>
          </div>
-
 
           <div className='first-paragragh'>
               <p>We offer a seamless and easy to use <br /> algorithm that suits your desire</p>

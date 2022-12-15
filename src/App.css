@@ -17,13 +17,29 @@
 }
 
 .home-navbar{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5% 5%;
+    margin-bottom: 0.4vh;  
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.home-navbar .logo img{
+    width: 8vw;
+    
+   
+}
+.home-navbar .nav-menu{
     display: flex;
     flex-direction: row;
-    gap: 5%;
-    justify-content: space-around;
-    margin-bottom: 3%;
-    margin-top: 3%;
-    box-shadow: 10px 10px 10px 10px whitesmoke;
+    gap: 8%;
+    justify-content: space-evenly;
+    margin-top: -1%;
+    padding-left: 0%;
+    position: absolute;
+    right: 20%;
+   
 }
 
 .body{
@@ -34,17 +50,22 @@ a{
     color: black;
 }
 .search-icon{
-   margin-top: 2%;
+    height: 4vh;
+    width: 5vw;
+   margin-top: 3.5%;
+   background-color: aliceblue;
+   border-radius: 50%;
+   padding: 2% 1.5% 0% 1.5%;
 }
 .home-navbar button{
-    width: auto;
-    height: 40px;
-    margin-top: 10px;
+   
+    height: 5vh;
+    margin-top: 25%;
     background-color: green;
     color: white;
     border-style: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 1.5% 10%;
+  
 }
 .body-header{
     display: flex;
@@ -494,4 +515,20 @@ li::before{
 .icons{
     padding-top: 3.5%;
     padding-right: 3%;
+}
+
+/**MEDIA-QUERIES**/
+@media screen and (max-width:480px) {
+    /**nav**/
+    .home-navbar{
+        height: 10vh;
+    }
+    .home-navbar img{
+         margin-left: -24%;
+    }
+    .home-navbar a{
+        display: none;
+    }
+
+    
 }

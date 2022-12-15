@@ -15,7 +15,9 @@ const Navbar = () => {
         <div className='search-icon'>
         <AiOutlineSearch />
         </div>
+        <div className='get-button'>
         <a href='/getstarted'> <button>Get started</button></a>
+        </div>
       </div>
 
     </div>

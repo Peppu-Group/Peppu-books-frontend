@@ -209,6 +209,7 @@ const Homepage = () => {
 
               {/** Contact us and link to other pages */}
               <div className='we-are-content'>
+                <div className='we-are-box'>
                 <p>We are the best <br /> accounting experience</p>
                <div>
 
@@ -222,22 +223,21 @@ const Homepage = () => {
                     <button className='white'>Learn More</button>
                   </a>
                 </div>
+                </div>
                </div>
               </div>
 
               <div className='subscribe'>
                 <div className="subscribe-body">
                 <img src={IMG_2437} style={{width: 80, height: 30}} />
-                <div>
-                  <input />
+               
                   <p>Subscribe to our newsletter to <br/> get updated news on our <br/> services</p>
-                </div>
 
                 </div>
                 <div className='Quick-link'>
                   <h1>Quick Links</h1>
                   <ul>
-                    <li>About</li>
+                    <a href='/about'><li>About</li></a>
                     <li>Services </li>
                     <li>Products </li>
                     <li>Contact Us </li>

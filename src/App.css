@@ -29,7 +29,7 @@
 }
 
 .body{
-    margin-top: 5%;
+    top: 0;
     background-image: linear-gradient(to right,  #cbf3d6,#ffffff, #e8eaed, #f6e8bf);
 }
 a{
@@ -42,18 +42,23 @@ a{
 .home-navbar button{
     width: auto;
     height: 40px;
-    margin-top: 10px;
+    margin-bottom: 0;
+    padding-top: 30px;
     background-color: green;
     color: white;
     border-style: none;
     padding: 10px 20px;
     border-radius: 5px;
 }
+.get-button{
+    padding-top: 0.5%;
+}
 .body-header{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
+    padding-top: 5%;
     
 }
 .body-header span{
@@ -266,24 +271,31 @@ a{
     gap: 2rem;
     margin-right: 20%;
     margin-left: 20%;
-    margin-top: 8%;
-    margin-bottom: -1%;
+    margin-top: 20%;
+    margin-bottom: -10%;
     border-radius: 2%;
     padding: 5%;
+    align-items: center;
+    position: relative;
     background-color: whitesmoke;
 }
 .we-are-content p{
-    text-align: center;
+   text-align: center;
+}
+.we-are-box{
+    padding-right: 8%;
+    display: flex;
+    flex-direction: row;
+    gap: 16%;
+    white-space: nowrap;
+    margin-bottom: 4%;
+    position: relative;
 }
 .subscribe{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: rgb(122, 185, 122);
-  position: relative;
-  left: 0%;
-  top: 0%;
-  z-index: -1;
+ display: flex;
+ flex-direction: row;
+ padding-top: 10%;
+ background-color: rgb(184, 235, 184);
 }
 .subscribe-body{
     padding-right: 5%;

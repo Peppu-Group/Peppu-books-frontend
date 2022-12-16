@@ -1,9 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
+import axios from 'axios'
 import getstarted from '../assets/getstarted.png'
 import IMG_2437 from '../assets/IMG_2437.png'
 import google from '../assets/google.png'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 const Getstarted = () => {
+
+  const sendData = () =>{
+    axios.post('https://orange-roses-clap-102-89-23-210.loca.lt/store')
+  }
   return (
 
     <div className='container'>
@@ -18,7 +23,7 @@ const Getstarted = () => {
         <div className='container-text'>
 
 
-            <div>
+            <div className='img'>
                  <img src={IMG_2437} width={80} />
             </div>
 
@@ -37,7 +42,7 @@ const Getstarted = () => {
             <div className='works'>
                 
                 
-                <p>See how Peppu works </p>
+                <p onClick={sendData}>See how Peppu works </p>
 
                 <div className='icon'>
                   <AiOutlineArrowRight />

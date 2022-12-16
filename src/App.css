@@ -1,7 +1,7 @@
 /*General style starts */
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* General Style ends Here*/
@@ -21,24 +21,36 @@
     gap: 5%;
     top: 0;
     justify-content: space-around;
-    margin-bottom: 1%;
+    margin-bottom: 0%;
     box-shadow:10px 5px 5px rgb(206, 199, 199) ;
-    width: 100%;
+    width: 98.9%;
     position: fixed;
     background-color: white;
 }
+
+.home-navbar img{
+    width: 7.4%;
+    height: 5%;
+    padding-top: 1%;
+} 
 
 .body{
     top: 0;
     background-image: linear-gradient(to right,  #cbf3d6,#ffffff, #e8eaed, #f6e8bf);
 }
+
+
 a{
     text-decoration: none;
     color: black;
 }
+
+
 .search-icon{
    margin-top: 2%;
 }
+
+
 .home-navbar button{
     width: auto;
     height: 40px;
@@ -46,6 +58,7 @@ a{
     padding-top: 30px;
     background-color: green;
     color: white;
+    white-space: nowrap;
     border-style: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -319,6 +332,7 @@ li::before{
 /* Get started Page style starts here*/
 .container{
     display: flex;
+    height: 100vh;
     flex-direction: row;
     justify-content: space-evenly;
     background-image: linear-gradient(to right,  #cbf3d6,#ffffff, #e8eaed, #f6e8bf);
@@ -328,15 +342,24 @@ li::before{
     margin-top: 10%;
     text-align: center;
 }
+
+.img img{
+    width: 10%;
+}
+
+.h3 img{
+    width: 17%;
+    height: 3%;
+}
 .container-paragraph{
   text-align: center;
-  margin-bottom: 4%;
+  margin-bottom: 1%;
 }
 
 .works{
     display: flex;
     flex-direction: row;
-    margin-top: 70%;
+    margin-top: 20%;
     gap: 1rem;
     color: green;
 }
@@ -352,6 +375,8 @@ li::before{
     flex-direction: row;
     padding-right: 5%;
     padding-left: 5%;
+    margin-right: 20%;
+    margin-left: 30%;
     gap: 1rem;
 }
 

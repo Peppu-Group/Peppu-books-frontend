@@ -59,7 +59,7 @@ const Homepage = () => {
                       <div className='icon'>
                          <MdLibraryAddCheck />
                       </div>
-                        <p>Create estimates, convert to <br/> quotes.</p>
+                        <p>Create estimates,&nbsp;convert to <br/> quotes.</p>
                     </div>
 
 
@@ -160,7 +160,7 @@ const Homepage = () => {
               <p>With us you are <br/> sure of a safe <br/> account and <br/> good record<br/> keeping of your <br/> invoices.</p>
             </div>
 
-            <div className='easy-to-use'>
+            <div className='easy-to-use last'>
               <div className='easy-to-use-icon'>
                 <GiHumanTarget/>
               </div>

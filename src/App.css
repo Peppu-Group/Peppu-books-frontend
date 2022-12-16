@@ -1,10 +1,16 @@
 /*General style starts */
 
 *{
-    font-family: 'Poppins', sans-serif;
+    
 }
 p{
     line-height: 2rem;
+}
+.root,h1,h2,h3,h5,p,button,input{
+    font-family: 'poppins' sans-serif;
+}
+h2{
+
 }
 /* General Style ends Here*/
 
@@ -33,17 +39,20 @@ p{
 .home-navbar .nav-menu{
     display: flex;
     flex-direction: row;
-    gap: 8%;
+    gap: 10%;
     justify-content: space-evenly;
     margin-top: -1%;
     padding-left: 0%;
     position: absolute;
     right: 20%;
+    font-weight: 100;
+    align-items: center;
    
 }
-.home-navbar .nav-menu a{
-    font-size: 1rem; 
-    font-weight: 100; 
+.home-navbar .nav-menu button{
+   margin-top: 0%;
+   margin-left: 14%;
+   padding: auto 20%;
 }
 
 .body{
@@ -55,6 +64,8 @@ p{
 a{
     text-decoration: none;
     color: black;
+    font-family: 'poppins' sans-serif;
+    
 }
 .search-icon{
     height: 4vh;
@@ -65,7 +76,6 @@ a{
    padding: 2% 1.5% 0% 1.5%;
 }
 .home-navbar button{
-   
     height: 5vh;
     margin-top: 25%;
     background-color: #34a853;
@@ -74,12 +84,17 @@ a{
     padding: 1.5% 10%;
   
 }
+.nav-menu li{
+    font-size: 1rem;
+   
+    
+}
 .body-header{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     
 }
 .body-header span{
@@ -95,6 +110,7 @@ a{
     flex-direction: row;
     justify-content: center;
     gap: 2.5rem;
+    font-family: 'poppins' sans-serif;
 }
 .body-buttons a button{
     font-size:1.3rem;
@@ -252,7 +268,6 @@ a{
     height: 100vh;
 }
 .why-peppu{
- 
     margin:auto;
 }
 .why-peppu h3{
@@ -363,27 +378,67 @@ a{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: rgb(122, 185, 122);
+  background-color: #b8ebc6;
   position: relative;
-  left: 0%;
-  top: 0%;
+  height: 100vh;
+  padding-top: 10vh;
   z-index: -1;
+}
+.subscribe-body img{
+    width: 15vw;
+    height: 10vh;
+    margin-bottom:4vh;
+}
+.subscribe-body input{
+    height: 8vh;
+    width: 25vw;
+    font-size: 1.5rem;
+    padding-left: 5%;
+}
+.subscribe-body p{
+    font-size: 1.4rem;
 }
 .subscribe-body{
     padding-right: 5%;
     padding-left: 5%;
     padding-top: 5%;
 }
-
+.Quick-link h4,.Terms h4,.Follow-us h4{
+    margin-top: 109%;
+    font-size: 1.4rem;
+    margin-bottom: -20%;
+}
+.Terms h4{
+    margin-top:70%;
+}
+.Follow-us h4{
+    margin-top:117% ;
+}
 li{
     list-style-type: none;
+    margin-left: -40%;
     padding-top: 20%;
+    font-size: 1.4rem;
+}
+.Quick-link li{
+    margin-left: -30%;
+   
+}
+.Terms li{
+    margin-left: -17%;
+}
+.Terms li+li{
+    margin-top: -10%;
 }
 li::before{
     color: white;
 }
-
 /* Home Page style ends here*/
+
+
+
+
+
 
 /* Get started Page style starts here*/
 .container{

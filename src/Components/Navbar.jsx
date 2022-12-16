@@ -10,18 +10,19 @@ const Navbar = () => {
         <img src={IMG_2437}/>
         </div>
         <div className='nav-menu'>
-         <a href="/"><h4>Home</h4></a>
-         <a href="/features"> <h4>Features   </h4></a>
-         <a href='/products'> <h4>Products   </h4></a>
-         <a href='/pricing'><h4>Pricing   </h4></a>
-         <a href='/about'><h4>About&nbsp;us  </h4></a>
+         <a href="/"><li>Home</li></a>
+         <a href="/features"> <li>Features</li></a>
+         <a href='/products'> <li>Products</li></a>
+         <a href='/pricing'><li>Pricing</li></a>
+         <a href='/about'><li>About&nbsp;us</li></a>
         <div className='search-icon'>
         <AiOutlineSearch />
         </div>
-        <a href='/getstarted'> <button>   Get&nbsp;Started  </button></a>
+        <a href='/getstarted'><li><button>Get&nbsp;Started</button></li></a>
       </div>
+     
       </div>
-
+    
     </div>
   )
 }

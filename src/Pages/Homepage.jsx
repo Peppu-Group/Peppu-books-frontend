@@ -17,6 +17,7 @@ import IMG_2437 from '../assets/IMG_2437.png'
 
 const Homepage = () => {
   return (
+    <div className='root'>
     <div className='home-page'>
 
     {/** Navbar div */}
@@ -230,15 +231,15 @@ const Homepage = () => {
 
               <div className='subscribe'>
                 <div className="subscribe-body">
-                <img src={IMG_2437} style={{width: 80, height: 30}} />
+                <img src={IMG_2437}/>
                 <div>
-                  <input />
+                  <input placeholder='Email'/>
                   <p>Subscribe to our newsletter to <br/> get updated news on our <br/> services</p>
                 </div>
 
                 </div>
                 <div className='Quick-link'>
-                  <h1>Quick Links</h1>
+                  <h4>Quick Links</h4>
                   <ul>
                     <li>About</li>
                     <li>Services </li>
@@ -247,8 +248,8 @@ const Homepage = () => {
                   </ul>
                 </div>
 
-                <div className='Quick-link'>
-                  <h1>Follow Us</h1>
+                <div className='Follow-us'>
+                  <h4>Follow Us</h4>
                   <ul>
                     <li>Twitter</li>
                     <li>Instagram</li>
@@ -256,14 +257,15 @@ const Homepage = () => {
                   </ul>
                 </div>
 
-                <div className='Quick-link'>
-                  <h1>Terms & Policies</h1>
+                <div className='Terms'>
+                  <h4>Terms & Policies</h4>
                   <ul>
                     <li>Privacy Policies</li>
                     <li>Terms & Conditions</li>
                   </ul>
                 </div>
               </div>
+    </div>
     </div>
 
   )

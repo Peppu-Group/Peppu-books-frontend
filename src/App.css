@@ -3,7 +3,9 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
-
+p{
+    line-height: 2rem;
+}
 /* General Style ends Here*/
 
 
@@ -21,7 +23,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0.5% 5%;
-    margin-bottom: 0.4vh;  
+    margin-bottom: -0.4vh; 
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
@@ -39,12 +41,15 @@
     right: 20%;
    
 }
+.home-navbar .nav-menu a{
+    font-size: 1rem; 
+    font-weight: 100; 
+}
 
 .body{
-    background-image: linear-gradient(to right,  #cbf3d6,#ffffff, #e8eaed, #f6e8bf);
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: center center;
+   background-color: #ffffff;
+    background-image: linear-gradient(to top right,#ffffff,#b5cabb,#ffffff,#f0f0e0,#f0ebd8),
+    linear-gradient(to left,#ffffff,#ffffff);
      font-size: 62.5%;
 }
 a{
@@ -120,160 +125,239 @@ a{
     gap: 20%;
     margin: 5% 5%;
 }
-.offer-list-1{
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-}
-
-.offer-list-2{
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-}
-.offer-list-3{
+.offer-list-1,.offer-list-2,.offer-list-3{
     display: flex;
     flex-direction: row;
     gap: 1rem;
 }
 .icon{
     margin-top: 20px;
-    color: green;
+    color: #34a853;
     font-size: 200%;
 }
 .image img{
     width:40vw;
-    height: 60vh;
+    height: 65vh;
 }
 
 .Automate-container{
     display: flex;
     flex-direction: row;
-    gap: 15%; 
-    padding: 5%;
-    background-color: aliceblue;
-}
-.computerman img{
-    width: 30rem;
-    height: 10rem;
+    justify-content: space-around;
+    gap: 5%;
+    width: 100%;
+    margin: 0% auto -3% auto;
+    height: 80vh;
+   
+    
 }
 
+.computerman img{
+    width: 38vw;
+    height: 55vh;
+   
+}
+.Automate h2{
+    font-size: 2rem;
+    margin-top: 20%;
+
+}
+
+.Automate-head{
+    margin-right:15%;
+   
+}
+.Automate-head p{
+    font-size: 1.5rem;
+    margin-top: -4%;
+}
+.Automate-head p+p{
+    font-size: 1.6rem;
+    margin-top: 20%;
+}
 .learn-more{
-    color: green;
+    color: #34a853;
 }
 
 .learn-more:hover{
-    border: solid green;
+    border: solid #34a853;
     cursor: pointer;
-    width: auto;
-    height: 15%;
-    padding: 5% 10%;
+    padding: 2%;
 }
 .orderly-accounting-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 15%; 
+    gap: 10%; 
     padding: 10%;
     background-color: #e8eaed;
 }
+.orderly-accounting h2{
+    font-size: 2rem;
+}
 .orderly-accounting-container img{
-    width: 30rem;
-    height: 10rem;
+    width: 48vw;
+    height: 70vh;
+}
+.orderly-accounting p{
+    font-size: 1.5rem;
+}
+.orderly-accounting p+p{
+    font-size: 1.6rem;
 }
 .professional-invoice-container{
     display: flex;
     flex-direction: row;
-    gap: 15%; 
-    padding: 5%;
-   background-color: aliceblue;
+    justify-content: space-around;
+    gap: 10%; 
+    height: 100vh;
+    width: 95vw;
+    margin: auto;
+   background-color: #ffffff;
 }
 .professional-invoice-container img{
-    width: 30rem;
-    height: 10rem;
+    width: 45vw;
+    height: 90%;
+    margin: auto 2% auto 5%;
+}
+.professional-invoice{
+    margin: auto 5% auto 0;
+} 
+.professional-invoice h2,.custom-schedule h2{
+    font-size: 2rem;
+    margin-bottom: -4%;
+}
+.professional-invoice p,.custom-schedule p{
+    font-size: 1.4rem;
+    
+}
+.professional-invoice p+p,.custom-schedule p+p{
+    font-size: 1.6rem;
+    margin-top: 15%;
 }
 .custom-schedule-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 15%; 
+    gap: 8%; 
     margin-bottom: 10%;
     padding: 10%;
     background-color: #e8eaed;
 }
+.custom-schedule {
+    margin-top: 10%;
+}
 .custom-schedule-container img{
-    width: 30rem;
-    height: 10rem;
+    width: 40vw;
+    height: 100vh;
 }
 .why-peppu{
-    text-align: center;
+ 
+    margin:auto;
+}
+.why-peppu h3{
+    margin-top: -25%;
+    font-size: 1.8rem;
 }
 .easy-to-use{
-    background-color: grey;
-    padding: 3%;
+    background-color:#202124 ;
+    opacity: 52%;
+    width: 24vw;
+    height: 65vh;
     border-radius: 5%;
 }
 .easy-to-use p{
     text-align: center;
     color: white;
+    font-size: 1.4rem;
+    margin-top: -8%;
 }
-.easy-to-use h1{
+.easy-to-use h3{
     color: white;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .easy-to-use-icon{
-    font-size: 280%;
+    font-size: 5.8rem;
     text-align: center;
     color: white;
+    margin-bottom: -15%;
+    margin-top: 2%;
 }
 .why-peppu-content{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 1rem;
+    gap: 4rem;
+   
+    
 }
 .hear-from{
     text-align: center;
 }
+.hear-from h2{
+    margin-top: 8%;
+    font-size: 2rem;
+}
 .first-testimony{
     display: flex;
     flex-direction: row;
-    gap: 1rem;
-    border: solid green;
-    border-radius: 35px;
-    padding-right:  195px;
+    border: 0.6vh solid #34a853;
+    border-radius: 5rem;
+    height: 25vh;
+    width: 38vw;
 }
 .first-testimony img{
     border-radius: 50%;
-    width: 80px;
-    height: 60px;
-    margin-top: 29px;
-    margin-left: 30px;
+    width:25%;
+    height: 80%;
+    margin: auto 5%;
+}
+.first-testimony p{
+    font-size: 1.4rem;
+}
+.img-left{
+    margin-left: 10%;
 }
 .testimonies{
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 2rem;
+    width: 80vw;
+    margin: auto;
 }
 
 
-.we-are-content{
+.we-offer-content{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 2rem;
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-top: 8%;
-    margin-bottom: -1%;
-    border-radius: 2%;
-    padding: 5%;
-    background-color: whitesmoke;
+    height: 30vh;
+    width: 70vw;
+    margin: 5% auto -1.5% auto;
+    background-color: #e8eaed;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-.we-are-content p{
+.we-offer-content h4{
+    margin-left: -15%;
+    font-size: 1.6rem;
+    margin-top: 6%;
     text-align: center;
+}
+.footer-button{
+    display: flex;
+    gap: 30%;
+  margin-top: 18%;
+  
+}
+.footer-button button{
+    padding: 15% 20%;
+    font-size: 1.4rem;
 }
 .subscribe{
   display: flex;
@@ -323,16 +407,16 @@ li::before{
     flex-direction: row;
     margin-top: 70%;
     gap: 1rem;
-    color: green;
+    color: #34a853;
 }
 
 .works:hover{
-    border: solid green;
+    border: solid #34a853;
     padding-left: 10%;
     cursor: pointer;
 }
 .h3 {
-    border: solid green;
+    border: solid #34a853;
     display: flex;
     flex-direction: row;
     padding-right: 5%;
@@ -344,7 +428,7 @@ li::before{
     margin-top: 5%;
 }
 .h3 h3{
-    color: green;
+    color: #34a853;
 }
 
 /* Get started page style ends here*/
@@ -444,11 +528,11 @@ li::before{
     font-size: 200%;
 }
 .left{
-    color: green;
+    color: #34a853;
     text-align: center;
 }
 .right{
-    color: green;
+    color: #34a853;
 }
 .team{
     display: flex;
@@ -491,23 +575,19 @@ li::before{
     margin-left: 300px;
 }
 .green-button{
-    width: auto;
-    height: 40px;
+
     margin-top: 10px;
     color: white;
     border-style: none;
-    padding: 10px 20px;
-    background-color: green;
-    border-radius: 5px;
+    background-color: #34a853;
+    border-radius: 0.5rem;
 }
 .white-button{
     width: auto;
-    height: 40px;
     margin-top: 10px;
     background-color: white;
-    color: green;
+    color: #34a853;
     border-style: none;
-    padding: 10px 20px;
     border-radius: 5px;
 }
 

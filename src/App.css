@@ -1,12 +1,14 @@
 /*General style starts */
 
-
+*{
+    font-family: 'Poppins', sans-serif;
+}
 p{
     line-height: 2rem;
 }
 .root{
     font-size: 62.4%;
-    font-family: 'poppins'sans-serif;
+    font-family: 'Poppins'sans-serif;
 }
 /* General Style ends Here*/
 
@@ -19,8 +21,12 @@ p{
     justify-content: space-between;
     
 }
-
+body{
+    margin-left: -1%;
+    margin-right: -1%;
+}
 .home-navbar{
+    margin-top: -1%;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -56,6 +62,7 @@ p{
     background-image: linear-gradient(to top right,#ffffff,#b5cabb,#ffffff,#f0f0e0,#f0ebd8),
     linear-gradient(to left,#ffffff,#ffffff);
      font-size: 62.5%;
+     
 }
 a{
     text-decoration: none;

@@ -17,8 +17,12 @@ p{
     justify-content: space-between;
     
 }
-
+body{
+    margin-left: -1%;
+    margin-right: -1%;
+}
 .home-navbar{
+    margin-top: -1%;
     height: auto;
     display: flex;
     justify-content: space-between;

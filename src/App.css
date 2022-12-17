@@ -6,6 +6,7 @@ p{
 }
 .root{
     font-size: 62.4%;
+    font-family: 'poppins'sans-serif;
 }
 /* General Style ends Here*/
 
@@ -165,14 +166,16 @@ a{
 }
 
 .computerman img{
-    width: 40vw;
+    width: 100%;
+    height: 80%;
     margin-top: 5%;
+    margin-left: 10%;
 
    
 }
 .Automate h2{
     font-size: 2rem;
-    margin-top: 20%;
+    margin-top: 40%;
 
 }
 
@@ -204,12 +207,14 @@ a{
     gap: 10%; 
     padding: 10%;
     background-color: #e8eaed;
+    height: 90vh;
 }
 .orderly-accounting h2{
     font-size: 2rem;
 }
 .orderly-accounting-container img{
-    width: 48vw;
+    width: 60%;
+    height: 70%;
 }
 .orderly-accounting p{
     font-size: 1.5rem;
@@ -225,10 +230,13 @@ a{
     height: 100vh;
     width: 95vw;
     margin: auto;
+    padding-bottom:5%;
+    padding-top: 3%;
    background-color: #ffffff;
 }
 .professional-invoice-container img{
-    width: 45vw;
+    width: 50%;
+    height: 100%;
    margin-top: 2%;
     margin: auto 2% auto 5%;
 }
@@ -251,17 +259,20 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 8%; 
+    gap: 15%; 
     margin-bottom: 10%;
-    padding: 10%;
+    padding: 5%;
     background-color: #e8eaed;
+    height: 110vh;
+    
 }
 .custom-schedule {
     margin-top: 10%;
 }
 .custom-schedule-container img{
-    width: 40vw;
-    height: 100vh;
+    width: 60%;
+    height: 100%;
+    
 }
 .why-peppu{
     margin:auto;

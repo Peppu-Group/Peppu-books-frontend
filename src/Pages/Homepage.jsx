@@ -1,6 +1,9 @@
 import React from 'react'
 import {AiOutlineUserSwitch, AiOutlineArrowRight,} from 'react-icons/ai'
 import {SiSpringsecurity} from 'react-icons/si'
+import {BiCopyright} from 'react-icons/bi'
+import {BsFillArrowRightCircleFill, BsArrowLeftCircle, BsFacebook, BsTwitter, BsGoogle, BsInstagram} from 'react-icons/bs'
+import {AiOutlineGoogle, AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai'
 import  {MdLibraryAddCheck} from 'react-icons/md'
 import {GiHumanTarget} from 'react-icons/gi'
 import Navbar from '../Components/Navbar'
@@ -237,6 +240,13 @@ const Homepage = () => {
                   <p>Subscribe to our newsletter to <br/> get updated news on our <br/> services</p>
                 </div>
 
+
+                <div className='copyright'>
+                  <div className='icons'>
+                    <BiCopyright /> 
+                  </div>
+                  <p>2022 peppu ventures</p>
+                </div>
                 </div>
                 <div className='Quick-link'>
                   <h4>Quick Links</h4>
@@ -263,6 +273,17 @@ const Homepage = () => {
                     <li>Privacy Policies</li>
                     <li>Terms & Conditions</li>
                   </ul>
+                  <div className='copyright'>
+                    <div className='copyright-text'>
+                      <p>Peppu</p>
+                    </div>
+                    <div className='icon'>
+                    <BsGoogle />
+                    <BsTwitter/>
+                    <BsInstagram />
+                    <BsFacebook />
+                    </div>
+                  </div>
                 </div>
               </div>
     </div>

@@ -383,6 +383,12 @@ li::before{
     color: white;
 }
 
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    
+}
 /* Home Page style ends here*/
 
 /* Get started Page style starts here*/

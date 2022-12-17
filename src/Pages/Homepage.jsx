@@ -1,5 +1,8 @@
 import React from 'react'
 import {AiOutlineUserSwitch, AiOutlineArrowRight,} from 'react-icons/ai'
+import {BiCopyright} from 'react-icons/bi'
+import {BsFillArrowRightCircleFill, BsArrowLeftCircle, BsFacebook, BsTwitter, BsGoogle, BsInstagram} from 'react-icons/bs'
+import {AiOutlineGoogle, AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai'
 import {SiSpringsecurity} from 'react-icons/si'
 import  {MdLibraryAddCheck} from 'react-icons/md'
 import {GiHumanTarget} from 'react-icons/gi'
@@ -235,8 +238,13 @@ const Homepage = () => {
                   <input />
                   <p>Subscribe to our newsletter to <br/> get updated news on our <br/> services</p>
                 </div>
-
+                
+                <div className='copyright'>
+                  <BiCopyright /> 
+                  <p>2022 peppu ventures</p>
                 </div>
+                </div>
+                
                 <div className='Quick-link'>
                   <h1>Quick Links</h1>
                   <ul>
@@ -262,7 +270,15 @@ const Homepage = () => {
                     <li>Privacy Policies</li>
                     <li>Terms & Conditions</li>
                   </ul>
+                  <div className='copyright'>
+                    <p>Peppu</p>
+                    <BsInstagram />
+                    <BsFacebook />
+                    <BsGoogle />
+                    <BsTwitter/>
+                  </div>
                 </div>
+
               </div>
     </div>
 

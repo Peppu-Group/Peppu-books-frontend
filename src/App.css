@@ -8,7 +8,10 @@ p{
 }
 .root{
     font-size: 62.4%;
-    font-family: 'Poppins'sans-serif;
+   
+}
+p{
+    font-weight: 500;
 }
 /* General Style ends Here*/
 
@@ -22,8 +25,8 @@ p{
     
 }
 body{
-    margin-left: -1%;
-    margin-right: -1%;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 .home-navbar{
     margin-top: -1%;
@@ -55,6 +58,7 @@ body{
    margin-top: 0%;
    margin-left: 14%;
    padding: auto 20%;
+   
 }
 
 .body{
@@ -77,6 +81,7 @@ a{
    background-color: aliceblue;
    border-radius: 50%;
    padding: 2% 1.5% 0% 1.5%;
+   font-size: 1rem;
 }
 .home-navbar button{
     height: 5vh;
@@ -88,16 +93,15 @@ a{
   
 }
 .nav-menu li{
-    font-size: 1rem;
-   
-    
+    font-size: 0.9rem;
+    font-weight:550; 
 }
 .body-header{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     
 }
 .body-header span{
@@ -107,6 +111,7 @@ a{
     margin-top: -4%;
     text-align: center;
     font-size: 1.4rem;
+    
 }
 .body-buttons{
     display: flex;
@@ -136,18 +141,22 @@ a{
     padding: 6% 4%;
 }
 .check-offers{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .offers-main{
     display: flex;
     flex-direction: row;
-    gap: 20%;
-    margin: 5% 5%;
+    gap: 10%;
+    margin: 5% 1% 10% 4%;
 }
 .offer-list-1,.offer-list-2,.offer-list-3{
     display: flex;
     flex-direction: row;
     gap: 1rem;
+
+}
+.offer-list-1 p,.offer-list-2 p,.offer-list-3 p{
+    font-weight: 550;
 }
 .icon{
     margin-top: 20px;
@@ -156,7 +165,7 @@ a{
 }
 .image img{
     width: 100%;
-    height:65%;
+    height: 65%;
     
 }
 
@@ -166,7 +175,7 @@ a{
     justify-content: space-around;
     gap: 5%;
     width: 100%;
-    margin: 0% auto -3% auto;
+    margin: -20% auto 2% auto;
     height: 80vh;
    
     
@@ -175,7 +184,7 @@ a{
 .computerman img{
     width: 100%;
     height: 80%;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 10%;
 
    
@@ -187,7 +196,7 @@ a{
 }
 
 .Automate-head{
-    margin-right:15%;
+    margin-right:5%;
    
 }
 .Automate-head p{
@@ -200,6 +209,7 @@ a{
 }
 .learn-more{
     color: #34a853;
+    font-weight: 1000;
 }
 
 .learn-more:hover{
@@ -212,9 +222,14 @@ a{
     flex-direction: row;
     justify-content: space-between;
     gap: 10%; 
-    padding: 10%;
+    padding-top: 5%;
+   margin-bottom: -6%;
     background-color: #e8eaed;
     height: 90vh;
+    
+}
+.orderly-accounting{
+    margin-left: 10%;
 }
 .orderly-accounting h2{
     font-size: 2rem;
@@ -222,6 +237,7 @@ a{
 .orderly-accounting-container img{
     width: 60%;
     height: 70%;
+    margin-right: 7%;
 }
 .orderly-accounting p{
     font-size: 1.5rem;
@@ -236,7 +252,7 @@ a{
     gap: 10%; 
     height: 100vh;
     width: 95vw;
-    margin: auto;
+    margin:  auto;
     padding-bottom:5%;
     padding-top: 3%;
    background-color: #ffffff;
@@ -244,8 +260,7 @@ a{
 .professional-invoice-container img{
     width: 50%;
     height: 100%;
-   margin-top: 2%;
-    margin: auto 2% auto 5%;
+    margin: auto 2%;
 }
 .professional-invoice{
     margin: auto 5% auto 0;
@@ -266,7 +281,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 15%; 
+    gap: 10%; 
     margin-bottom: 10%;
     padding: 5%;
     background-color: #e8eaed;
@@ -340,8 +355,8 @@ a{
     flex-direction: row;
     border: 0.6vh solid #34a853;
     border-radius: 5rem;
-    height: 25vh;
-    width: 38vw;
+    height: 40%;
+    width: 45%;
 }
 .first-testimony img{
     border-radius: 50%;
@@ -353,7 +368,12 @@ a{
     font-size: 1.4rem;
 }
 .img-left{
-    margin-left: 10%;
+    margin-left: 14%;
+}
+#img-4{
+    height:40%;
+    width: 20%;
+    padding: 0;
 }
 .testimonies{
     display: flex;
@@ -361,7 +381,7 @@ a{
     flex-flow: row wrap;
     justify-content: space-between;
     gap: 2rem;
-    width: 80vw;
+    width: 95%;
     margin: auto;
 }
 
@@ -424,15 +444,16 @@ a{
     padding-top: 5%;
 }
 .Quick-link h4,.Terms h4,.Follow-us h4{
-    margin-top: 109%;
+    margin-top: 113%;
     font-size: 1.4rem;
-    margin-bottom: -20%;
+    margin-bottom: -5%;
 }
 .Terms h4{
-    margin-top:70%;
+    margin-top:64%;
 }
 .Follow-us h4{
     margin-top:117% ;
+    margin-left: -2%;
 }
 li{
     list-style-type: none;
@@ -446,46 +467,58 @@ li{
 }
 .Terms li{
     margin-left: -17%;
+    margin-top: -14%;
 }
 .Terms li+li{
     margin-top: -10%;
 }
-li::before{
-    color: white;
-}
-
 
 .copyright{
     color: white;
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    margin-top: 40%;
+    margin-top: 50%;
+}
+.copyright p{
+    margin-top: 10%;
+    
 }
 
 .icons{
-    margin-top: 3%;
-    font-size: 32px;
-    font-weight: 400;
+    margin-top: 6%;
+    font-size: 2rem;
+    font-weight: 200;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+
 }
+
+
 
 .copyright-text{
     padding-top: 1%;
     font-size: 32px;
     font-weight: 400;
 }
+.copyright-text p{
+    margin-left: 0%;
+    margin-top: 95%;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
 
-.icon{
+.copyright-icon{
     color: white;
-    margin-top: 10%;
-    font-size: 32px;
+    margin-top: 30%;
     font-weight: 400;
     display: flex;
     flex-direction: row;
     gap: 1rem;
+}
+.contacts{
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 /* Home Page style ends here*/
 

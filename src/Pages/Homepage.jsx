@@ -179,7 +179,7 @@ const Homepage = () => {
 
             <div className='testimonies'>
               <div className='first-testimony'>
-                <img src={user1} /> 
+                <img id="img-1" src={user1} /> 
                 <div className='testimony'>
                   <p>Book keeping have never <br/> been this easy, Peppu!</p>
                   <h4>James Neerd</h4>
@@ -187,7 +187,7 @@ const Homepage = () => {
               </div>
 
               <div className='first-testimony'>
-              <img src={user2} /> 
+              <img  id="img-2"src={user2} /> 
                 <div className='testimony'>
                   <p>Book keeping have never <br/> been this easy, Peppu!</p>
                   <h4>James Neerd</h4>
@@ -201,7 +201,7 @@ const Homepage = () => {
                   <p>Book keeping have never <br/> been this easy, Peppu!</p>
                   <h4>James Neerd</h4>
                 </div>
-                <img src={user3} /> 
+                <img id="img-3"src={user3} /> 
               </div>
 
               <div className='first-testimony'>
@@ -210,7 +210,7 @@ const Homepage = () => {
                   <p>Book keeping have never <br/> been this easy, Peppu!</p>
                   <h4>James Neerd</h4>
                 </div>
-                <img src={user4 } />
+                <img id="img-4"src={user4 } />
               </div>
             </div>
 
@@ -245,7 +245,7 @@ const Homepage = () => {
                   <div className='icons'>
                     <BiCopyright /> 
                   </div>
-                  <p>2022 peppu ventures</p>
+                  <p>2022 Peppu ventures</p>
                 </div>
                 </div>
                 <div className='Quick-link'>
@@ -277,7 +277,7 @@ const Homepage = () => {
                     <div className='copyright-text'>
                       <p>Peppu</p>
                     </div>
-                    <div className='icon'>
+                    <div className='copyright-icon contacts'>
                     <BsGoogle />
                     <BsTwitter/>
                     <BsInstagram />

@@ -174,7 +174,7 @@ a{
 
 .computerman img{
     width: 100%;
-    height: 80%;
+    height:65%;
     margin-top: 5%;
     margin-left: 10%;
 
@@ -220,8 +220,8 @@ a{
     font-size: 2rem;
 }
 .orderly-accounting-container img{
-    width: 60%;
-    height: 70%;
+    width: 100%;
+    height:65%;
 }
 .orderly-accounting p{
     font-size: 1.5rem;
@@ -243,7 +243,7 @@ a{
 }
 .professional-invoice-container img{
     width: 50%;
-    height: 100%;
+    height: 65%;
    margin-top: 2%;
     margin: auto 2% auto 5%;
 }
@@ -278,7 +278,7 @@ a{
 }
 .custom-schedule-container img{
     width: 60%;
-    height: 100%;
+    height: 65%;
     
 }
 .why-peppu{
@@ -478,7 +478,7 @@ li::before{
     font-weight: 400;
 }
 
-.icon{
+.copyright-icon{
     color: white;
     margin-top: 10%;
     font-size: 32px;

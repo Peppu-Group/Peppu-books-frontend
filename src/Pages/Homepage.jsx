@@ -277,7 +277,7 @@ const Homepage = () => {
                     <div className='copyright-text'>
                       <p>Peppu</p>
                     </div>
-                    <div className='icon'>
+                    <div className='copyright-icon'>
                     <BsGoogle />
                     <BsTwitter/>
                     <BsInstagram />

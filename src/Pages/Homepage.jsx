@@ -20,33 +20,35 @@ import IMG_2437 from '../assets/IMG_2437.png'
 
 const Homepage = () => {
   return (
-    <div className='root'>
-    <div className='home-page'>
+    <main className='root'>
+
+    <section className='home-page'>
 
     {/** Navbar div */}
 
-      <div>
+      <nav>
         <Navbar />
-      </div>
+      </nav>
 
 
 
       {/** Home Page body beginning Text */}
-      <div className='body'>
+
+      <section className='body'>
 
 
-         <div className='body-header'>
+         <article className='body-header'>
            <span><h1>Book keeping</h1></span>
-           <h1>done seemlessly</h1>
-         </div>
+           <h3>done seemlessly</h3>
+         </article>
 
-          <div className='first-paragragh'>
+          <article className='first-paragragh'>
               <p>We offer a seamless and easy to use <br /> algorithm that suits your desire.</p>
-          </div>
+          </article>
 
 
 
-  <div className='body-buttons'>
+            <article className='body-buttons'>
               <a href="/getstarted">
                  <button className='button-green'>Start&nbsp;for&nbsp;free</button>
               </a>
@@ -54,173 +56,174 @@ const Homepage = () => {
                 <button className='button-white'>How&nbsp;it&nbsp;works</button>
              </a>
       
-             </div>
+             </article>
+
+
              {/** list of features*/}
-            <div className='offers-main'>
-               <div className='check-offers'>
-                   <div className='offer-list-1'>
-                      <div className='icon'>
+            <section className='offers-main'>
+               <section className='check-offers'>
+                   <article className='offer-list-1'>
+                      <figure className='icon'>
                          <MdLibraryAddCheck />
-                      </div>
+                      </figure>
                         <p>Create estimates,&nbsp;convert to <br/> quotes.</p>
-                    </div>
+                    </article>
 
 
 
           {/** SECOND CHECK LIST */}        
-                      <div className='offer-list-2'>
-                         <div className='icon'>
+                      <article className='offer-list-2'>
+                         <figure className='icon'>
                              <MdLibraryAddCheck />
-                         </div>
+                         </figure>
                             <p>Generate accounting reports, <br/> record journal.</p>
-                       </div>
+                       </article>
        
        
          {/** third check list */}
-                       <div className='offer-list-3'>
-                          <div className='icon'>
+                       <article className='offer-list-3'>
+                          <figure className='icon'>
                             <MdLibraryAddCheck />
-                          </div>
+                          </figure>
                              <p>Custom schedules and reminders to automate your processes.</p>
-                          </div>
-                       </div>
+                          </article>
+                       </section>
         
         {/** Check list image */}
-        <div className='image'>
+        <figure className='image'>
           <img  src={herosection}/>
-        </div>
-      </div>
-      <div className='Automate-container'>
-          <div className='computerman'>
+        </figure >
+      </section>
+
+
+      <section className='Automate-container'>
+          <figure className='computerman'>
               <img src={Automate} />
-          </div>
-              <div className='Automate-head'>
-                <div className='Automate'> 
+          </figure>
+              <article className='Automate-head'>
+                <header className='Automate'> 
                  <h2>Automate</h2>
-                </div>
+                </header>
                   <p>Get automated bookkeeping <br/>process with few clicks.</p>
                    <p className='learn-more'>LEARN MORE <AiOutlineArrowRight/> </p>
-                </div>
-        </div>
+                </article>
+        </section>
 
 
- </div>
+ </section>
         
         
         
         
 
 
-        <div className='orderly-accounting-container'>
-            <div className='orderly-accounting'>
+        <section className='orderly-accounting-container'>
+            <article className='orderly-accounting'>
                 <h2>Orderly&nbsp;accounting</h2>
                 <p>Arrange share and <br/> retrieve all accounting <br/> processes in one place.</p>
                 <p className='learn-more'>LEARN MORE <AiOutlineArrowRight/> </p>
-            </div>
+            </article>
                 <img src={OrderlyAccounting} />
-        </div>
+        </section>
 
-        <div className='professional-invoice-container'>
+        <section className='professional-invoice-container'>
             <img src={Invoice} />
-            <div className='professional-invoice'>
+            <article className='professional-invoice'>
               <h2>Professional Invoices</h2>
               <p>Create Professional Invoices and <br/> receipts with few clicks, schedule<br/> and track payments.</p>
               <p className='learn-more'>LEARN MORE <AiOutlineArrowRight/> </p>
-            </div>
-        </div>
+            </article>
+        </section>
 
 
-        <div className='custom-schedule-container'>
-            <div className='custom-schedule'>
+        <section className='custom-schedule-container'>
+            <article className='custom-schedule'>
               <h2>Custom Schedules</h2>
               <p>Create custom schedules and <br/> reminders to automate your<br/>processes.</p>
               <p className='learn-more'>LEARN MORE <AiOutlineArrowRight/> </p>
-            </div>
+            </article>
             <img src={Schedule} />
-        </div>
+        </section>
           
           
-        <div className='why-peppu'>
+        <article className='why-peppu'>
           <h3>Why PEPPU?</h3>
-        </div>
+        </article >
 
           {/** Why you should choose us */}
 
-         <div className='why-peppu-content'>
-            <div className='easy-to-use'>
-                <div className='easy-to-use-icon'>
+         <section className='why-peppu-content'>
+            <article className='easy-to-use'>
+                <figure className='easy-to-use-icon'>
                   <AiOutlineUserSwitch />
-                </div>
+                </figure>
                 <h3>Easy to use</h3>
                 <p>With our automated <br/> processes you have your <br/> accounting done without <br/> stress, and easily <br/> trace changes in <br/> your account.</p>
-            </div>
+            </article>
 
-            <div className='easy-to-use'>
-              <div className='easy-to-use-icon'>
+            <article className='easy-to-use'>
+              <figure className='easy-to-use-icon'>
                 <SiSpringsecurity />
-              </div>
+              </figure>
               <h3>Secured</h3>
               <p>With us you are <br/> sure of a safe <br/> account and <br/> good record<br/> keeping of your <br/> invoices.</p>
-            </div>
+            </article>
 
-            <div className='easy-to-use last'>
-              <div className='easy-to-use-icon'>
+            <article className='easy-to-use last'>
+              <figure className='easy-to-use-icon'>
                 <GiHumanTarget/>
-              </div>
+              </figure>
               <h3>All in one</h3>
               <p>We get all your book<br/> keeping processes <br/> done in one place <br/> with a custom feel <br/> of your choice.</p>
-            </div>
-          </div>
+            </article>
+          </section>
 
           {/** Users Testimony */}
-            <div className='hear-from'>
+            <article className='hear-from'>
               <h2> Hear from our Users</h2>
-            </div>
+            </article>
 
-            <div className='testimonies'>
-              <div className='first-testimony'>
+            <section className='testimonies'>
+              <section className='first-testimony'>
                 <img id="img-1" src={user1} /> 
-                <div className='testimony'>
+                <article className='testimony'>
                   <p>Book keeping have never <br/> been this easy, Peppu!</p>
                   <h4>James Neerd</h4>
-                </div>
-              </div>
+                </article>
+              </section>
 
-              <div className='first-testimony'>
+              <section className='first-testimony'>
               <img  id="img-2"src={user2} /> 
-                <div className='testimony'>
+                <article className='testimony'>
                   <p>Book keeping have never <br/> been this easy, Peppu!</p>
                   <h4>James Neerd</h4>
-                </div>
-                
-              </div>
+                </article>
+              </section>
 
-              <div className='first-testimony'>
-               
-                <div className='testimony img-left'>
+              <section className='first-testimony'>
+                <article className='testimony img-left'>
                   <p>Book keeping have never <br/> been this easy, Peppu!</p>
                   <h4>James Neerd</h4>
-                </div>
+                </article>
                 <img id="img-3"src={user3} /> 
-              </div>
+              </section>
 
-              <div className='first-testimony'>
-                
-                <div className='testimony img-left'>
+              <section className='first-testimony'>                
+                <article className='testimony img-left'>
                   <p>Book keeping have never <br/> been this easy, Peppu!</p>
                   <h4>James Neerd</h4>
-                </div>
+                </article>
                 <img id="img-4"src={user4 } />
-              </div>
-            </div>
+              </section>
+            </section>
 
               {/** Contact us and link to other pages */}
-              <div className='we-offer-content'>
+              <section className='we-offer-content'>
                 <h4>We offer the best <br /> accounting experience</h4>
-               <div>
+               <section>
 
 
-                <div className='footer-button'>
+                <section className='footer-button'>
                   <a href='/getstarted'>
                     <button className='green-button'>Start&nbsp;for&nbsp;free</button>
                   </a>
@@ -228,27 +231,30 @@ const Homepage = () => {
                   <a href='/about'>
                     <button className='white-button'>Learn&nbsp;More</button>
                   </a>
-                </div>
-               </div>
-              </div>
+                </section>
+               </section>
+              </section>
 
-              <div className='subscribe'>
-                <div className="subscribe-body">
+              <footer className='subscribe'>
+                
+                <section className="subscribe-body">
                 <img src={IMG_2437}/>
-                <div>
+                <article>
                   <input placeholder='Email'/>
                   <p>Subscribe to our newsletter to <br/> get updated news on our <br/> services</p>
-                </div>
+                </article>
 
 
-                <div className='copyright'>
-                  <div className='icons'>
+                <article className='copyright'>
+                  <article className='icons'>
                     <BiCopyright /> 
-                  </div>
+                  </article>
                   <p>2022 Peppu ventures</p>
-                </div>
-                </div>
-                <div className='Quick-link'>
+                </article>
+                </section>
+
+
+                <section className='Quick-link'>
                   <h4>Quick Links</h4>
                   <ul>
                     <li>About</li>
@@ -256,38 +262,39 @@ const Homepage = () => {
                     <li>Products </li>
                     <li>Contact Us </li>
                   </ul>
-                </div>
+                </section>
 
-                <div className='Follow-us'>
+                <section className='Follow-us'>
                   <h4>Follow Us</h4>
                   <ul>
                     <li>Twitter</li>
                     <li>Instagram</li>
                     <li>Facebook </li>
                   </ul>
-                </div>
+                </section>
 
-                <div className='Terms'>
+                <section className='Terms'>
                   <h4>Terms & Policies</h4>
                   <ul>
                     <li>Privacy Policies</li>
                     <li>Terms & Conditions</li>
                   </ul>
-                  <div className='copyright'>
-                    <div className='copyright-text'>
+
+                  <section className='copyright'>
+                    <article className='copyright-text'>
                       <p>Peppu</p>
-                    </div>
-                    <div className='copyright-icon contacts'>
+                    </article>
+                    <article className='copyright-icon contacts'>
                     <BsGoogle />
                     <BsTwitter/>
                     <BsInstagram />
                     <BsFacebook />
-                    </div>
-                  </div>
-                </div>
-              </div>
-    </div>
-    </div>
+                    </article>
+                  </section>
+                </section>
+              </footer>
+    </section>
+    </main>
 
   )
 }

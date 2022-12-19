@@ -7,23 +7,27 @@ import {BsFillArrowRightCircleFill, BsArrowLeftCircle, BsFacebook} from 'react-i
 import {AiOutlineGoogle, AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai'
 const About = () => {
   return (
-  <div>
-    <Navbar/>
-    <div className='about-header'>
-          <div className='about-peppu'>
-              <div className='peppu-description'>
-                <div>  
-                  <h1>Peppu Books</h1>
+  <main>
+    <nav>
+      <Navbar/>
+    </nav>
+
+
+    <section className='about-header'>
+          <section className='about-peppu'>
+              <section className='peppu-description'>
+                <article>  
+                  <h3>Peppu Books</h3>
                   <p>PEPPU Books is an accounting <br/>Software as a Service (SaaS) application</p>
-                </div> 
-                <div>
+                </article> 
+                <figure>
                   <img src={Invoice} width={250} height={200}/>
-                </div>
-              </div>
+                </figure>
+              </section>
 
 
-              <div className='about-us'>
-                <h1>About Us</h1>
+              <article className='about-us'>
+                <h3>About Us</h3>
                 <p>At PEPPU Books we revolutionize the traditional 
                 bookkeeping <br/> processes, instead of 
                 spending valueable time in keeping <b/> books <br/>
@@ -39,12 +43,14 @@ const About = () => {
                 quotes generation as well as accounting reports can be <br/> 
                 automated with few clicks
                 </p>
-              </div>
-          </div>
-          <div className='mission-class'>
+              </article>
+          </section>
+
+
+          <section className='mission-class'>
           <img src={getstarted} width={250} height={200}/>
-          <div className='mission-vision'>
-            <h1>Mission & Vision</h1>
+          <article className='mission-vision'>
+            <h3>Mission & Vision</h3>
             <p>At PEPPU Books we revolutionize the traditional 
                 bookkeeping <br/> processes, instead of 
                 spending valueable time in keeping <b/> books <br/>
@@ -60,104 +66,109 @@ const About = () => {
                 quotes generation as well as accounting reports can be <br/> 
                 automated with few clicks
                 </p>
-          </div>
-          </div>
+          </article>
+          </section>
   
 
 
 
 
 
-    <div className='meet-the-team'> 
+    <section className='meet-the-team'> 
       
-      <h1>Meet the team</h1>
+      <h3>Meet the team</h3>
 
-      <div className='team'>
-      <div className='the-team'>
+      <section className='team'>
+
+      <section className='the-team'>
         <img src={user1}/>
         <p>Ferdinad Okpeghene</p>
         <p className='position'>UI/UX Designer</p>
-      </div>
+      </section>
 
 
-      <div className='the-team'> 
+      <section className='the-team'> 
         <img src={user1}/>
         <p>Ferdinad Okpeghene</p>
         <p className='position'>UI/UX Designer</p>
-      </div>
+      </section>
 
 
-      <div className='the-team'>
+      <section className='the-team'>
         <img src={user1}/>
         <p>Ferdinad Okpeghene</p>
         <p className='position'>UI/UX Designer</p>
-      </div>
+      </section>
 
 
-      <div className='the-team'>
+      <section className='the-team'>
         <img src={user1}/>
         <p>Ferdinad Okpeghene</p>
         <p className='position'>UI/UX Designer</p>
-      </div>
+      </section>
 
 
-      <div className='the-team'>
+      <section className='the-team'>
         <img src={user1}/>
         <p>Ferdinad Okpeghene</p>
         <p className='position'>UI/UX Designer</p>
-      </div>
-      </div>
+      </section>
+      </section>
 
-      <div className='arrow-icon'>
-        <div className='left'>
+      <section className='arrow-icon'>
+        <figure className='left'>
             <BsArrowLeftCircle/>
-        </div>
-        <div className='right'>
+        </figure>
+        <figure className='right'>
             <BsFillArrowRightCircleFill/>
-        </div>
-      </div>
+        </figure>
+      </section>
 
-      <div className='start'> 
-        <div className='start-buttons'>
-          <div>
+      <section className='start'> 
+        <section className='start-buttons'>
+          <article>
             <button className='green-button'>start for free</button>
-          </div>
-          <div >
+          </article>
+          <article >
             <button className='white-button'>How it works</button>
-          </div>
-        </div>
-        <div className='get-in-touch'>
-           <h1>Get in touch</h1>
-            <div className='socials'>
-                <div className='icons'>    
-                    <AiOutlineGoogle/>
-                </div>
-              <p>Peppubooks@gmail.com</p>
-            </div>
-            <div className='socials'>
-                <div className='icons'>   
-                  <AiOutlineTwitter/>
-                </div>
-              <p>Peppubooks</p>
-            </div>
-            <div className='socials'>
-              <div className='icons'>  
-                <AiOutlineInstagram/>
-              </div>
-              <p>Peppubooks</p>
-            </div>
-            <div className='socials'>
-                <div className='icons'>  
-                   <BsFacebook/>
-                </div>
-               <p>Peppubooks</p>
-            </div>
-          </div>
-       </div>
+          </article>
+        </section>
 
-    </div>
-    </div>
-  </div>
+
+        <footer className='get-in-touch'>
+           <h3>Get in touch</h3>
+            <article className='socials'>
+                <figure className='icons'>    
+                    <AiOutlineGoogle/>
+                </figure>
+              <p>Peppubooks@gmail.com</p>
+            </article>
+
+            <article className='socials'>
+                <figure className='icons'>   
+                  <AiOutlineTwitter/>
+                </figure>
+              <p>Peppubooks</p>
+            </article>
+
+            <artcle className='socials'>
+              <figure className='icons'>  
+                <AiOutlineInstagram/>
+              </figure>
+              <p>Peppubooks</p>
+            </artcle>
+            <article className='socials'>
+                <figure className='icons'>  
+                   <BsFacebook/>
+                </figure>
+               <p>Peppubooks</p>
+            </article>
+          </footer>
+       </section>
+
+    </section>
+    </section>
+  </main>
   )
 }
 

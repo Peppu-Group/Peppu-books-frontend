@@ -5,51 +5,52 @@ import google from '../assets/google.png'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 const Getstarted = () => {
   return (
+    <main className='container'>
 
-    <div className='container'>
+
       {/* The big image in the get started page* */}
-        <div className='container-image'>
+        <figure className='container-image'>
             <img src={getstarted} width={600} />
-        </div>
+        </figure>
 
 
 
         {/** The write ups in the right conner */}
-        <div className='container-text'>
+        <section className='container-text'>
 
 
-            <div>
-                 <img src={IMG_2437} width={80} />
-            </div>
+            <figure>
+                 <img src={IMG_2437}  />
+            </figure>
 
 
-            <div className='container-paragraph'>
+            <article className='container-paragraph'>
               <p>Let's make your <br /> life simple with our <br/> seamless book keeping</p>
-            </div>
+            </article>
 
 
-            <div className='h3'>
+            <article className='getstarted-with-google'>
                 <h3>Get started</h3>
-                <img src={google} width={60} height={30}/>
-            </div>
+                <img src={google}/>
+            </article>
 
 
-            <div className='works'>
+            <article className='works'>
                 
                 
                 <p>See how Peppu works </p>
 
-                <div className='icon'>
+                <figure className='icon'>
                   <AiOutlineArrowRight />
-                </div>
+                </figure>
 
 
-            </div>
+            </article>
 
 
             
-        </div>
-    </div>
+        </section>
+    </main>
   )
 }
 

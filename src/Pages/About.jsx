@@ -1,54 +1,57 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
-import Invoice from '../assets/Invoice.png'
-import getstarted from '../assets/getstarted.png'
+import aboutMain from '../assets/about-main.png'
+import  mission from '../assets/mission image.png'
 import user1 from '../assets/user1.png'
+import IMG_2430 from '../assets/IMG_2430.png'
 import {BsFillArrowRightCircleFill, BsArrowLeftCircle, BsFacebook} from 'react-icons/bs'
 import {AiOutlineGoogle, AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai'
 const About = () => {
   return (
-  <main>
+  <main className='about-main'>
     <nav>
       <Navbar/>
     </nav>
 
 
     <section className='about-header'>
+      <main>
+      <aside> <img src={IMG_2430} alt="" /></aside>
           <section className='about-peppu'>
               <section className='peppu-description'>
                 <article>  
-                  <h3>Peppu Books</h3>
-                  <p>PEPPU Books is an accounting <br/>Software as a Service (SaaS) application</p>
+                  <h3>Peppu</h3>
+                  <p>Peppubook is an accounting <br/>Software as a Service (SaaS).</p>
                 </article> 
                 <figure>
-                  <img src={Invoice} width={250} height={200}/>
+                  <img src={aboutMain} />
                 </figure>
               </section>
 
 
               <article className='about-us'>
                 <h3>About Us</h3>
-                <p>At PEPPU Books we revolutionize the traditional 
-                bookkeeping <br/> processes, instead of 
-                spending valueable time in keeping <b/> books <br/>
-                we allow small and medium businesses to focus on what's <br/>
-                most important "their business". We do this by automating <br/>
-                accounting processes and calculations
-                <br />
-                <br/>
-                <br/>
-                With PEPPU books users can now automate and organize <br/> 
-                accounting processes using googlesheets. All processes from <br/>
-                payment scheduling, account payable, invoice, receipts and <br/> 
-                quotes generation as well as accounting reports can be <br/> 
-                automated with few clicks
+                <p> At Peppubooks, we revolutionize the traditional 
+                bookkeeping processes, instead of 
+                spending valueable time in keeping books
+                we allow small and medium businesses to focus on what's 
+                most important "their business". We do this by automating 
+                accounting processes and calculations.
+                <br /> <br />
+
+                With PEPPU books users can now automate and organize  
+                accounting processes using googlesheets. All processes from 
+                payment scheduling, account payable, invoice, receipts and 
+                quotes generation as well as accounting reports can be
+                automated with few clicks.
                 </p>
               </article>
           </section>
+          </main>
 
 
           <section className='mission-class'>
-          <img src={getstarted} width={250} height={200}/>
+          <img src={mission}/>
           <article className='mission-vision'>
             <h3>Mission & Vision</h3>
             <p>At PEPPU Books we revolutionize the traditional 
@@ -56,15 +59,14 @@ const About = () => {
                 spending valueable time in keeping <b/> books <br/>
                 we allow small and medium businesses to focus on what's <br/>
                 most important "their business". We do this by automating <br/>
-                accounting processes and calculations
+                accounting processes and calculations.
                 <br />
-                <br/>
                 <br/>
                 With PEPPU books users can now automate and organize <br/> 
                 accounting processes using googlesheets. All processes from <br/>
                 payment scheduling, account payable, invoice, receipts and <br/> 
                 quotes generation as well as accounting reports can be <br/> 
-                automated with few clicks
+                automated with few clicks.
                 </p>
           </article>
           </section>

@@ -534,6 +534,7 @@ li{
 
 /* Get started Page style starts here*/
 .container{
+    margin-block: -1%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -541,8 +542,13 @@ li{
 }
 
 .container-text{
+    block-size: 100vh;
     margin-top: 10%;
     text-align: center;
+}
+
+.container-text img{
+    width: 20%;
 }
 .container-paragraph{
   text-align: center;
@@ -552,7 +558,7 @@ li{
 .works{
     display: flex;
     flex-direction: row;
-    margin-top: 70%;
+    margin-top: 30%;
     gap: 1rem;
     color: #34a853;
 }
@@ -562,7 +568,7 @@ li{
     padding-left: 10%;
     cursor: pointer;
 }
-.h3 {
+.getstarted-with-google {
     border: solid #34a853;
     display: flex;
     flex-direction: row;
@@ -571,12 +577,15 @@ li{
     gap: 1rem;
 }
 
-.h3 img{
-    margin-top: 5%;
+.getstarted-with-google img{
+    margin-block: 5%;
+    inline-size: 20%;
+    block-size: 10%;
 }
-.h3 h3{
+.getstarted-with-google h3{
     color: #34a853;
 }
+
 
 /* Get started page style ends here*/
 

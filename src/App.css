@@ -626,24 +626,34 @@ li{
 
     
 }
-.about-header main aside img{
-    
-    padding-right: 10%;
-    width: 10%;
-    height: 180%;
-}
-.about-header main aside {
-
-}
-/*.about-header main aside{
-  
-}*/
-
 .about-peppu{
-    margin-left: 12%;
+    display:flex ;
+    justify-content:space-evenly;
+    height: 170vh;
+
+}
+.about-header main{
+    
+    flex-grow: 2;
+   
+}
+.about-peppu aside{
+    background-color:#79ce91;
+   
+}
+.about-peppu aside img{
+   height: 70%;
+   width: 100%;
+  
+}
+
+
+.about-peppu main{
+   
     background-image: linear-gradient(to top right,#ffffff,#b5cabb,#ffffff,#f0f0e0,#f0ebd8),
     linear-gradient(to left,#ffffff,#ffffff);
-    margin-top: -17%;
+    
+
     
 }
 
@@ -656,7 +666,7 @@ li{
    
 }
 .peppu-description figure img{
-    height: 90%;
+    height: 70%;
     width: 120%;
     margin-right: 1%;
     margin-top: 6%;
@@ -665,12 +675,12 @@ li{
 .peppu-description article{
    width: 200%;
    margin-left: 3%;
-   margin-top:10%;
+   padding-top:10%;
    padding-right: 5%;
 }
 .peppu-description article h3{
     font-size: 1.8rem;
-    font-weight: 800;
+    font-weight: 600;
 }
 .peppu-description article p{
     font-size: 1.5rem;
@@ -678,35 +688,35 @@ li{
     margin-top: -2%;
     
 }
-.about-peppu{
+/*.about-peppu{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   
-}
+}*/
 .about-us{
     margin-left: 5%;
-    margin-right: 20%;
+    margin-right: 10%;
     
 }
-.about-us h3{
+.about-us h3,.mission-class h3,.what-we-are h3{
 font-size: 1.8rem;
-font-weight: 800;
+font-weight: 600;
 }
-.about-us p{
-    font-size: 1.6rem;
+.about-us p,.mission-class p,.what-we-are p{
+    font-size: 1.5rem;
     font-weight: 400;
-  word-spacing: 1vw;
   line-height: 8vh;
+  text-align: justify;
 }
 
 .mission-class{
-    background-color:rgb(122, 185, 122);
+    background-color:#79ce91;
     display: flex;
     flex-direction: row;
     gap: -10%;
-    width: 100vw;
     height: 100vh;
+   
 }
 .mission-class img{
     padding-top: 9%;
@@ -714,11 +724,23 @@ font-weight: 800;
     width: 40%;
     height: 50%;
 }
+
 .mission-vision{
-    background-color:rgb(155, 232, 155);
+    background-color:#88d99e;
     width: 250%;
-    padding: 6%;
+    padding: 3% 6%;
 }
+.what-we-are{
+    background-color:#88d99e;
+}
+.what-we-are h3{
+    margin:2% 5%;
+    
+}
+.what-we-are p{
+    margin:auto 5%;
+}
+
 .the-team img{
     border-radius: 50%;
     width: 80px;

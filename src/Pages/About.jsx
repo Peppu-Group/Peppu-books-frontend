@@ -88,42 +88,42 @@ const About = () => {
 
         <section className='meet-the-team'>
 
-          <h3>Meet the team</h3>
+          <h3>Meet the Team</h3>
 
           <section className='team'>
 
             <section className='the-team'>
               <img src={user1} />
-              <p>Ferdinad Okpeghene</p>
+              <p>Bertram <br/>Nnalue</p>
+              <p className='position'>CTO/Research & Development</p>
+            </section>
+
+
+            <section className='the-team'>
+              <img src={user1} />
+              <p>Ferdinard <br/>Okpegbehe</p>
               <p className='position'>UI/UX Designer</p>
             </section>
 
 
             <section className='the-team'>
               <img src={user1} />
-              <p>Ferdinad Okpeghene</p>
-              <p className='position'>UI/UX Designer</p>
+              <p>  Precious <br/> Ukpai</p>
+              <p className='position'>Frontend Developer</p>
             </section>
 
 
             <section className='the-team'>
               <img src={user1} />
-              <p>Ferdinad Okpeghene</p>
-              <p className='position'>UI/UX Designer</p>
+              <p>Osemoahu <br/>Onoigboria</p>
+              <p className='position'>Frontend Developer</p>
             </section>
 
 
             <section className='the-team'>
               <img src={user1} />
-              <p>Ferdinad Okpeghene</p>
-              <p className='position'>UI/UX Designer</p>
-            </section>
-
-
-            <section className='the-team'>
-              <img src={user1} />
-              <p>Ferdinad Okpeghene</p>
-              <p className='position'>UI/UX Designer</p>
+              <p>Ugochi <br/>Ukpai</p>
+              <p className='position'>Backend Developer</p>
             </section>
           </section>
 

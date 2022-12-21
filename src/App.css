@@ -643,7 +643,9 @@ li{
 }
 .about-peppu aside img{
    height: 70%;
-   width: 100%;
+   width: 150%;
+   padding-top: 60%;
+   padding-left: -8%;
   
 }
 
@@ -699,7 +701,7 @@ li{
     margin-right: 10%;
     
 }
-.about-us h3,.mission-class h3,.what-we-are h3{
+.about-us h3,.mission-class h3,.what-we-are h3,.meet-the-team h3{
 font-size: 1.8rem;
 font-weight: 600;
 }
@@ -732,6 +734,7 @@ font-weight: 600;
 }
 .what-we-are{
     background-color:#88d99e;
+    padding-bottom: 4%;
 }
 .what-we-are h3{
     margin:2% 5%;
@@ -743,16 +746,27 @@ font-weight: 600;
 
 .the-team img{
     border-radius: 50%;
-    width: 80px;
-    height: 60px;
-    margin-top: 29px;
-    margin-left: 30px;
+    width: 60%;
+    height: 35%;
+    margin-top: 4%;
+    margin-bottom: -3%;
+    
 }
 .the-team{
-    background-color: rgb(156, 146, 146);
+    background-color: #e8eaed;
     border-radius: 10%;
-    padding-right: 2% ;
-    padding-left: 2%;
+    height: 50vh;
+    width: 16vw;
+    text-align: center;
+    
+}
+.the-team p{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.the-team p+p{
+    color: #34a853;
+    
 }
 .arrow-icon{
     display: flex;
@@ -777,8 +791,9 @@ font-weight: 600;
     gap: 1rem;
 }
 .meet-the-team{
-    margin-left: 6%;
+    margin: auto;
 }
+
 .start{
     display: flex;
     flex-direction: column;

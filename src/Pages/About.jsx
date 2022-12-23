@@ -3,7 +3,8 @@ import Navbar from '../Components/Navbar'
 import aboutMain from '../assets/about-main.png'
 import mission from '../assets/mission image.png'
 import user1 from '../assets/user1.png'
-import IMG_2430 from '../assets/IMG_2430.png'
+import symbol from '../assets/Symbol.png'
+import enclave from '../assets/Logo enclave.png'
 import { BsFillArrowRightCircleFill, BsArrowLeftCircle, BsFacebook } from 'react-icons/bs'
 import { AiOutlineGoogle, AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai'
 const About = () => {
@@ -18,7 +19,7 @@ const About = () => {
 
 
         <section className='about-peppu'>
-          <aside> <img src={IMG_2430} /></aside>
+          <aside> <img src={symbol} /></aside>
 
           <main>
             <section className='peppu-description'>
@@ -94,36 +95,36 @@ const About = () => {
 
             <section className='the-team'>
               <img src={user1} />
-              <p>Bertram <br/>Nnalue</p>
+              <p>Bertram <br />Nnalue</p>
               <p className='position'>CTO/Research & Development</p>
             </section>
 
 
             <section className='the-team'>
               <img src={user1} />
-              <p>Ferdinard <br/>Okpegbehe</p>
-              <p className='position'>UI/UX Designer</p>
+              <p>Ferdinard <br />Okpegbehe</p>
+              <p className='position'>UI/UX <br/> Designer</p>
             </section>
 
 
             <section className='the-team'>
               <img src={user1} />
-              <p>  Precious <br/> Ukpai</p>
-              <p className='position'>Frontend Developer</p>
+              <p>  Precious <br /> Ukpai</p>
+              <p className='position'>Frontend<br/>Developer</p>
             </section>
 
 
             <section className='the-team'>
               <img src={user1} />
-              <p>Osemoahu <br/>Onoigboria</p>
-              <p className='position'>Frontend Developer</p>
+              <p>Osemoahu <br />Onoigboria</p>
+              <p className='position'>Frontend<br/> Developer</p>
             </section>
 
 
             <section className='the-team'>
               <img src={user1} />
-              <p>Ugochi <br/>Ukpai</p>
-              <p className='position'>Backend Developer</p>
+              <p>Ugochi <br />Ukpai</p>
+              <p className='position'>Backend<br/> Developer</p>
             </section>
           </section>
 
@@ -135,52 +136,49 @@ const About = () => {
               <BsFillArrowRightCircleFill />
             </figure>
           </section>
-
-          <section className='start'>
-            <section className='start-buttons'>
-              <article>
-                <button className='green-button'>start for free</button>
-              </article>
-              <article >
-                <button className='white-button'>How it works</button>
-              </article>
-            </section>
-
-
-            <footer className='get-in-touch'>
-              <h3>Get in touch</h3>
-              <article className='socials'>
-                <figure className='icons'>
-                  <AiOutlineGoogle />
-                </figure>
-                <p>Peppubooks@gmail.com</p>
-              </article>
-
-              <article className='socials'>
-                <figure className='icons'>
-                  <AiOutlineTwitter />
-                </figure>
-                <p>Peppubooks</p>
-              </article>
-
-              <artcle className='socials'>
-                <figure className='icons'>
-                  <AiOutlineInstagram />
-                </figure>
-                <p>Peppubooks</p>
-              </artcle>
-              <article className='socials'>
-                <figure className='icons'>
-                  <BsFacebook />
-                </figure>
-                <p>Peppubooks</p>
-              </article>
-            </footer>
           </section>
+          </section>
+          <section className='start-buttons'>
+            <article>
+              <button className='green-button'>Start&nbsp;for&nbsp;free</button>
+            </article>
+            <article >
+              <button className='white-button'>How&nbsp;it&nbsp;works</button>
+            </article>
+         </section>
+     
+      <section className='start'>
+        <footer className='get-in-touch'>
+          <h3>Get in touch</h3>
+          <a href="" className='socials'>
+
+            <p><AiOutlineGoogle />  Peppubooks@gmail.com</p>
+          </a>
+
+          <a href='' className='socials'>
+
+            <p><AiOutlineTwitter />  Peppubooks</p>
+          </a>
+
+          <a href='' className='socials'>
+
+            <p><AiOutlineInstagram />  Peppubooks</p>
+          </a>
+          <a href='' className='socials'>
+
+            <p> <BsFacebook />   Peppubooks</p>
+          </a>
+        </footer>
+        <figure>
+          <img src={enclave} alt="" />
+        </figure>
+      </section>
+      
 
 
-      </section>
-      </section>
+
+
+
     </body>
   )
 }

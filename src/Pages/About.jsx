@@ -4,7 +4,7 @@ import aboutMain from '../assets/about-main.png'
 import mission from '../assets/mission image.png'
 import user1 from '../assets/user1.png'
 import symbol from '../assets/Symbol.png'
-import enclave from '../assets/logo enclave.png'
+import enclave from '../assets/Logo enclave.png'
 import { BsFillArrowRightCircleFill, BsArrowLeftCircle, BsFacebook } from 'react-icons/bs'
 import { AiOutlineGoogle, AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai'
 const About = () => {

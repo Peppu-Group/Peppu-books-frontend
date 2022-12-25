@@ -30,8 +30,8 @@ const Getstarted = () => {
 
 
             <article className='getstarted-with-google'>
-                <h3>Get started</h3>
-                <img src={google}/>
+                <a href='#'>Get started <span className='g-in-google'>G</span ><span className='o-in-google'>o</span><span className='onext-in-google'>o</span><span className='g-in-google'>g</span><span className='l-in-google'>l</span ><span className='e-in-google'>e</span></a>
+               
             </article>
 
 

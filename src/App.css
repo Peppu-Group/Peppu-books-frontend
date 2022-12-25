@@ -538,9 +538,14 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-image: linear-gradient(to right,  #cbf3d6,#ffffff, #e8eaed, #f6e8bf);
+    background-image: linear-gradient(to top right,#ffffff,#b5cabb,#ffffff,#f0f0e0,#f0ebd8),
+    linear-gradient(to left,#ffffff,#ffffff);
+    height: 170vh;
 }
-
+.container-image img{
+    width: 115%;
+    margin-top: 20%;
+}
 .container-text{
     block-size: 100vh;
     margin-top: 10%;
@@ -548,42 +553,68 @@ li{
 }
 
 .container-text img{
-    width: 20%;
+    width: 32%;
 }
 .container-paragraph{
   text-align: center;
   margin-bottom: 4%;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 
 .works{
     display: flex;
     flex-direction: row;
-    margin-top: 30%;
+    margin-top: 15%;
+    margin-left: 20%;
     gap: 1rem;
     color: #34a853;
+    
+}
+.works p{
+    font-size: 1.6rem;
 }
 
 .works:hover{
-    border: solid #34a853;
-    padding-left: 10%;
     cursor: pointer;
 }
 .getstarted-with-google {
-    border: solid #34a853;
-    display: flex;
-    flex-direction: row;
-    padding-right: 5%;
-    padding-left: 5%;
-    gap: 1rem;
+    margin-top: 10%;
+    background-color: #ffffff;
+    border: 0.2vh solid #34a853;
+    border-radius: 1vh;
+   margin-left: 20%;
+   width: 80%;
+   padding: 2% 1%;
+ 
+}
+.works .icon {
+    margin-top:5% ;
+    margin-left:-5%;
+    font-size: 2rem;
 }
 
-.getstarted-with-google img{
-    margin-block: 5%;
-    inline-size: 20%;
-    block-size: 10%;
+.getstarted-with-google span{
+    font-size: 2rem;
+    font-weight: 700;
+    
 }
-.getstarted-with-google h3{
+.getstarted-with-google a{
     color: #34a853;
+    font-size: 1.8rem;
+   margin-left: -5%;
+   font-weight: 500;
+  
+}
+
+.g-in-google{
+    color:#4285f4;
+}
+.o-in-google,.e-in-google{
+    color:#ea4335;
+}
+.onext-in-google{
+    color: #fbbc04;
 }
 
 

@@ -7,12 +7,16 @@ import symbol from '../assets/Symbol.png'
 import enclave from '../assets/Logo enclave.png'
 import { BsFillArrowRightCircleFill, BsArrowLeftCircle, BsFacebook } from 'react-icons/bs'
 import { AiOutlineGoogle, AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai'
+import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa'
 const About = () => {
   return (
     <body className='about-main'>
-      <nav>
-        <Navbar />
-      </nav>
+      <header>
+
+        <nav>
+          <Navbar />
+        </nav>
+      </header>
 
 
       <section className='about-header'>
@@ -22,10 +26,21 @@ const About = () => {
           <aside> <img src={symbol} /></aside>
 
           <main>
+            <section className='about-intro'>
+              <h3>Peppu</h3>
+              <p>Peppubook is an accounting Software as a Service (SaaS).</p>
+            </section>
             <section className='peppu-description'>
               <article>
-                <h3>Peppu</h3>
-                <p>Peppubook is an accounting <br />Software as a Service (SaaS).</p>
+                <figure className='quote-top'>
+                  <FaQuoteLeft />
+                </figure >
+                <p>
+                  To
+                  <span className='blue'>  increase Productivity</span> through decreasing the man-hours spent on complex manual bookkeeping processes via
+                  <span className='red'>  Automation</span>.
+                </p>
+                <figure className='quote-bot'><FaQuoteRight /></figure>
               </article>
               <figure>
                 <img src={aboutMain} />
@@ -103,28 +118,28 @@ const About = () => {
             <section className='the-team'>
               <img src={user1} />
               <p>Ferdinard <br />Okpegbehe</p>
-              <p className='position'>UI/UX <br/> Designer</p>
+              <p className='position'>UI/UX <br /> Designer</p>
             </section>
 
 
             <section className='the-team'>
               <img src={user1} />
               <p>  Precious <br /> Ukpai</p>
-              <p className='position'>Frontend<br/>Developer</p>
+              <p className='position'>Frontend<br />Developer</p>
             </section>
 
 
             <section className='the-team'>
               <img src={user1} />
               <p>Osemoahu <br />Onoigboria</p>
-              <p className='position'>Frontend<br/> Developer</p>
+              <p className='position'>Frontend<br /> Developer</p>
             </section>
 
 
             <section className='the-team'>
               <img src={user1} />
               <p>Ugochi <br />Ukpai</p>
-              <p className='position'>Backend<br/> Developer</p>
+              <p className='position'>Backend<br /> Developer</p>
             </section>
           </section>
 
@@ -136,17 +151,17 @@ const About = () => {
               <BsFillArrowRightCircleFill />
             </figure>
           </section>
-          </section>
-          </section>
-          <section className='start-buttons'>
-            <article>
-              <button className='green-button'>Start&nbsp;for&nbsp;free</button>
-            </article>
-            <article >
-              <button className='white-button'>How&nbsp;it&nbsp;works</button>
-            </article>
-         </section>
-     
+        </section>
+      </section>
+      <section className='start-buttons'>
+        <article>
+          <button className='green-button'>Start&nbsp;for&nbsp;free</button>
+        </article>
+        <article >
+          <button className='white-button'>How&nbsp;it&nbsp;works</button>
+        </article>
+      </section>
+
       <section className='start'>
         <footer className='get-in-touch'>
           <h3>Get in touch</h3>
@@ -173,7 +188,7 @@ const About = () => {
           <img src={enclave} alt="" />
         </figure>
       </section>
-      
+
 
 
 

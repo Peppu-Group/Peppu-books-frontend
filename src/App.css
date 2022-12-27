@@ -802,9 +802,10 @@ font-weight: 600;
 .the-team img{
     border-radius: 50%;
     width: 60%;
-    height: 35%;
+    height: 38%;
     margin-top: 4%;
     margin-bottom: -3%;
+    background-color: #f6f0dd;
     
 }
 .the-team{
@@ -818,9 +819,13 @@ font-weight: 600;
 .the-team p{
     font-size: 1.4rem;
     font-weight: 400;
+    line-height: 1.5rem;
 }
 .the-team p+p{
     color: #34a853;
+    margin-top: -5%;
+    font-size: 1.35rem;
+    
     
 }
 .arrow-icon{

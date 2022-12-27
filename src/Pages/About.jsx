@@ -5,6 +5,8 @@ import mission from '../assets/mission image.png'
 import user1 from '../assets/user1.png'
 import symbol from '../assets/Symbol.png'
 import enclave from '../assets/Logo enclave.png'
+import ugochi from '../assets/ugochi.png'
+import bertram from '../assets/bertram.png'
 import { BsFillArrowRightCircleFill, BsArrowLeftCircle, BsFacebook } from 'react-icons/bs'
 import { AiOutlineGoogle, AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai'
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa'
@@ -113,7 +115,7 @@ const About = () => {
           <section className='team'>
 
             <section className='the-team'>
-              <img src={user1} />
+              <img src={bertram} />
               <p>Bertram <br />Nnalue</p>
               <p className='position'>CTO/Research & Development</p>
             </section>
@@ -141,7 +143,7 @@ const About = () => {
 
 
             <section className='the-team'>
-              <img src={user1} />
+              <img src={ugochi} />
               <p>Ugochi <br />Ukpai</p>
               <p className='position'>Backend<br /> Developer</p>
             </section>

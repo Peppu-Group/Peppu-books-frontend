@@ -5,6 +5,8 @@ import mission from '../assets/mission image.png'
 import user1 from '../assets/user1.png'
 import symbol from '../assets/Symbol.png'
 import enclave from '../assets/Logo enclave.png'
+import ugochi from '../assets/ugochi.png'
+import bertram from '../assets/bertram.png'
 import { BsFillArrowRightCircleFill, BsArrowLeftCircle, BsFacebook } from 'react-icons/bs'
 import { AiOutlineGoogle, AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai'
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa'
@@ -48,19 +50,23 @@ const About = () => {
             </section>
             <article className='about-us'>
               <h3>About Us</h3>
-              <p> At Peppubooks, we revolutionize the traditional
-                bookkeeping processes, instead of
-                spending valueable time in keeping books
-                we allow small and medium businesses to focus on what's
-                most important "their business". We do this by automating
-                accounting processes and calculations.
-                <br /> <br />
+              <p> 
+              Bookkeeping being an integral aspect of the business is always 
+              hectic as the book-keeper keeps recording numbers in different 
+              books, burdened with balancing these numbers and other complex 
+              operations - errors inevitable. To make life less complicated, 
+              his process must be made easier and simpler.<br/> <br/>
+              
+              At Peppubooks, we are committed to providing the platform that
+               eases your accounting needs through automation and organization of 
+               accounting processes using Googlesheets.
+               All processes from payment scheduling, accounting payables, invoice 
+               receipts and quotes generation as well as accounting reports can be 
+               generated with a few clicks
 
-                With PEPPU books users can now automate and organize
-                accounting processes using googlesheets. All processes from
-                payment scheduling, account payable, invoice, receipts and
-                quotes generation as well as accounting reports can be
-                automated with few clicks.
+              
+
+          
               </p>
             </article>
           </main>
@@ -109,7 +115,7 @@ const About = () => {
           <section className='team'>
 
             <section className='the-team'>
-              <img src={user1} />
+              <img src={bertram} />
               <p>Bertram <br />Nnalue</p>
               <p className='position'>CTO/Research & Development</p>
             </section>
@@ -137,7 +143,7 @@ const About = () => {
 
 
             <section className='the-team'>
-              <img src={user1} />
+              <img src={ugochi} />
               <p>Ugochi <br />Ukpai</p>
               <p className='position'>Backend<br /> Developer</p>
             </section>

@@ -661,7 +661,7 @@ li{
 .about-peppu{
     display:flex ;
     justify-content:space-evenly;
-    height: 175vh;
+    height: 180vh;
 
 }
 .about-header main{
@@ -669,7 +669,8 @@ li{
 }
 .about-peppu aside{
     background-color:#79ce91;
-    width: 25%;
+    width: 30%;
+    padding-top: 5%;
 }
 .about-peppu aside img{
    height: 60%;

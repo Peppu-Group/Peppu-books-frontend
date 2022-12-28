@@ -29,6 +29,7 @@ body{
     margin-right: 0%;
 }
 .home-navbar{
+    margin-right: -8%;
     margin-top: -1%;
     height: auto;
     display: flex;
@@ -66,7 +67,8 @@ body{
     background-image: linear-gradient(to top right,#ffffff,#b5cabb,#ffffff,#f0f0e0,#f0ebd8),
     linear-gradient(to left,#ffffff,#ffffff);
      font-size: 62.5%;
-     
+     margin-right: -8%;
+     margin-left: -7%;
 }
 a{
     text-decoration: none;
@@ -173,17 +175,17 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 5%;
+    gap: 1%;
     width: 100%;
     margin: -20% auto 2% auto;
     height: 80vh;
-   
+    margin-left: -3%;
     
 }
 
 .computerman img{
     width: 100%;
-    height: 80%;
+    height: 65%;
     margin-top: 10%;
     margin-left: 10%;
 
@@ -223,7 +225,8 @@ a{
     justify-content: space-between;
     gap: 10%; 
     padding-top: 5%;
-   margin-bottom: -6%;
+    margin-bottom: -6%;
+    margin-right: -8%;
     background-color: #e8eaed;
     height: 90vh;
     
@@ -235,8 +238,8 @@ a{
     font-size: 2rem;
 }
 .orderly-accounting-container img{
-    width: 60%;
-    height: 70%;
+    width: 50%;
+    height: 65%;
     margin-right: 7%;
 }
 .orderly-accounting p{
@@ -255,11 +258,12 @@ a{
     margin:  auto;
     padding-bottom:5%;
     padding-top: 3%;
-   background-color: #ffffff;
+    margin-left: 6%;
+    background-color: #ffffff;
 }
 .professional-invoice-container img{
     width: 50%;
-    height: 100%;
+    height: 65%;
     margin: auto 2%;
 }
 .professional-invoice{
@@ -284,16 +288,18 @@ a{
     gap: 10%; 
     margin-bottom: 10%;
     padding: 5%;
+    margin-left: -2%;
+    margin-right: -7.5%;
     background-color: #e8eaed;
     height: 110vh;
-    
 }
 .custom-schedule {
     margin-top: 10%;
+   
 }
 .custom-schedule-container img{
-    width: 60%;
-    height: 100%;
+    width: 57%;
+    height: 65%;
     
 }
 .why-peppu{

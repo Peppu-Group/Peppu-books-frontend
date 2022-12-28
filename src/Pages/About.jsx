@@ -49,7 +49,7 @@ const About = () => {
               </figure>
             </section>
             <article className='about-us'>
-              <h3>About Us</h3>
+              <h2>About us</h2>
               <p> 
               Bookkeeping being an integral aspect of the business is always 
               hectic as the book-keeper keeps recording numbers in different 

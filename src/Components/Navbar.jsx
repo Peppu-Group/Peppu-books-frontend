@@ -1,6 +1,7 @@
 import React from 'react'
 import IMG_2437 from '../assets/IMG_2437.png'
 import {AiOutlineSearch } from 'react-icons/ai'
+import {FaSearch} from 'react-icons/fa'
 const Navbar = () => {
   return (
     <main>
@@ -15,9 +16,9 @@ const Navbar = () => {
           <a href='/products'> <li>Products</li></a>
            <a href='/pricing'><li>Pricing</li></a>
            <a href='/about'><li>About&nbsp;us</li></a>
-        <figure className='search-icon'>
-          <AiOutlineSearch />
-        </figure>
+        <article className='search-icon'>
+          <FaSearch/>
+        </article>
         <a href='/getstarted'><li><button>Get&nbsp;Started</button></li></a>
       </article>
      

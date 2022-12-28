@@ -2,9 +2,11 @@
 
 *{
     font-family: 'Poppins', sans-serif;
+    
 }
 p{
     line-height: 2rem;
+    color: #202124;
 }
 .root{
     font-size: 62.4%;
@@ -36,6 +38,7 @@ body{
     padding: 0.5% 5%;
     margin-bottom: -0.4vh; 
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
 }
 
 .home-navbar .logo img{
@@ -46,7 +49,7 @@ body{
     flex-direction: row;
     gap: 10%;
     justify-content: space-evenly;
-    margin-top: -1%;
+    margin-top: 0.5%;
     padding-left: 0%;
     position: absolute;
     right: 20%;
@@ -75,13 +78,15 @@ a{
     
 }
 .search-icon{
-    height: 4vh;
-    width: 5vw;
+    height: 4%;
+    width: 5%;
    margin-top: 3.5%;
+   margin-right: 4%;
    background-color: aliceblue;
    border-radius: 50%;
-   padding: 2% 1.5% 0% 1.5%;
+   padding: 2% 2% 1% 2%;
    font-size: 1rem;
+   font-weight: 50;
 }
 .home-navbar button{
     height: 5vh;
@@ -117,21 +122,24 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 2.5rem;
+    gap: 4rem;
     font-family: 'poppins' sans-serif;
 }
+
 .body-buttons a button{
-    font-size:1.3rem;
+    font-size:1.5rem;
 }
 .button-green,.button-white{
-    width: auto;
-    height: auto;
+    width: 130%;
+    height: 120%;
     margin-top: 1%;
     background-color: #34a853;
     color: white;
     border-style: none;
-    padding: 8% 4%;
+    padding: 8% 10%;
     border-radius: 5%;
+    margin-left: -12%;
+  
 }
 .button-white{
    
@@ -142,12 +150,14 @@ a{
 }
 .check-offers{
     font-size: 1.4rem;
+    margin-top: 8%;
 }
 .offers-main{
     display: flex;
     flex-direction: row;
-    gap: 10%;
-    margin: 5% 1% 10% 4%;
+    gap: 5%;
+    margin-bottom: 15%;
+    margin-top: 5%;
 }
 .offer-list-1,.offer-list-2,.offer-list-3{
     display: flex;
@@ -162,10 +172,11 @@ a{
     margin-top: 20px;
     color: #34a853;
     font-size: 200%;
+    margin-right: 0%;
 }
 .image img{
     width: 100%;
-    height: 65%;
+    
     
 }
 
@@ -173,31 +184,25 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 5%;
-    width: 100%;
-    margin: -20% auto 2% auto;
-    height: 80vh;
+   margin-top: -12%;
+    height: 100%;
+    padding-bottom: 5%;
    
     
 }
-
-.computerman img{
-    width: 100%;
-    height: 80%;
-    margin-top: 10%;
-    margin-left: 10%;
-
-   
+.computerman{
+    width: 45%;
+    margin-left: 6%;
 }
 .Automate h2{
     font-size: 2rem;
-    margin-top: 40%;
-
+   
 }
 
 .Automate-head{
-    margin-right:5%;
-   
+    margin-top: 3.5%;
+    margin-right:7%;
+
 }
 .Automate-head p{
     font-size: 1.5rem;
@@ -222,22 +227,25 @@ a{
     flex-direction: row;
     justify-content: space-between;
     gap: 10%; 
-    padding-top: 5%;
-   margin-bottom: -6%;
+    padding-top: 10%;
+    padding-bottom: 5%;
     background-color: #e8eaed;
-    height: 90vh;
+    height: 100%;
+    margin: auto;
     
 }
 .orderly-accounting{
     margin-left: 10%;
+    margin-top: -3%;
 }
 .orderly-accounting h2{
     font-size: 2rem;
 }
 .orderly-accounting-container img{
-    width: 60%;
-    height: 70%;
+    width: 45%;
+    height: 100%;
     margin-right: 7%;
+    margin-top: -4%;
 }
 .orderly-accounting p{
     font-size: 1.5rem;
@@ -250,8 +258,8 @@ a{
     flex-direction: row;
     justify-content: space-around;
     gap: 10%; 
-    height: 100vh;
-    width: 95vw;
+    height: 100%;
+    width: 100%;
     margin:  auto;
     padding-bottom:5%;
     padding-top: 3%;
@@ -285,15 +293,15 @@ a{
     margin-bottom: 10%;
     padding: 5%;
     background-color: #e8eaed;
-    height: 110vh;
+    height: 100%;
     
 }
 .custom-schedule {
     margin-top: 10%;
 }
 .custom-schedule-container img{
-    width: 60%;
-    height: 100%;
+    width: 50%;
+    height: 55%;
     
 }
 .why-peppu{
@@ -306,7 +314,7 @@ a{
 .easy-to-use{
     background-color:#202124 ;
     opacity: 52%;
-    width: 24%;
+    width: 25%;
     height: 65%;
     border-radius: 5%;
 }
@@ -428,6 +436,7 @@ a{
   height: 100vh;
   padding-top: 10vh;
   z-index: -1;
+  margin-bottom: 0%;
 }
 .subscribe-body img{
     width: 15vw;
@@ -442,6 +451,7 @@ a{
 }
 .subscribe-body p{
     font-size: 1.4rem;
+    font-weight: 100;
 }
 .subscribe-body{
     padding-right: 5%;
@@ -486,12 +496,13 @@ li{
     margin-top: 50%;
 }
 .copyright p{
-    margin-top: 10%;
+    margin-top: 17%;
+    color: white;
     
 }
 
 .icons{
-    margin-top: 6%;
+    margin-top: 16%;
     font-size: 2rem;
     font-weight: 200;
     display: flex;
@@ -508,14 +519,14 @@ li{
 }
 .copyright-text p{
     margin-left: 0%;
-    margin-top: 95%;
+    margin-top: 150%;
     font-size: 1.5rem;
     font-weight: 800;
 }
 
 .copyright-icon{
     color: white;
-    margin-top: 30%;
+    margin-top: 53%;
     font-weight: 400;
     display: flex;
     flex-direction: row;
@@ -661,7 +672,7 @@ li{
 .about-peppu{
     display:flex ;
     justify-content:space-evenly;
-    height: 180vh;
+    height: 175vh;
 
 }
 .about-header main{
@@ -669,16 +680,14 @@ li{
 }
 .about-peppu aside{
     background-color:#79ce91;
-    width: 30%;
+    width: 35%;
     padding-top: 5%;
 }
 .about-peppu aside img{
    height: 60%;
-   width: 150%;
-  
-   
-  
+   width: 150%; 
 }
+
 
 
 .about-peppu main{
@@ -709,7 +718,7 @@ li{
 .peppu-description article{
    width: 200%;
    margin-left: 3%;
-   padding-top:10%;
+   padding-top:5%;
    padding-right: 5%;
 }
 .about-intro{
@@ -752,11 +761,14 @@ li{
 .about-us{
     margin-left: 5%;
     margin-right: 10%;
-    margin-top: -5%;
-  
-    
+    margin-top: -8%;
+
 }
-.about-us h3,.mission-class h3,.what-we-are h3,.meet-the-team h3{
+.about-us h2{
+    font-size: 2rem;
+  
+}
+.mission-class h3,.what-we-are h3,.meet-the-team h3{
 font-size: 1.8rem;
 font-weight: 600;
 }
@@ -771,21 +783,21 @@ font-weight: 600;
     background-color:#79ce91;
     display: flex;
     flex-direction: row;
-    gap: -10%;
-    height: 105vh;
+    gap: 2%;
+    height: 85vh;
    
 }
 .mission-class img{
-    padding-top: 9%;
-    padding-bottom: 9%;
-    width: 40%;
-    height: 50%;
+    width: 100%;
+    height: 60%;
+    margin-top: 10%;
 }
 
 .mission-vision{
     background-color:#88d99e;
     width: 250%;
-    padding: 3% 6%;
+    padding: 2%;
+  
 }
 .what-we-are{
     background-color:#88d99e;
@@ -810,10 +822,11 @@ font-weight: 600;
 }
 .the-team{
     background-color: #e8eaed;
-    border-radius: 10%;
+    border-radius: 15%;
     height: 50vh;
-    width: 16vw;
+    width: 16%;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px
     
 }
 .the-team p{
@@ -823,7 +836,7 @@ font-weight: 600;
 }
 .the-team p+p{
     color: #34a853;
-    margin-top: -5%;
+    margin-top: 0%;
     font-size: 1.35rem;
     
     
@@ -888,7 +901,6 @@ font-weight: 600;
 }
 .get-in-touch{
     background-color: #e8eaed;
-    color: #4285f4;
     flex-grow: 2;
     border-top-left-radius: 4vh;
     border-bottom-left-radius: 4vh;
@@ -903,7 +915,9 @@ font-weight: 600;
     font-size: 1.6rem;
     margin-left: 12%;
 }
-
+.get-in-touch p{
+    color: #4285f4;
+}
 .green-button{
 
     margin-top: 5%;

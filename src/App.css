@@ -38,7 +38,7 @@ body{
     padding: 0.5% 5%;
     margin-bottom: -0.4vh; 
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    
+  
 }
 
 .home-navbar .logo img{
@@ -175,9 +175,7 @@ a{
     margin-right: 0%;
 }
 .image img{
-    width: 100%;
-    
-    
+    width: 100%;    
 }
 
 .Automate-container{
@@ -820,8 +818,8 @@ font-weight: 600;
 }
 .the-team{
     background-color: #e8eaed;
-    border-radius: 15%;
-    height: 50vh;
+    border-radius: 12%;
+    height: 46vh;
     width: 16%;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px

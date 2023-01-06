@@ -31,7 +31,6 @@ body{
     margin-right: 0%;
 }
 .home-navbar{
-    margin-right: -8%;
     margin-top: -1%;
     height: auto;
     display: flex;
@@ -70,8 +69,7 @@ body{
     background-image: linear-gradient(to top right,#ffffff,#b5cabb,#ffffff,#f0f0e0,#f0ebd8),
     linear-gradient(to left,#ffffff,#ffffff);
      font-size: 62.5%;
-     margin-right: -8%;
-     margin-left: -7%;
+     
 }
 a{
     text-decoration: none;
@@ -262,8 +260,7 @@ a{
     margin:  auto;
     padding-bottom:5%;
     padding-top: 3%;
-    margin-left: 6%;
-    background-color: #ffffff;
+   background-color: #ffffff;
 }
 .professional-invoice-container img{
     width: 50%;
@@ -291,17 +288,17 @@ a{
     gap: 10%; 
     margin-bottom: 10%;
     padding: 5%;
-    margin-left: -2%;
-    margin-right: -7.5%;
     background-color: #e8eaed;
     height: 100%;
+    
 }
 .custom-schedule {
     margin-top: 10%;
-   
 }
 .custom-schedule-container img{
-    width: 50%;   
+    width: 50%;
+   
+    
 }
 .why-peppu{
     margin:auto;

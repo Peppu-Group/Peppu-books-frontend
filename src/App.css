@@ -43,13 +43,14 @@ body{
 
 .home-navbar .logo img{
     width: 8vw;
+    margin-top: 1%;
 }
 .home-navbar .nav-menu{
     display: flex;
     flex-direction: row;
     gap: 10%;
     justify-content: space-evenly;
-    margin-top: 0.5%;
+    margin-top: 0%;
     padding-left: 0%;
     position: absolute;
     right: 20%;
@@ -60,7 +61,7 @@ body{
 .home-navbar .nav-menu button{
    margin-top: 0%;
    margin-left: 14%;
-   padding: auto 20%;
+   padding: auto 10%;
    
 }
 

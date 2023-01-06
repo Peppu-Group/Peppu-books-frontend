@@ -574,7 +574,7 @@ li{
     flex-direction: row;
     margin-top: 15%;
     margin-left: 20%;
-    gap: 1rem;
+    gap: 3rem;
     color: #34a853;
     
 }
@@ -596,9 +596,9 @@ li{
  
 }
 .works .icon {
-    margin-top:5% ;
+    margin-top:3.5% ;
     margin-left:-5%;
-    font-size: 2rem;
+    font-size: 250%;
 }
 
 .getstarted-with-google span{

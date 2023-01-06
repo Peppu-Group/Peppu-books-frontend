@@ -49,13 +49,16 @@ const Homepage = () => {
 
 
             <article className='body-buttons'>
+              <div>
               <a href="/getstarted">
                  <button className='button-green'>Start&nbsp;for&nbsp;free</button>
               </a>
+              </div>
+              <div>
              <a href="/about">
                 <button className='button-white'>How&nbsp;it&nbsp;works</button>
              </a>
-      
+             </div>
              </article>
 
 
@@ -66,7 +69,7 @@ const Homepage = () => {
                       <figure className='icon'>
                          <MdLibraryAddCheck />
                       </figure>
-                        <p>Create estimates,&nbsp;convert to <br/> quotes.</p>
+                        <p>Create estimates, and convert to quotes.</p>
                     </article>
 
 
@@ -76,7 +79,7 @@ const Homepage = () => {
                          <figure className='icon'>
                              <MdLibraryAddCheck />
                          </figure>
-                            <p>Generate accounting reports, <br/> record journal.</p>
+                            <p>Generate accounting reports,record journal.</p>
                        </article>
        
        
@@ -97,9 +100,9 @@ const Homepage = () => {
 
 
       <section className='Automate-container'>
-          <figure className='computerman'>
-              <img src={Automate} />
-          </figure>
+        
+              <img src={Automate} className='computerman' />
+          
               <article className='Automate-head'>
                 <header className='Automate'> 
                  <h2>Automate</h2>

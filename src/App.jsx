@@ -5,7 +5,6 @@ import Products from './Pages/Products'
 import Pricing from './Pages/Pricing'
 import About from './Pages/About'
 import Features from './Pages/Features'
-import Getstarted from './Pages/Getstarted'
 function App() {
 
   return (
@@ -13,7 +12,6 @@ function App() {
       
       <Router>
       <Routes>
-          <Route exact path="/getstarted" element={<Getstarted/>} />
           <Route exact path="/" element={<Homepage/>} />
           <Route path="/products" element={<Products/>} />
           <Route path="/pricing" element={<Pricing/>} />

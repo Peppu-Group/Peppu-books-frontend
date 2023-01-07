@@ -50,7 +50,7 @@ const Homepage = () => {
 
             <article className='body-buttons'>
               <div>
-              <a href="/getstarted">
+              <a href="https://app.peppubooks.com/login">
                  <button className='button-green'>Start&nbsp;for&nbsp;free</button>
               </a>
               </div>
@@ -227,7 +227,7 @@ const Homepage = () => {
 
 
                 <section className='footer-button'>
-                  <a href='/getstarted'>
+                  <a href='https://app.peppubooks.com/login'>
                     <button className='green-button'>Start&nbsp;for&nbsp;free</button>
                   </a>
                 

@@ -2,7 +2,7 @@ import React from 'react'
 import getstarted from '../assets/getstarted.png'
 import IMG_2437 from '../assets/IMG_2437.png'
 import google from '../assets/google.png'
-import {AiOutlineArrowRight} from 'react-icons/ai'
+import {HiOutlineArrowNarrowRight} from 'react-icons/hi'
 const Getstarted = () => {
   return (
     <main className='container'>
@@ -41,7 +41,7 @@ const Getstarted = () => {
                 <p>See how Peppu works </p>
 
                 <figure className='icon'>
-                  <AiOutlineArrowRight />
+                  <HiOutlineArrowNarrowRight />
                 </figure>
 
 

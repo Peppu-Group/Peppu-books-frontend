@@ -1,8 +1,10 @@
 import React from 'react'
+import { useState } from 'react'
 import IMG_2437 from '../assets/IMG_2437.png'
 import {AiOutlineSearch } from 'react-icons/ai'
 import {FaSearch} from 'react-icons/fa'
 const Navbar = () => {
+   
   return (
     <main>
         {/*Home page Nave-bar components style={{width: 74, height: 30, marginTop: 13}} */}

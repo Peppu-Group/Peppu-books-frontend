@@ -6,8 +6,8 @@ import {FaSearch} from 'react-icons/fa'
 const Navbar = () => {
    
   return (
-    <main>
-        {/*Home page Nave-bar components style={{width: 74, height: 30, marginTop: 13}} */}
+  
+   
       <section className='home-navbar'>
         <figure className='logo'> 
           <img src={IMG_2437}/>
@@ -19,14 +19,14 @@ const Navbar = () => {
            <a href='/pricing'><li>Pricing</li></a>
            <a href='/about'><li>About&nbsp;us</li></a>
         <article className='search-icon'>
-          <FaSearch/>
+          < FaSearch/>
         </article>
         <a href='https://app.peppubooks.com/login'><li><button>Get&nbsp;Started</button></li></a>
       </article>
      
       </section>
     
-    </main>
+    
   )
 }
 

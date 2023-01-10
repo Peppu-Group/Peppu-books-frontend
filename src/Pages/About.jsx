@@ -13,12 +13,12 @@ import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa'
 const About = () => {
   return (
     <body className='about-main'>
-      <header>
+      
 
-        <nav>
+        <nav className='fixed'>
           <Navbar />
         </nav>
-      </header>
+ 
 
 
       <section className='about-header'>

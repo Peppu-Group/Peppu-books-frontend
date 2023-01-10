@@ -12,7 +12,13 @@ p {
 
 .root {
     font-size: 62.4%;
+    
 
+}
+nav.fixed{
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
 }
 
 p {
@@ -44,8 +50,8 @@ body {
     padding: 0.5% 5%;
     margin-bottom: -0.4vh;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    position: sticky;
-    top: 0;
+    position: relative;
+    top: 0%;
 }
 
 .home-navbar .logo img {
@@ -366,8 +372,7 @@ a {
 }
 
 .easy-to-use {
-    background-color: #202124;
-    opacity: 52%;
+    background-color: #8f9091;
     width: 25%;
     height: 70%;
     border-radius: 5%;

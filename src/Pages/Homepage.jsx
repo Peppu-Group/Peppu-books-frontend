@@ -26,10 +26,10 @@ const Homepage = () => {
 
     {/** Navbar div */}
 
-      <nav>
+      <nav className='fixed'>
         <Navbar />
-      </nav>
-
+      
+        </nav>
 
 
       {/** Home Page body beginning Text */}

@@ -21,7 +21,7 @@ const Navbar = () => {
         <article className='search-icon'>
           < FaSearch/>
         </article>
-        <a href='https://app.peppubooks.com/login'><li><button>Get&nbsp;Started</button></li></a>
+        <a href='https://app.peppubooks.com/register'><li><button>Get&nbsp;Started</button></li></a>
       </article>
      
       </section>

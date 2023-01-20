@@ -8,6 +8,7 @@
 p {
     line-height: 2rem;
     color: #202124;
+
 }
 
 .root {
@@ -89,6 +90,14 @@ body {
 
 }
 
+.home-body {
+    background-color: #ffffff;
+    background-image: linear-gradient(to top right, #ffffff, #b5cabb, #ffffff, #f0f0e0, #f0ebd8),
+    linear-gradient(to left, #ffffff, #ffffff);
+    height: 175vh;
+    margin-top: 0;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -108,14 +117,11 @@ a {
     font-weight: 50;
 }
 
-.home-navbar button {
-    height: 5vh;
-    margin-top: 25%;
+.navbar button {
     background-color: #34a853;
     color: white;
     border-style: none;
     padding: 1.5% 10%;
-
 }
 
 .navbar {
@@ -136,55 +142,48 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 1rem;
-    font-size: 2rem;
-
+    font-size: 4vw;
+    gap: 1.5vw;
+    margin-top: 0%;
+    padding-top: 5vw;
 }
 
-.body-header span {
+.body-header .header {
     color: #34a853;
 }
 
 .first-paragragh {
-    margin-top: -4%;
     text-align: center;
-    font-size: 1.4rem;
-
+    font-size: 2vw;
+    margin-top: 1vw;
 }
 
 .body-buttons {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 4rem;
-    font-family: 'poppins' sans-serif;
 }
 
-.body-buttons a button {
-    font-size: 1.5rem;
-}
+
 
 .button-green,
 .button-white {
-    width: 130%;
-    height: 120%;
-    margin-top: 1%;
+    margin-top: 1vw;
     background-color: #34a853;
     color: white;
     border-style: none;
-    padding: 8% 10%;
+    padding: 1.5vw 3vw;
     border-radius: 5%;
-    margin-left: -12%;
-
 }
 
 .button-white {
-
+    margin-top: 1vw;
     background-color: white;
     border: solid #34a853;
     color: #34a853;
-    padding: 6% 4%;
+    padding: 1.5vw 3vw;
+    border-radius: 5%;
 }
+
+
 
 .check-offers {
     font-size: 1.4rem;

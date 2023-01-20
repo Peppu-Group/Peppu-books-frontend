@@ -25,7 +25,7 @@ import Stack from 'react-bootstrap/Stack';
 
 const Homepage = () => {
   return (
-    <main >
+    <main class="root">
       <nav >
         <Navbar />
       </nav>
@@ -38,22 +38,26 @@ const Homepage = () => {
           <div className='first-paragragh'>
             <p>We offer a seamless and easy to use  algorithm that suits your desire.</p>
           </div>
-          <article>
             <Stack direction="horizontal" gap={3} className='body-buttons'>
               <div>
-              <a href="https://app.peppubooks.com/login">
-                 <button className='button-green'>Start&nbsp;for&nbsp;free</button>
-              </a>
+                <a href="https://app.peppubooks.com/login">
+                  <button className='button-green'>Start&nbsp;for&nbsp;free</button>
+                </a>
               </div>
-
               <div>
-             <a href="/about">
-             <button className='button-white'>How&nbsp;it&nbsp;works</button>
-             </a>
-             </div>
+                <a href="/about">
+                  <button className='button-white'>How&nbsp;it&nbsp;works</button>
+                </a>
+              </div>
+            </Stack>
 
-             </Stack>
-             </article>
+            <div>
+              <p><MdLibraryAddCheck />Create estimates, and convert to quotes.</p>
+              <p><MdLibraryAddCheck />Generate accounting reports,record journal.</p>
+              <p><MdLibraryAddCheck />Custom schedules and reminders to automate your processes.</p>
+            </div>
+            <div>
+            </div>
         </Container>
       </div>
     </main>

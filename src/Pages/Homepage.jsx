@@ -17,6 +17,7 @@ import user2 from '../assets/user2.png'
 import user3 from '../assets/user3.png'
 import user4 from '../assets/user4.png'
 import IMG_2437 from '../assets/IMG_2437.png'
+import Container from 'react-bootstrap/Container';
 
 const Homepage = () => {
   return (

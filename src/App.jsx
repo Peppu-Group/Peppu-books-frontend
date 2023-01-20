@@ -5,6 +5,7 @@ import Products from './Pages/Products'
 import Pricing from './Pages/Pricing'
 import About from './Pages/About'
 import Features from './Pages/Features'
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
   return (

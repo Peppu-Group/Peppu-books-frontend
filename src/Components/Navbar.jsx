@@ -1,32 +1,37 @@
 import React from 'react'
-import { useState } from 'react'
-import IMG_2437 from '../assets/IMG_2437.png'
-import {AiOutlineSearch } from 'react-icons/ai'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import BNavbar from 'react-bootstrap/Navbar';
+import Button from 'react-bootstrap/Button';
+import IMG_2437 from '../assets/IMG_2437.png';
 import {FaSearch} from 'react-icons/fa'
+import '../App.css';
 const Navbar = () => {
    
   return (
-  
-   
-      <section className='home-navbar'>
-        <figure className='logo'> 
-          <img src={IMG_2437}/>
-        </figure>
-        <article className='nav-menu'>
-          <a href="/"><li>Home</li></a>
-          <a href="/features"> <li>Features</li></a>
-          <a href='/products'> <li>Products</li></a>
-           <a href='/pricing'><li>Pricing</li></a>
-           <a href='/about'><li>About&nbsp;us</li></a>
-        <article className='search-icon'>
-          < FaSearch/>
-        </article>
-        <a href='https://app.peppubooks.com/register'><li><button>Get&nbsp;Started</button></li></a>
-      </article>
-     
-      </section>
-    
-    
+    <BNavbar className='navbar' expand="lg">
+    <Container>
+    <BNavbar.Brand href="#home">
+            <img
+              src={IMG_2437}
+              width="10%"
+              className="d-inline-block align-top,"
+            />
+          </BNavbar.Brand>
+      <BNavbar.Toggle aria-controls="basic-navbar-nav" />
+      <BNavbar.Collapse id="basic-navbar-nav">
+        <Nav className="nav-menu">
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/features">Features</Nav.Link>
+          <Nav.Link href="/products">Products</Nav.Link>
+          <Nav.Link href="/pricing">Pricing</Nav.Link>
+          <Nav.Link href="/about">About&nbsp;us</Nav.Link>
+          <Nav.Link href="">< FaSearch/></Nav.Link>
+        <Nav.Link href='https://app.peppubooks.com/register'><Button variant="success">Get&nbsp;Started</Button></Nav.Link>        
+        </Nav>
+      </BNavbar.Collapse>
+    </Container>
+  </BNavbar>
   )
 }
 

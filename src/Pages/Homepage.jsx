@@ -116,10 +116,10 @@ const Homepage = () => {
             </Col>
           </Row>
           <Row>
+          <article className='why-peppu'>
+          <h3>Why PEPPU?</h3>
+          </article >
             <Col>
-              <article className='why-peppu'>
-                <h3>Why PEPPU?</h3>
-              </article >
               <section>
                 <article className='easy-to-use'>
                   <figure className='easy-to-use-icon'>
@@ -149,52 +149,115 @@ const Homepage = () => {
               </article></Col>
           </Row>
           <article className='hear-from'>
-              <h2> Hear from our Users</h2>
-            </article>
-            <section className='testimonies'>
-              <section className='first-testimony'>
-                <img id="img-1" src={user1} /> 
-                <article className='testimony'>
-                  <p>Book keeping have never <br/> been this easy, Peppu!</p>
-                  <h4>James Neerd</h4>
-                </article>
-              </section>
-
-              <section className='first-testimony'>
-              <img  id="img-2"src={user2} /> 
-                <article className='testimony'>
-                  <p>Book keeping have never <br/> been this easy, Peppu!</p>
-                  <h4>James Neerd</h4>
-                </article>
-              </section>
-
-              <section className='first-testimony'>
-                <article className='testimony img-left'>
-                  <p>Book keeping have never <br/> been this easy, Peppu!</p>
-                  <h4>James Neerd</h4>
-                </article>
-                <img id="img-3"src={user3} /> 
-              </section>
-
-              <section className='first-testimony'>                
-                <article className='testimony img-left'>
-                  <p>Book keeping have never <br/> been this easy, Peppu!</p>
-                  <h4>James Neerd</h4>
-                </article>
-                <img id="img-4"src={user4 } />
-              </section>
+            <h2> Hear from our Users</h2>
+          </article>
+          <section className='testimonies'>
+            <section className='first-testimony'>
+              <img id="img-1" src={user1} />
+              <article className='testimony'>
+                <p>Book keeping have never <br /> been this easy, Peppu!</p>
+                <h4>James Neerd</h4>
+              </article>
             </section>
 
-            <section className='we-offer-content'>
-                <h4>We offer the best <br /> accounting experience</h4>
-                <a href='https://app.peppubooks.com/login'>
-                    <button className='g-button'>Start&nbsp;for&nbsp;free</button>
-                  </a>
-                
-                  <a href='/about'>
-                    <button className='w-button'>Learn&nbsp;More</button>
-                  </a>
+            <section className='first-testimony'>
+              <img id="img-2" src={user2} />
+              <article className='testimony'>
+                <p>Book keeping have never <br /> been this easy, Peppu!</p>
+                <h4>James Neerd</h4>
+              </article>
             </section>
+
+            <section className='first-testimony'>
+              <article className='testimony img-left'>
+                <p>Book keeping have never <br /> been this easy, Peppu!</p>
+                <h4>James Neerd</h4>
+              </article>
+              <img id="img-3" src={user3} />
+            </section>
+
+            <section className='first-testimony'>
+              <article className='testimony img-left'>
+                <p>Book keeping have never <br /> been this easy, Peppu!</p>
+                <h4>James Neerd</h4>
+              </article>
+              <img id="img-4" src={user4} />
+            </section>
+          </section>
+
+          <section className='we-offer-content'>
+            <h4>We offer the best <br /> accounting experience</h4>
+            <a href='https://app.peppubooks.com/login'>
+              <button className='g-button'>Start&nbsp;for&nbsp;free</button>
+            </a>
+
+            <a href='/about'>
+              <button className='w-button'>Learn&nbsp;More</button>
+            </a>
+          </section>
+
+
+          <footer className="page-footer font-small  pt-4 subscribe">
+            <div className="container-fluid text-center text-md-left">
+              <div className="row">
+                <div className="col-md-3 mb-md-0 mb-3">
+                  <section className="subscribe-body">
+                    <img src={IMG_2437} />
+                    <article>
+                      <input placeholder='Email' />
+                      <p>Subscribe to our newsletter to <br /> get updated news on our <br /> services</p>
+                    </article>
+                  </section>
+
+                </div>
+
+                <div className="col-md-3 mb-md-0 mb-3">
+                  <ul className="">
+                    <li>Quick Links</li>
+                    <li><a href="#!">About</a></li>
+                    <li><a href="#!">Services</a></li>
+                    <li><a href="#!">Products</a></li>
+                    <li><a href="#!">Contact Us</a></li>
+                  </ul>
+                </div>
+
+                <div className="col-md-3 mb-md-0 mb-3">
+                  <ul className="">
+                    <li>Follow Us</li>
+                    <li><a href="#!">Twitter</a></li>
+                    <li><a href="#!">Instagram</a></li>
+                    <li><a href="#!">Facebook</a></li>
+                  </ul>
+                </div>
+
+                <div className="col-md-3 mb-md-0 mb-3">
+                  <ul className="">
+                    <li>Terms & Policies</li>
+                    <li><a href="#!">Privacy Policies</a></li>
+                    <li><a href="#!">Terms & Conditions</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <Row className='foot'>
+              <Col>
+                <div className="">
+                  <p> © 2020
+                    <a href="https://peppubooks.com/"> Peppu Ventures</a> </p>
+                </div>
+              </Col>
+              <Col >
+                <div >
+                  <BsGoogle className="foot-icon"/>
+                  <BsTwitter className="foot-icon"/>
+                  <BsInstagram className="foot-icon"/>
+                  <BsFacebook className="foot-icon"/>
+                </div>
+              </Col>
+            </Row>
+
+          </footer>
           <div>
           </div>
         </Container>

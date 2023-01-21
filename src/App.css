@@ -358,9 +358,9 @@ a {
 
 .easy-to-use {
     background-color: #8f9091;
-    width: 25%;
-    height: 70%;
-    border-radius: 5%;
+    height: 100vh;
+    border-radius: 5vw;
+    width: 30vw;
 }
 
 .easy-to-use.last {
@@ -463,7 +463,7 @@ a {
     flex-direction: row;
     justify-content: center;
     gap: 1vw;
-    height: 15vw;
+    height: 18vw;
     width: 90vw;
     margin: 5% auto -1.5% auto;
     background-color: #e8eaed;
@@ -504,16 +504,20 @@ a {
     font-size: 1.4rem;
 }
 
+.foot {
+    text-align: center;
+    color: #fff ;
+}
+
+.foot-icon {
+    padding-right: 5%;
+    font-size: 5vw;
+}
+
 .subscribe {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     background-color: #b8ebc6;
     position: relative;
-    height: 100vh;
-    padding-top: 10vh;
     z-index: -1;
-    margin-bottom: 0%;
 }
 
 .subscribe-body img {

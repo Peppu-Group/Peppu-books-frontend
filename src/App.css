@@ -117,7 +117,12 @@ a {
     font-weight: 50;
 }
 
-
+.nbutton {
+    background-color: #34a853;
+    color: white;
+    border-style: none;
+    padding: 3% 10%;
+}
 
 .navbar {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -269,17 +274,14 @@ a {
 }
 
 .orderly-accounting-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 10%;
-    padding-top: 10%;
-    padding-bottom: 5%;
     background-color: #e8eaed;
-    height: 100%;
-    margin: auto;
-
 }
+
+.orderly-accounting-container img {
+    margin-top: 4vw;
+}
+
+
 
 .orderly-accounting {
     margin-left: 10%;
@@ -290,11 +292,7 @@ a {
     font-size: 2rem;
 }
 
-.orderly-accounting-container img {
-    width: 45%;
-    margin-right: 7%;
-    margin-top: -4%;
-}
+
 
 .orderly-accounting p {
     font-size: 1.5rem;
@@ -305,21 +303,11 @@ a {
 }
 
 .professional-invoice-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 10%;
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    padding-bottom: 5%;
-    padding-top: 3%;
     background-color: #ffffff;
 }
 
 .professional-invoice-container img {
-    width: 50%;
-    margin: auto 2%;
+    margin-top: 4vw;
 }
 
 .professional-invoice {
@@ -345,11 +333,7 @@ a {
 }
 
 .custom-schedule-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 10%;
-    margin-bottom: 10%;
+   
     padding: 5%;
     background-color: #e8eaed;
     height: 100%;
@@ -360,19 +344,16 @@ a {
     margin-top: 10%;
 }
 
-.custom-schedule-container img {
-    width: 50%;
-
-
-}
 
 .why-peppu {
     margin: auto;
+    background-color: #fff;
 }
 
 .why-peppu h3 {
-    margin-top: -25%;
+    
     font-size: 1.8rem;
+    text-align: center;
 }
 
 .easy-to-use {
@@ -481,9 +462,9 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 2rem;
-    height: 30vh;
-    width: 70vw;
+    gap: 1vw;
+    height: 15vw;
+    width: 90vw;
     margin: 5% auto -1.5% auto;
     background-color: #e8eaed;
     border-radius: 2rem;
@@ -491,18 +472,32 @@ a {
 }
 
 .we-offer-content h4 {
-    margin-left: -15%;
-    font-size: 1.6rem;
-    margin-top: 6%;
+    font-size: 3vw;
+    margin-top: 2vw;
     text-align: center;
 }
 
-.footer-button {
-    display: flex;
-    gap: 30%;
-    margin-top: 18%;
-
+.we-offer-content .g-button {
+    margin-top: 2vw;
+    color: white;
+    border-style: none;
+    background-color: #34a853;
+    border-radius: 1vh;
+    font-size: 2vh;
+    padding: 2vw;
 }
+
+.we-offer-content .w-button {
+    margin-top: 2vw;
+    background-color: white;
+    color: #34a853;
+    border-style: none;
+    border-radius: 1vh;
+    font-size: 2vh;
+    padding: 2vw;
+}
+
+
 
 .footer-button button {
     padding: 15% 20%;

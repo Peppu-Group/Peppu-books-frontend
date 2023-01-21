@@ -53,10 +53,10 @@ const Homepage = () => {
           </Stack>
           <Row>
             <Col>
-              <div>
-                <p><MdLibraryAddCheck />Create estimates, and convert to quotes.</p>
-                <p><MdLibraryAddCheck />Generate accounting reports,record journal.</p>
-                <p><MdLibraryAddCheck />Custom schedules and reminders to automate your processes.</p>
+              <div className='first-paragrah'>
+                <p><MdLibraryAddCheck className='g-tick'/>Create estimates, and convert to quotes.</p>
+                <p><MdLibraryAddCheck className='g-tick'/>Generate accounting reports,record journal.</p>
+                <p><MdLibraryAddCheck className='g-tick'/>Custom schedules and reminders to automate your processes.</p>
               </div>
             </Col>
             <Col>

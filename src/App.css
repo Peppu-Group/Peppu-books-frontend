@@ -184,7 +184,15 @@ a {
     border-radius: 5%;
 }
 
+.g-tick {
+    font-size: 4vw;
+    color: #34a853;
+}
 
+.first-paragrah {
+    font-size: 2vw;
+    padding: 3vw;
+}
 
 .check-offers {
     font-size: 1.4rem;

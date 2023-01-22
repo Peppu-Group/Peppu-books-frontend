@@ -8,11 +8,12 @@
 p {
     line-height: 2rem;
     color: #202124;
+
 }
 
 .root {
     font-size: 62.4%;
-    
+    overflow-x: hidden;
 
 }
 nav.fixed{
@@ -89,6 +90,14 @@ body {
 
 }
 
+.home-body {
+    background-color: #ffffff;
+    background-image: linear-gradient(to top right, #ffffff, #b5cabb, #ffffff, #f0f0e0, #f0ebd8),
+    linear-gradient(to left, #ffffff, #ffffff);
+    height: 175vh;
+    margin-top: 0;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -108,14 +117,20 @@ a {
     font-weight: 50;
 }
 
-.home-navbar button {
-    height: 5vh;
-    margin-top: 25%;
+.nbutton {
     background-color: #34a853;
     color: white;
     border-style: none;
-    padding: 1.5% 10%;
+    padding: 3% 10%;
+}
 
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.navbar .nav-menu {
+    font-size: large;
 }
 
 .nav-menu li {
@@ -127,54 +142,56 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 1rem;
-    font-size: 2rem;
-
+    font-size: 4vw;
+    gap: 1.5vw;
+    margin-top: 0%;
+    padding-top: 5vw;
 }
 
-.body-header span {
+.body-header .header {
     color: #34a853;
 }
 
 .first-paragragh {
-    margin-top: -4%;
     text-align: center;
-    font-size: 1.4rem;
-
+    font-size: 2vw;
+    margin-top: 1vw;
 }
 
 .body-buttons {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 4rem;
-    font-family: 'poppins' sans-serif;
 }
 
-.body-buttons a button {
-    font-size: 1.5rem;
-}
+
 
 .button-green,
 .button-white {
-    width: 130%;
-    height: 120%;
-    margin-top: 1%;
+    margin-top: 1vw;
     background-color: #34a853;
     color: white;
     border-style: none;
-    padding: 8% 10%;
+    padding: 1.5vw 3vw;
     border-radius: 5%;
-    margin-left: -12%;
-
+    margin-bottom: 6vw;
 }
 
 .button-white {
-
+    margin-top: 1vw;
     background-color: white;
     border: solid #34a853;
     color: #34a853;
-    padding: 6% 4%;
+    padding: 1.5vw 3vw;
+    border-radius: 5%;
+}
+
+.g-tick {
+    font-size: 4vw;
+    color: #34a853;
+}
+
+.first-paragrah {
+    font-size: 2vw;
+    padding: 3vw;
 }
 
 .check-offers {
@@ -265,17 +282,14 @@ a {
 }
 
 .orderly-accounting-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 10%;
-    padding-top: 10%;
-    padding-bottom: 5%;
     background-color: #e8eaed;
-    height: 100%;
-    margin: auto;
-
 }
+
+.orderly-accounting-container img {
+    margin-top: 4vw;
+}
+
+
 
 .orderly-accounting {
     margin-left: 10%;
@@ -286,11 +300,7 @@ a {
     font-size: 2rem;
 }
 
-.orderly-accounting-container img {
-    width: 45%;
-    margin-right: 7%;
-    margin-top: -4%;
-}
+
 
 .orderly-accounting p {
     font-size: 1.5rem;
@@ -301,21 +311,11 @@ a {
 }
 
 .professional-invoice-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 10%;
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    padding-bottom: 5%;
-    padding-top: 3%;
     background-color: #ffffff;
 }
 
 .professional-invoice-container img {
-    width: 50%;
-    margin: auto 2%;
+    margin-top: 4vw;
 }
 
 .professional-invoice {
@@ -341,11 +341,7 @@ a {
 }
 
 .custom-schedule-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 10%;
-    margin-bottom: 10%;
+   
     padding: 5%;
     background-color: #e8eaed;
     height: 100%;
@@ -356,26 +352,23 @@ a {
     margin-top: 10%;
 }
 
-.custom-schedule-container img {
-    width: 50%;
-
-
-}
 
 .why-peppu {
     margin: auto;
+    background-color: #fff;
 }
 
 .why-peppu h3 {
-    margin-top: -25%;
+    
     font-size: 1.8rem;
+    text-align: center;
 }
 
 .easy-to-use {
     background-color: #8f9091;
-    width: 25%;
-    height: 70%;
-    border-radius: 5%;
+    height: 100vh;
+    border-radius: 5vw;
+    width: 30vw;
 }
 
 .easy-to-use.last {
@@ -477,9 +470,9 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 2rem;
-    height: 30vh;
-    width: 70vw;
+    gap: 1vw;
+    height: 18vw;
+    width: 90vw;
     margin: 5% auto -1.5% auto;
     background-color: #e8eaed;
     border-radius: 2rem;
@@ -487,34 +480,52 @@ a {
 }
 
 .we-offer-content h4 {
-    margin-left: -15%;
-    font-size: 1.6rem;
-    margin-top: 6%;
+    font-size: 3vw;
+    margin-top: 2vw;
     text-align: center;
 }
 
-.footer-button {
-    display: flex;
-    gap: 30%;
-    margin-top: 18%;
-
+.we-offer-content .g-button {
+    margin-top: 2vw;
+    color: white;
+    border-style: none;
+    background-color: #34a853;
+    border-radius: 1vh;
+    font-size: 2vh;
+    padding: 2vw;
 }
+
+.we-offer-content .w-button {
+    margin-top: 2vw;
+    background-color: white;
+    color: #34a853;
+    border-style: none;
+    border-radius: 1vh;
+    font-size: 2vh;
+    padding: 2vw;
+}
+
+
 
 .footer-button button {
     padding: 15% 20%;
     font-size: 1.4rem;
 }
 
+.foot {
+    text-align: center;
+    color: #fff ;
+}
+
+.foot-icon {
+    padding-right: 5%;
+    font-size: 5vw;
+}
+
 .subscribe {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     background-color: #b8ebc6;
     position: relative;
-    height: 100vh;
-    padding-top: 10vh;
     z-index: -1;
-    margin-bottom: 0%;
 }
 
 .subscribe-body img {

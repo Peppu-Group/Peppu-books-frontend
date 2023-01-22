@@ -27,9 +27,9 @@ import Image from 'react-bootstrap/Image'
 const Homepage = () => {
   return (
     <main class="root">
-      <nav >
-        <Navbar />
-      </nav>
+      <nav className='fixed'>
+          <Navbar />
+        </nav>
       <div className='home-body'>
         <Container fluid >
           <div className='body-header'>

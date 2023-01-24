@@ -72,17 +72,17 @@ const Homepage = () => {
               </div>
             </Col>
             <Col>
-              <h2>Automate</h2>
-              <p>Get automated bookkeeping <br />process with few clicks.</p>
-              <p className='learn-more'>LEARN MORE <AiOutlineArrowRight /> </p>
+              <h2 className='pb-4'>Automate</h2>
+              <p className='lead fw-normal'>Get automated bookkeeping <br />process with few clicks.</p>
+              <p className='learn-more fw-normal lead'>LEARN MORE <AiOutlineArrowRight /> </p>
             </Col>
           </Row>
           <Row className='orderly-accounting-container'>
             <Col>
               <div>
-                <p>Orderly&nbsp;accounting</p>
-                <p>Arrange share and <br /> retrieve all accounting <br /> processes in one place.</p>
-                <p className='learn-more'>LEARN MORE <AiOutlineArrowRight /> </p>
+                <h2>Orderly&nbsp;accounting</h2>
+                <p className='lead fw-normal'>Arrange share and <br /> retrieve all accounting <br /> processes in one place.</p>
+                <p className='learn-more fw-normal lead'>LEARN MORE <AiOutlineArrowRight /> </p>
               </div>
             </Col>
             <Col>
@@ -93,9 +93,9 @@ const Homepage = () => {
           </Row>
           <Row className='professional-invoice-container'>
             <Col>
-              <p>Professional Invoices</p>
-              <p>Create Professional Invoices and <br /> receipts with few clicks, schedule<br /> and track payments.</p>
-              <p className='learn-more'>LEARN MORE <AiOutlineArrowRight /> </p>
+              <h2>Professional Invoices</h2>
+              <p className='lead fw-normal'>Create Professional Invoices and <br /> receipts with few clicks, schedule<br /> and track payments.</p>
+              <p className='learn-more lead fw-normal'>LEARN MORE <AiOutlineArrowRight /> </p>
             </Col>
             <Col>
               <div>
@@ -105,9 +105,9 @@ const Homepage = () => {
           </Row>
           <Row className='custom-schedule-container'>
             <Col>
-              <p>Custom Schedules</p>
-              <p>Create custom schedules and <br /> reminders to automate your<br />processes.</p>
-              <p className='learn-more'>LEARN MORE <AiOutlineArrowRight /> </p>
+              <h2>Custom Schedules</h2>
+              <p className='fw-normal lead'>Create custom schedules and <br /> reminders to automate your<br />processes.</p>
+              <p className='learn-more fw-normal lead'>LEARN MORE <AiOutlineArrowRight /> </p>
             </Col>
             <Col>
               <div>

@@ -107,7 +107,7 @@ const Homepage = () => {
             <Col>
               <h2>Custom Schedules</h2>
               <p className='fw-normal lead'>Create custom schedules and <br /> reminders to automate your<br />processes.</p>
-              <p className='learn-more fw-normal lead'>LEARN MORE <AiOutlineArrowRight /> </p>
+              <p className='learn-more fw-normal'>LEARN MORE <AiOutlineArrowRight /> </p>
             </Col>
             <Col>
               <div>
@@ -120,33 +120,39 @@ const Homepage = () => {
           <h3>Why PEPPU?</h3>
           </article >
             <Col>
-              <section>
-                <article className='easy-to-use'>
+              <section className='card w-100 h-75'>
+                <article className='easy-to-use card-body'>
                   <figure className='easy-to-use-icon'>
                     <AiOutlineUserSwitch />
                   </figure>
-                  <h3>Easy to use</h3>
-                  <p>With our automated <br /> processes you have your <br /> accounting done without <br /> stress, and easily <br /> trace changes in <br /> your account.</p>
+                  <h3 className='card-title'>Easy to use</h3>
+                  <p className='card-text'>With our automated <br /> processes you have your <br /> accounting done without <br /> stress, and easily <br /> trace changes in <br /> your account.</p>
                 </article>
               </section>
             </Col>
             <Col>
-              <article className='easy-to-use'>
+            <section className='card w-full h-75'>
+              <article className='easy-to-use card-body'>
                 <figure className='easy-to-use-icon'>
                   <SiSpringsecurity />
                 </figure>
-                <h3>Secured</h3>
-                <p>With us you are <br /> sure of a safe <br /> account and <br /> good record<br /> keeping of your <br /> invoices.</p>
+                <h3 className='card-title'>Secured</h3>
+                <p className='card-text'>With us you are <br /> sure of a safe <br /> account and <br /> good record<br /> keeping of your <br /> invoices.</p>
               </article>
+            </section>
             </Col>
             <Col>
-              <article className='easy-to-use last'>
+            <section className='card w-full h-75'>
+
+              <article className='easy-to-use last card-body'>
                 <figure className='easy-to-use-icon'>
                   <GiHumanTarget />
                 </figure>
-                <h3>All in one</h3>
-                <p>We get all your book<br /> keeping processes <br /> done in one place <br /> with a custom feel <br /> of your choice.</p>
-              </article></Col>
+                <h3 className='card-title'>All in one</h3>
+                <p className='card-text'>We get all your book<br /> keeping processes <br /> done in one place <br /> with a custom feel <br /> of your choice.</p>
+              </article>
+            </section>
+              </Col>
           </Row>
           <article className='hear-from'>
             <h2> Hear from our Users</h2>

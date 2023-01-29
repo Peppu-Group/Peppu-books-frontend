@@ -98,13 +98,7 @@ body {
     margin-top: 0;
 }
 
-.privacy-section {
-    background-color: #ffffff;
-    background-image: linear-gradient(to top right, #ffffff, #b5cabb, #ffffff, #f0f0e0, #f0ebd8),
-    linear-gradient(to left, #ffffff, #ffffff);
-    height: 20vw;
-    margin-top: 0;
-}
+
 
 a {
     text-decoration: none;
@@ -1029,6 +1023,31 @@ li {
     width: 100%;
     height: 100%;
 }
+
+/**Privacy Section**/
+.privacy-section {
+    background-color: #ffffff;
+    background-image: linear-gradient(to top right, #ffffff, #b5cabb, #ffffff, #f0f0e0, #f0ebd8),
+    linear-gradient(to left, #ffffff, #ffffff);
+    height: 20vw;
+    margin-top: 0;
+}
+
+.consent-window {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.consent-window .center {
+    font-size: large;
+}
+.text {
+    text-align: left;
+    padding-top: 10%;
+}
+/**End of Privacy Section**/
 
 /**MEDIA-QUERIES**/
 @media screen and (max-width:480px) {

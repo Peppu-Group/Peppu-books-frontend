@@ -1043,6 +1043,11 @@ li {
 .consent-window .center {
     font-size: large;
 }
+.consent-window p {
+    text-align: justify;
+    font-size: large;
+    font-weight:300;
+}
 .text {
     text-align: left;
     padding-top: 10%;

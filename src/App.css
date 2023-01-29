@@ -98,6 +98,14 @@ body {
     margin-top: 0;
 }
 
+.privacy-section {
+    background-color: #ffffff;
+    background-image: linear-gradient(to top right, #ffffff, #b5cabb, #ffffff, #f0f0e0, #f0ebd8),
+    linear-gradient(to left, #ffffff, #ffffff);
+    height: 20vw;
+    margin-top: 0;
+}
+
 a {
     text-decoration: none;
     color: black;

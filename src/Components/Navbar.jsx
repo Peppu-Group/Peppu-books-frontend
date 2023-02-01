@@ -21,10 +21,9 @@ const Navbar = () => {
         <BNavbar.Collapse id="basic-navbar-nav">
           <Nav className="nav-menu">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/features">Features</Nav.Link>
-            <Nav.Link href="/products">Products</Nav.Link>
-            <Nav.Link href="/pricing">Pricing</Nav.Link>
             <Nav.Link href="/about">About&nbsp;us</Nav.Link>
+            <Nav.Link href="/terms">Terms</Nav.Link>
+            <Nav.Link href="/privacy">Privacy</Nav.Link>
             <Nav.Link href="">< FaSearch /></Nav.Link>
             <Nav.Link href='https://app.peppubooks.com/register'><button className='nbutton'>Get&nbsp;Started</button></Nav.Link>
           </Nav>

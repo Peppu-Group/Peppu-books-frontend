@@ -527,7 +527,7 @@ a {
 .subscribe {
     background-color: #b8ebc6;
     position: relative;
-    z-index: -1;
+    
 }
 
 .subscribe-body img {

@@ -154,43 +154,6 @@ const Homepage = () => {
             </section>
               </Col>
           </Row>
-          <article className='hear-from'>
-            <h2> Hear from our Users</h2>
-          </article>
-          <section className='testimonies'>
-            <section className='first-testimony'>
-              <img id="img-1" src={user1} />
-              <article className='testimony'>
-                <p>Book keeping have never <br /> been this easy, Peppu!</p>
-                <h4>James Neerd</h4>
-              </article>
-            </section>
-
-            <section className='first-testimony'>
-              <img id="img-2" src={user2} />
-              <article className='testimony'>
-                <p>Book keeping have never <br /> been this easy, Peppu!</p>
-                <h4>James Neerd</h4>
-              </article>
-            </section>
-
-            <section className='first-testimony'>
-              <article className='testimony img-left'>
-                <p>Book keeping have never <br /> been this easy, Peppu!</p>
-                <h4>James Neerd</h4>
-              </article>
-              <img id="img-3" src={user3} />
-            </section>
-
-            <section className='first-testimony'>
-              <article className='testimony img-left'>
-                <p>Book keeping have never <br /> been this easy, Peppu!</p>
-                <h4>James Neerd</h4>
-              </article>
-              <img id="img-4" src={user4} />
-            </section>
-          </section>
-
           <section className='we-offer-content'>
             <h4>We offer the best <br /> accounting experience</h4>
             <a href='https://app.peppubooks.com/login'>
@@ -239,8 +202,8 @@ const Homepage = () => {
                 <div className="col-md-3 mb-md-0 mb-3">
                   <ul className="">
                     <li>Terms & Policies</li>
-                    <li><a href="#!">Privacy Policies</a></li>
-                    <li><a href="#!">Terms & Conditions</a></li>
+                    <li><a href="/privacy">Privacy Policies</a></li>
+                    <li><a href="/terms">Terms & Conditions</a></li>
                   </ul>
                 </div>
               </div>

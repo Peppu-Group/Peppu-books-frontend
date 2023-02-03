@@ -206,16 +206,7 @@ const Homepage = () => {
                     <a href="https://peppubooks.com/"> Peppu Ventures</a> </p>
                 </div>
               </Col>
-              <Col >
-                <div >
-                  <BsGoogle className="foot-icon"/>
-                  <BsTwitter className="foot-icon"/>
-                  <BsInstagram className="foot-icon"/>
-                  <BsFacebook className="foot-icon"/>
-                </div>
-              </Col>
             </Row>
-
           </footer>
           <div>
           </div>

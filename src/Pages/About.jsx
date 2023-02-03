@@ -120,28 +120,6 @@ const About = () => {
               <p className='position'>CTO/Research & Development</p>
             </section>
 
-
-            <section className='the-team'>
-              <img src={user1} />
-              <p>Ferdinard <br />Okpegbehe</p>
-              <p className='position'>UI/UX <br /> Designer</p>
-            </section>
-
-
-            <section className='the-team'>
-              <img src={user1} />
-              <p>  Precious <br /> Ukpai</p>
-              <p className='position'>Frontend<br />Developer</p>
-            </section>
-
-
-            <section className='the-team'>
-              <img src={user1} />
-              <p>Osemoahu <br />Onoigboria</p>
-              <p className='position'>Frontend<br /> Developer</p>
-            </section>
-
-
             <section className='the-team'>
               <img src={ugochi} />
               <p>Ugochi <br />Ukpai</p>
@@ -161,33 +139,21 @@ const About = () => {
       </section>
       <section className='start-buttons'>
         <article>
-          <button className='green-button'>Start&nbsp;for&nbsp;free</button>
-        </article>
-        <article >
-          <button className='white-button'>How&nbsp;it&nbsp;works</button>
+          <a href="https://workspace.google.com/marketplace/"><button className='green-button'>Start&nbsp;for&nbsp;free</button></a>
         </article>
       </section>
 
       <section className='start'>
         <footer className='get-in-touch'>
           <h3>Get in touch</h3>
-          <a href="" className='socials'>
+          <a href="Peppubooks@gmail.com" className='socials'>
 
             <p><AiOutlineGoogle />  Peppubooks@gmail.com</p>
           </a>
 
-          <a href='' className='socials'>
+          <a href='https://twitter.com/hannydevelop' className='socials'>
 
             <p><AiOutlineTwitter />  Peppubooks</p>
-          </a>
-
-          <a href='' className='socials'>
-
-            <p><AiOutlineInstagram />  Peppubooks</p>
-          </a>
-          <a href='' className='socials'>
-
-            <p> <BsFacebook />   Peppubooks</p>
           </a>
         </footer>
         <figure>

@@ -25,7 +25,7 @@ const Navbar = () => {
             <Nav.Link href="/terms">Terms</Nav.Link>
             <Nav.Link href="/privacy">Privacy</Nav.Link>
             <Nav.Link href="">< FaSearch /></Nav.Link>
-            <Nav.Link href='https://app.peppubooks.com/register'><button className='nbutton'>Get&nbsp;Started</button></Nav.Link>
+            <Nav.Link href='https://workspace.google.com/marketplace/'><button className='nbutton'>Get&nbsp;Started</button></Nav.Link>
           </Nav>
         </BNavbar.Collapse>
       </Container>

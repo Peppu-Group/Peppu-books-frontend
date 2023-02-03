@@ -41,7 +41,7 @@ const Homepage = () => {
           </div>
           <Stack direction="horizontal" gap={3} className='body-buttons'>
             <div>
-              <a href="https://app.peppubooks.com/login">
+              <a href="https://workspace.google.com/marketplace/">
                 <button className='button-green'>Start&nbsp;for&nbsp;free</button>
               </a>
             </div>
@@ -74,7 +74,7 @@ const Homepage = () => {
             <Col>
               <h2 className='pb-4'>Automate</h2>
               <p className='lead fw-normal'>Get automated bookkeeping <br />process with few clicks.</p>
-              <p className='learn-more fw-normal lead'>LEARN MORE <AiOutlineArrowRight /> </p>
+              <a href='/about'><p className='learn-more fw-normal lead'>LEARN MORE <AiOutlineArrowRight /> </p></a>
             </Col>
           </Row>
           <Row className='orderly-accounting-container'>
@@ -82,7 +82,7 @@ const Homepage = () => {
               <div>
                 <h2>Orderly&nbsp;accounting</h2>
                 <p className='lead fw-normal'>Arrange share and <br /> retrieve all accounting <br /> processes in one place.</p>
-                <p className='learn-more fw-normal lead'>LEARN MORE <AiOutlineArrowRight /> </p>
+                <a href="/about"><p className='learn-more fw-normal lead'>LEARN MORE <AiOutlineArrowRight /> </p></a>
               </div>
             </Col>
             <Col>
@@ -95,7 +95,7 @@ const Homepage = () => {
             <Col>
               <h2>Professional Invoices</h2>
               <p className='lead fw-normal'>Create Professional Invoices and <br /> receipts with few clicks, schedule<br /> and track payments.</p>
-              <p className='learn-more lead fw-normal'>LEARN MORE <AiOutlineArrowRight /> </p>
+              <a href="/about"><p className='learn-more lead fw-normal'>LEARN MORE <AiOutlineArrowRight /> </p></a>
             </Col>
             <Col>
               <div>
@@ -107,7 +107,7 @@ const Homepage = () => {
             <Col>
               <h2>Custom Schedules</h2>
               <p className='fw-normal lead'>Create custom schedules and <br /> reminders to automate your<br />processes.</p>
-              <p className='learn-more fw-normal'>LEARN MORE <AiOutlineArrowRight /> </p>
+              <a href="/about"><p className='learn-more fw-normal'>LEARN MORE <AiOutlineArrowRight /> </p></a>
             </Col>
             <Col>
               <div>
@@ -156,7 +156,7 @@ const Homepage = () => {
           </Row>
           <section className='we-offer-content'>
             <h4>We offer the best <br /> accounting experience</h4>
-            <a href='https://app.peppubooks.com/login'>
+            <a href='https://workspace.google.com/marketplace/'>
               <button className='g-button'>Start&nbsp;for&nbsp;free</button>
             </a>
 
@@ -183,27 +183,17 @@ const Homepage = () => {
                 <div className="col-md-3 mb-md-0 mb-3">
                   <ul className="">
                     <li>Quick Links</li>
-                    <li><a href="#!">About</a></li>
-                    <li><a href="#!">Services</a></li>
-                    <li><a href="#!">Products</a></li>
-                    <li><a href="#!">Contact Us</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/privacy">Privacy Policies</a></li>
+                    <li><a href="/terms">Terms & Conditions</a></li>
                   </ul>
                 </div>
 
                 <div className="col-md-3 mb-md-0 mb-3">
                   <ul className="">
                     <li>Follow Us</li>
-                    <li><a href="#!">Twitter</a></li>
-                    <li><a href="#!">Instagram</a></li>
-                    <li><a href="#!">Facebook</a></li>
-                  </ul>
-                </div>
-
-                <div className="col-md-3 mb-md-0 mb-3">
-                  <ul className="">
-                    <li>Terms & Policies</li>
-                    <li><a href="/privacy">Privacy Policies</a></li>
-                    <li><a href="/terms">Terms & Conditions</a></li>
+                    <li><a href="https://twitter.com/hannydevelop">Twitter</a></li>
+                    <li><a href="https://github.com/Peppu-Group">Github</a></li>
                   </ul>
                 </div>
               </div>

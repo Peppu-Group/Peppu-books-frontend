@@ -195,11 +195,6 @@ const About = () => {
         </figure>
       </section>
 
-
-
-
-
-
     </body>
   )
 }

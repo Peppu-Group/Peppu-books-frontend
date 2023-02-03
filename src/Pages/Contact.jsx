@@ -4,6 +4,12 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
 const Contact = () => {
+    let handleSubmit = (event) => {
+        event.preventDefault()
+        console.log(event.target[0].value)
+        window.location.href = "ukpaiugochi0@gmail.com"
+      }
+
     return (
         <main class="root">
             <nav className='fixed'>
@@ -15,7 +21,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className='consent-window'>
-                <Form>
+                <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Your full name</Form.Label>
                         <Form.Control type="text" placeholder="Full Name" />
@@ -29,17 +35,13 @@ const Contact = () => {
                         </Form.Text>
                     </Form.Group>
 
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Describe the problem</Form.Label>
-                        <Form.Control type="text" />
+                        <Form.Control as="textarea" rows={3} />
                     </Form.Group>
-
-                    <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                        <Form.Check type="checkbox" label="Check me out" />
-                    </Form.Group>
-                    <a href='mailto:ukpaiugochi0.com?subject=Support for PayTrack'><Button variant="primary" >
+                   <Button variant="primary" type="submit">
                         Submit
-                    </Button></a>
+                    </Button>
                 </Form>
             </div>
         </main>

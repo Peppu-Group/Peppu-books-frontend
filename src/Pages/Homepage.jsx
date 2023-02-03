@@ -34,7 +34,7 @@ const Homepage = () => {
         <Container fluid >
           <div className='body-header'>
             <p className='header'>Book keeping</p>
-            <p>done seemlessly</p>
+            <p>done seamlessly</p>
           </div>
           <div className='first-paragragh'>
             <p>We offer a seamless and easy to use  algorithm that suits your desire.</p>
@@ -206,16 +206,7 @@ const Homepage = () => {
                     <a href="https://peppubooks.com/"> Peppu Ventures</a> </p>
                 </div>
               </Col>
-              <Col >
-                <div >
-                  <BsGoogle className="foot-icon"/>
-                  <BsTwitter className="foot-icon"/>
-                  <BsInstagram className="foot-icon"/>
-                  <BsFacebook className="foot-icon"/>
-                </div>
-              </Col>
             </Row>
-
           </footer>
           <div>
           </div>

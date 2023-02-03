@@ -34,7 +34,7 @@ const Homepage = () => {
         <Container fluid >
           <div className='body-header'>
             <p className='header'>Book keeping</p>
-            <p>done seemlessly</p>
+            <p>done seamlessly</p>
           </div>
           <div className='first-paragragh'>
             <p>We offer a seamless and easy to use  algorithm that suits your desire.</p>

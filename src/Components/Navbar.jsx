@@ -24,6 +24,7 @@ const Navbar = () => {
             <Nav.Link href="/about">About&nbsp;us</Nav.Link>
             <Nav.Link href="/terms">Terms</Nav.Link>
             <Nav.Link href="/privacy">Privacy</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
             <Nav.Link href="">< FaSearch /></Nav.Link>
             <Nav.Link href='https://workspace.google.com/marketplace/'><button className='nbutton'>Get&nbsp;Started</button></Nav.Link>
           </Nav>

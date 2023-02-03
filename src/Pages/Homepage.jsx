@@ -82,7 +82,7 @@ const Homepage = () => {
               <div>
                 <h2>Orderly&nbsp;accounting</h2>
                 <p className='lead fw-normal'>Arrange share and <br /> retrieve all accounting <br /> processes in one place.</p>
-                <p className='learn-more fw-normal lead'>LEARN MORE <AiOutlineArrowRight /> </p>
+                <a href="/about"><p className='learn-more fw-normal lead'>LEARN MORE <AiOutlineArrowRight /> </p></a>
               </div>
             </Col>
             <Col>
@@ -95,7 +95,7 @@ const Homepage = () => {
             <Col>
               <h2>Professional Invoices</h2>
               <p className='lead fw-normal'>Create Professional Invoices and <br /> receipts with few clicks, schedule<br /> and track payments.</p>
-              <p className='learn-more lead fw-normal'>LEARN MORE <AiOutlineArrowRight /> </p>
+              <a href="/about"><p className='learn-more lead fw-normal'>LEARN MORE <AiOutlineArrowRight /> </p></a>
             </Col>
             <Col>
               <div>
@@ -107,7 +107,7 @@ const Homepage = () => {
             <Col>
               <h2>Custom Schedules</h2>
               <p className='fw-normal lead'>Create custom schedules and <br /> reminders to automate your<br />processes.</p>
-              <p className='learn-more fw-normal'>LEARN MORE <AiOutlineArrowRight /> </p>
+              <a href="/about"><p className='learn-more fw-normal'>LEARN MORE <AiOutlineArrowRight /> </p></a>
             </Col>
             <Col>
               <div>

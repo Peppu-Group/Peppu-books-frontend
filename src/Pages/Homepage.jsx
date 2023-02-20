@@ -41,7 +41,7 @@ const Homepage = () => {
           </div>
           <Stack direction="horizontal" gap={3} className='body-buttons'>
             <div>
-              <a href="https://workspace.google.com/marketplace/">
+              <a href="https://workspace.google.com/marketplace/app/paytrack/913987535189">
                 <button className='button-green'>Start&nbsp;for&nbsp;free</button>
               </a>
             </div>
@@ -156,7 +156,7 @@ const Homepage = () => {
           </Row>
           <section className='we-offer-content'>
             <h4>We offer the best <br /> accounting experience</h4>
-            <a href='https://workspace.google.com/marketplace/'>
+            <a href='https://workspace.google.com/marketplace/app/paytrack/913987535189'>
               <button className='g-button'>Start&nbsp;for&nbsp;free</button>
             </a>
 

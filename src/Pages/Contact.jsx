@@ -11,7 +11,7 @@ const Contact = () => {
         event.preventDefault()
         emailjs.sendForm('service_6fgtutf', 'template_6ttzglg', form.current, 'gaqDvZ1uPiEy0Z2CO')
             .then((result) => {
-                toast.success(`${result} Successfully contacted Peppubooks 👌`);
+                toast.success(`${result.text} Successfully contacted Peppubooks 👌`);
             }, (error) => {
                 toast.error(`${error} An error occurred 👌`);
             });

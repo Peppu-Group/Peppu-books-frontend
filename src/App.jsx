@@ -8,6 +8,8 @@ import Features from './Pages/Features'
 import Privacy from './Pages/Privacy'
 import Terms from './Pages/Terms'
 import Contact from './Pages/Contact'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
@@ -26,6 +28,7 @@ function App() {
           <Route path="/terms" element={<Terms/>} />
           <Route path="/contact" element={<Contact/>} />
       </Routes>
+      <ToastContainer />
       </Router>
     </div>
   )

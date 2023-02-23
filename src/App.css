@@ -61,6 +61,7 @@ body {
 }
 
 .home-navbar .nav-menu {
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: row;
     gap: 10%;
@@ -79,6 +80,22 @@ body {
     margin-left: 14%;
     padding: auto 10%;
 
+}
+.nav-menu #products{
+    border: none;
+    background-color: white;
+    margin-top: 3%;
+    font-size: 1.1rem;
+    
+    
+}
+.nav-menu #optionOne,.nav-menu #optionTwo,.nav-menu #optionThree{
+ margin:10%;
+ font-size: 1.2rem;
+}
+.rs-dropdown .rs-dropdown-menu{
+    width: 100%;
+    margin: auto;
 }
 
 .body {

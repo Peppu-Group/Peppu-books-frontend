@@ -1,14 +1,21 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Navbar from '../Components/Navbar'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 
 const Contact = () => {
+    const form = useRef();
     let handleSubmit = (event) => {
         event.preventDefault()
-        console.log(event.target[0].value)
-        window.location.href = "ukpaiugochi0@gmail.com"
-      }
+        emailjs.sendForm('service_6fgtutf', 'template_6ttzglg', form.current, 'gaqDvZ1uPiEy0Z2CO')
+            .then((result) => {
+                toast.success(`${result.text} Successfully contacted Peppubooks 👌`);
+            }, (error) => {
+                toast.error(`${error} An error occurred 👌`);
+            });
+    }
 
     return (
         <main class="root">
@@ -21,25 +28,17 @@ const Contact = () => {
                 </div>
             </div>
             <div className='consent-window'>
-                <Form onSubmit={handleSubmit}>
+                <Form ref={form} onSubmit={handleSubmit}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Your full name</Form.Label>
-                        <Form.Control type="text" placeholder="Full Name" />
-                    </Form.Group>
-
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Label>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email" />
-                        <Form.Text className="text-muted">
-                            We'll never share your email with anyone else.
-                        </Form.Text>
+                        <Form.Control type="text" placeholder="Full Name" name='from_name' />
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Describe the problem</Form.Label>
-                        <Form.Control as="textarea" rows={3} />
+                        <Form.Control as="textarea" rows={3} name='message' />
                     </Form.Group>
-                   <Button variant="primary" type="submit">
+                    <Button variant="primary" type="submit">
                         Submit
                     </Button>
                 </Form>

@@ -28,8 +28,7 @@ const Navbar = () => {
             <Nav>
               <Dropdown title="Products" id='products'>
                 <DropdownItem href='/contact' id="optionOne">Paytrack</DropdownItem>
-                <DropdownItem href='/contact' id="optionTwo">Paytrack</DropdownItem>
-                <DropdownItem  href="/contact"id="optionThree">Paytrack</DropdownItem>
+                <DropdownItem href='/contact' id="optionTwo">ConnectPay</DropdownItem>
               </Dropdown>  
             </Nav>
             <Nav.Link href="/terms">Terms</Nav.Link>

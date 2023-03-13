@@ -27,7 +27,7 @@ const Navbar = () => {
             <Nav.Link href="/about">About&nbsp;us</Nav.Link>
             <Nav>
               <Dropdown title="Products" id='products'>
-                <DropdownItem href='/https://workspace.google.com/marketplace/app/paytrack/913987535189' id="optionOne">Paytrack</DropdownItem>
+                <DropdownItem href='https://workspace.google.com/marketplace/app/paytrack/913987535189' id="optionOne">Paytrack</DropdownItem>
                 <DropdownItem href='/connectpay' id="optionTwo">ConnectPay</DropdownItem>
               </Dropdown>  
             </Nav>

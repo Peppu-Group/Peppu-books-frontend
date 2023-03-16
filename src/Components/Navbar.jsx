@@ -26,7 +26,7 @@ const Navbar = () => {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About&nbsp;us</Nav.Link>
             <Nav>
-              <Dropdown title="Products" id='products'>
+              <Dropdown title="Products" id='products' href='/products'>
                 <DropdownItem href='https://workspace.google.com/marketplace/app/paytrack/913987535189' id="optionOne">Paytrack</DropdownItem>
                 <DropdownItem href='/connectpay' id="optionTwo">ConnectPay</DropdownItem>
               </Dropdown>  
@@ -36,7 +36,7 @@ const Navbar = () => {
             <Nav.Link href="/contact">Contact</Nav.Link>
             
             <Nav.Link href="">< FaSearch /></Nav.Link>
-            <Nav.Link href='https://workspace.google.com/marketplace/app/paytrack/913987535189'><button className='nbutton'>Get&nbsp;Started</button></Nav.Link>
+            <Nav.Link href='/products'><button className='nbutton'>Get&nbsp;Started</button></Nav.Link>
           </Nav>
         </BNavbar.Collapse>
       </Container>

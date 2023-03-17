@@ -3,6 +3,7 @@ import Homepage from './Pages/Homepage'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Products from './Pages/Products'
 import Paytrack from './Pages/Paytrack'
+import Connect from './Pages/Connectpay'
 import Pricing from './Pages/Pricing'
 import About from './Pages/About'
 import Features from './Pages/Features'
@@ -29,6 +30,7 @@ function App() {
           <Route path="/terms" element={<Terms/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/products/paytrack" element={<Paytrack/>} />
+          <Route path="/products/connectpay" element={<Connect/>} />
       </Routes>
       <ToastContainer />
       </Router>

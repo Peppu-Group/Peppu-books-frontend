@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import aboutMain from '../assets/about-main.png'
+import schedule from '../assets/schedule.png'
 import mission from '../assets/mission image.png'
 import user1 from '../assets/user1.png'
 import symbol from '../assets/Symbol.png'
@@ -13,153 +14,51 @@ import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa'
 const Products = () => {
   return (
     <body className='about-main'>
-      
-
-        <nav className='fixed'>
-          <Navbar />
-        </nav>
- 
 
 
+      <nav className='fixed'>
+        <Navbar />
+      </nav>
       <section className='about-header'>
-
-
         <section className='about-peppu'>
           <aside> <img src={symbol} /></aside>
 
           <main>
-            <section className='about-intro'>
-              <h3>Peppu</h3>
-              <p>Peppubook is an accounting Software as a Service (SaaS).</p>
+            <section className='product-intro'>
+              <h1>Cloudbased Accounting that starts with a spreadsheet.</h1>
+              <p>Automate accounting tasks using the tools you already have and save hours of work to focus on what really matters.</p>
             </section>
             <section className='peppu-description'>
               <article>
-                <figure className='quote-top'>
-                  <FaQuoteLeft />
-                </figure >
-                <p>
-                  To
-                  <span className='blue'>  increase Productivity</span> through decreasing the man-hours spent on complex manual bookkeeping processes via
-                  <span className='red'>  Automation</span>.
-                </p>
-                <figure className='quote-bot'><FaQuoteRight /></figure>
               </article>
-              <figure>
-                <img src={aboutMain} />
-              </figure>
             </section>
-            <article className='about-us'>
-              <h2>About us</h2>
-              <p> 
-              Bookkeeping being an integral aspect of the business is always 
-              hectic as the book-keeper keeps recording numbers in different 
-              books, burdened with balancing these numbers and other complex 
-              operations - errors inevitable. To make life less complicated, 
-              his process must be made easier and simpler.<br/> <br/>
-              
-              At Peppubooks, we are committed to providing the platform that
-               eases your accounting needs through automation and organization of 
-               accounting processes using Googlesheets.
-               All processes from payment scheduling, accounting payables, invoice 
-               receipts and quotes generation as well as accounting reports can be 
-               generated with a few clicks
-
-              
-
-          
-              </p>
+            <article className='about-us product'>
+              <h2>Products</h2>
+              <section className='meet-the-team'>
+                <section className='team'>
+                  <section className='the-product'>
+                    <img src={aboutMain} />
+                    <h1>PayTrack</h1>
+                    <p className='position'>Automate your bookkeeping and accounting tasks. Visualize and control your accounting and share with others.</p>
+                    <a href='/products/paytrack'>Learn More</a>
+                  </section>
+                </section>
+                <section className='team'>
+                  <section className='the-product'>
+                    <img src={schedule} />
+                    <h1>ConnectPay</h1>
+                    <p className='position'>Connect your e-commerce shop to Peppubooks. Perform bookkeeping and accounting tasks straight from your checkout point</p>
+                    <a href='/products/connectpay'>Learn More</a>
+                  </section>
+                </section>
+              </section>
             </article>
           </main>
         </section>
-
-
-
-
-        <section className='mission-class'>
-          <img src={mission} />
-          <article className='mission-vision'>
-            <h3>Our Offers</h3>
-            <p>With PEPPUbooks, this is achieved. We offer seamless and
-              easy bookkeeping and accounting processes. Just key in the numbers,
-              we do the magic for you.With our invoice generator, you can build, send,
-              receive professional invoices and receipts and as well track payments.
-              We facilitate a faster yet secured handshake between the business and
-              the client through a high level collaborative operation between both parties.
-              Our integrated dashboard offers you an on-the-go assessment of the business
-              progress and projections.
-
-            </p>
-          </article>
-        </section>
-        <section className='what-we-are'>
-          <h3>What we are</h3>
-          <p>
-            PEPPUbooks is the MSME’s compass, the Accountant and Financial Analyst’s wonder
-            tool in the toolset, the large corporation’s financial Mirror-on-the-wall` and the
-            rollercoaster to financial accounting success for every user.
-            PEPPUBooks is obsessed with seeing your business succeed financially
-            because a great financial record is a pointer to success.
-
-          </p>
-        </section>
-
-
-
-
-
-
-        <section className='meet-the-team'>
-
-          <h3>Meet the Team</h3>
-
-          <section className='team'>
-
-            <section className='the-team'>
-              <img src={bertram} />
-              <p>Bertram <br />Nnalue</p>
-              <p className='position'>CTO/Research & Development</p>
-            </section>
-
-            <section className='the-team'>
-              <img src={ugochi} />
-              <p>Ugochi <br />Ukpai</p>
-              <p className='position'>Backend<br /> Developer</p>
-            </section>
-          </section>
-
-          <section className='arrow-icon'>
-            <figure className='left'>
-              <BsArrowLeftCircle />
-            </figure>
-            <figure className='right'>
-              <BsFillArrowRightCircleFill />
-            </figure>
-          </section>
-        </section>
-      </section>
-      <section className='start-buttons'>
-        <article>
-          <a href="/about"><button className='green-button'>Start&nbsp;for&nbsp;free</button></a>
-        </article>
       </section>
 
-      <section className='start'>
-        <footer className='get-in-touch'>
-          <h3>Get in touch</h3>
-          <a href="Peppubooks@gmail.com" className='socials'>
 
-            <p><AiOutlineGoogle />  Peppubooks@gmail.com</p>
-          </a>
 
-          <a href='https://twitter.com/hannydevelop' className='socials'>
-
-            <p><AiOutlineTwitter />  Peppubooks</p>
-          </a>
-        </footer>
-        <figure>
-          <img src={enclave} alt="" />
-        </figure>
-      </section>
 
     </body>
   )

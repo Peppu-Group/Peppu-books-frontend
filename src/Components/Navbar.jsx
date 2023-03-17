@@ -26,9 +26,10 @@ const Navbar = () => {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About&nbsp;us</Nav.Link>
             <Nav>
-              <Dropdown title="Products" id='products' href='/products'>
-                <DropdownItem href='https://workspace.google.com/marketplace/app/paytrack/913987535189' id="optionOne">Paytrack</DropdownItem>
-                <DropdownItem href='/connectpay' id="optionTwo">ConnectPay</DropdownItem>
+              <Dropdown title="Products" id='products'>
+                <DropdownItem href='/products/overview' id="optionOne">Overview</DropdownItem>
+                <DropdownItem href='/paytrack' id="optionTwo">Paytrack</DropdownItem>
+                <DropdownItem  href="/connectpay"id="optionThree">ConnectPay</DropdownItem>
               </Dropdown>  
             </Nav>
             <Nav.Link href="/terms">Terms</Nav.Link>

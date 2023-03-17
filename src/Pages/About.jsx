@@ -139,7 +139,7 @@ const About = () => {
       </section>
       <section className='start-buttons'>
         <article>
-          <a href="https://workspace.google.com/marketplace/app/paytrack/913987535189"><button className='green-button'>Start&nbsp;for&nbsp;free</button></a>
+          <a href="/products"><button className='green-button'>Start&nbsp;for&nbsp;free</button></a>
         </article>
       </section>
 

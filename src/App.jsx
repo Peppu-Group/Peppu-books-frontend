@@ -2,6 +2,8 @@ import './App.css'
 import Homepage from './Pages/Homepage'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Products from './Pages/Products'
+import Paytrack from './Pages/Paytrack'
+import Connect from './Pages/Connectpay'
 import Pricing from './Pages/Pricing'
 import About from './Pages/About'
 import Features from './Pages/Features'
@@ -20,13 +22,15 @@ function App() {
       <Router>
       <Routes>
           <Route exact path="/" element={<Homepage/>} />
-          <Route path="/products" element={<Products/>} />
+          <Route path="/products/overview" element={<Products/>} />
           <Route path="/pricing" element={<Pricing/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/features" element={<Features/>} />
           <Route path="/privacy" element={<Privacy/>} />
           <Route path="/terms" element={<Terms/>} />
           <Route path="/contact" element={<Contact/>} />
+          <Route path="/products/paytrack" element={<Paytrack/>} />
+          <Route path="/products/connectpay" element={<Connect/>} />
       </Routes>
       <ToastContainer />
       </Router>

@@ -41,7 +41,7 @@ const Homepage = () => {
           </div>
           <Stack direction="horizontal" gap={3} className='body-buttons'>
             <div>
-              <a href="https://workspace.google.com/marketplace/app/paytrack/913987535189">
+              <a href="/products">
                 <button className='button-green'>Start&nbsp;for&nbsp;free</button>
               </a>
             </div>
@@ -156,7 +156,7 @@ const Homepage = () => {
           </Row>
           <section className='we-offer-content'>
             <h4>We offer the best <br /> accounting experience</h4>
-            <a href='https://workspace.google.com/marketplace/app/paytrack/913987535189'>
+            <a href='/products'>
               <button className='g-button'>Start&nbsp;for&nbsp;free</button>
             </a>
 
@@ -186,6 +186,14 @@ const Homepage = () => {
                     <li><a href="/about">About</a></li>
                     <li><a href="/privacy">Privacy Policies</a></li>
                     <li><a href="/terms">Terms & Conditions</a></li>
+                  </ul>
+                </div>
+
+                <div className="col-md-3 mb-md-0 mb-3">
+                  <ul className="">
+                    <li>Learn More</li>
+                    <li><a href="https://medium.com/@peppubooks">Blog</a></li>
+                    <li><a href="https://docs.peppubooks.com">Documentation</a></li>
                   </ul>
                 </div>
 

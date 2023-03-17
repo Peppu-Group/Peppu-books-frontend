@@ -28,7 +28,7 @@ const Navbar = () => {
             <Nav>
               <Dropdown title="Products" id='products'>
                 <DropdownItem href='/products/overview' id="optionOne">Overview</DropdownItem>
-                <DropdownItem href='/paytrack' id="optionTwo">Paytrack</DropdownItem>
+                <DropdownItem href='/products/paytrack' id="optionTwo">Paytrack</DropdownItem>
                 <DropdownItem  href="/connectpay"id="optionThree">ConnectPay</DropdownItem>
               </Dropdown>  
             </Nav>

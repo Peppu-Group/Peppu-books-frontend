@@ -2,6 +2,7 @@ import './App.css'
 import Homepage from './Pages/Homepage'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Products from './Pages/Products'
+import Paytrack from './Pages/Paytrack'
 import Pricing from './Pages/Pricing'
 import About from './Pages/About'
 import Features from './Pages/Features'
@@ -27,6 +28,7 @@ function App() {
           <Route path="/privacy" element={<Privacy/>} />
           <Route path="/terms" element={<Terms/>} />
           <Route path="/contact" element={<Contact/>} />
+          <Route path="/products/paytrack" element={<Paytrack/>} />
       </Routes>
       <ToastContainer />
       </Router>

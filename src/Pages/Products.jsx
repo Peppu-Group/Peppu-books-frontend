@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import aboutMain from '../assets/about-main.png'
-import schedule from '../assets/schedule.png'
+import schedule from '../assets/Schedule.png'
 import mission from '../assets/mission image.png'
 import user1 from '../assets/user1.png'
 import symbol from '../assets/Symbol.png'

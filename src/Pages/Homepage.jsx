@@ -191,6 +191,14 @@ const Homepage = () => {
 
                 <div className="col-md-3 mb-md-0 mb-3">
                   <ul className="">
+                    <li>Learn More</li>
+                    <li><a href="https://medium.com/@peppubooks">Blog</a></li>
+                    <li><a href="https://docs.peppubooks.com">Documentation</a></li>
+                  </ul>
+                </div>
+
+                <div className="col-md-3 mb-md-0 mb-3">
+                  <ul className="">
                     <li>Follow Us</li>
                     <li><a href="https://twitter.com/hannydevelop">Twitter</a></li>
                     <li><a href="https://github.com/Peppu-Group">Github</a></li>

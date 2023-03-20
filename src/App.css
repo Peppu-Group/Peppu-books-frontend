@@ -1126,3 +1126,11 @@ li {
 
 
 }
+
+/**Invoice Page*/
+.inv-none {
+    resize: 'none';
+    background: '#FFFFFF';
+    border: 0;
+    display: block;
+}

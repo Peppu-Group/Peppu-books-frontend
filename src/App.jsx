@@ -5,6 +5,7 @@ import Products from './Pages/Products'
 import Paytrack from './Pages/Paytrack'
 import Connect from './Pages/Connectpay'
 import Pricing from './Pages/Pricing'
+import Invoice from './Pages/Invoice'
 import About from './Pages/About'
 import Features from './Pages/Features'
 import Privacy from './Pages/Privacy'
@@ -18,7 +19,6 @@ function App() {
 
   return (
     <div className='App'>
-      
       <Router>
       <Routes>
           <Route exact path="/" element={<Homepage/>} />
@@ -31,6 +31,7 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/products/paytrack" element={<Paytrack/>} />
           <Route path="/products/connectpay" element={<Connect/>} />
+          <Route path="/products/invoice" element={<Invoice/>} />
       </Routes>
       <ToastContainer />
       </Router>

@@ -1216,3 +1216,20 @@ li {
 .box-align-left {
     text-align: right;
 }
+
+.input-bttn {
+    margin:10px 40px 0 40px; 
+}
+
+.mg {
+    margin-top: 50px;
+}
+
+.mb-xl  {
+    margin:0 40px 0 40px;
+    width: 85%; 
+}
+
+.bd {
+    font-weight: bolder;
+}

@@ -1157,9 +1157,25 @@ li {
     margin-left: 50px;
   }
 
-  .style ::placeholder {
+  .style {
     font-size: large;
     font-weight: 800;
+    align-content: center;
+  }
+
+  .inv{
+    width: 40%;
+    font-size: 50px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+  .inv ::placeholder{
+    text-align: right !important;
+  }
+
+  .side {
+    float: left;
   }
 
   

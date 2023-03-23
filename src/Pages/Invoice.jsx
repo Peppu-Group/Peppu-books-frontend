@@ -18,7 +18,7 @@ const Subtitle = ({ children, ...props }) => (
 
 
 
-const TextArea = ({className, placeholder, value, onChange}) => {
+const TextArea = ({ className, placeholder, value, onChange }) => {
     const [isHover, setIsHover] = useState(false);
 
     const handleMouseEnter = () => {
@@ -45,7 +45,8 @@ const TextArea = ({className, placeholder, value, onChange}) => {
         <TextareaAutosize
             maxRows={4}
             style={boxStyle}
-            placeholder={ placeholder || ''}
+            className={className || ''}
+            placeholder={placeholder || ''}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         />
@@ -55,43 +56,46 @@ const TextArea = ({className, placeholder, value, onChange}) => {
 
 const Invoice = () => {
 
-    const [isHover, setIsHover] = useState(false);
-
-    const handleMouseEnter = () => {
-        setIsHover(true);
-    };
-
-    const handleMouseLeave = () => {
-        setIsHover(false);
-    };
-
-    const onInputChange = (e) => {
-        return e.target.value;
-    };
-
-    const boxStyle = {
-        resize: 'none',
-        background: '#FFFFFF',
-        border: 0,
-        backgroundColor: isHover ? 'lightblue' : 'white',
-        resize: 'none',
-        margin: '0 0 0 50px'
-    };
-
     return (
         <body className='inv-none'>
             <div className='page'>
                 <div className='inv-logo'>
                     Logo
                 </div>
-                <div className='comp-name style'>
+                <div className='side'>
                     <TextArea
-                    placeholder='Your Company'
+                        placeholder='Your Company'
+                        className={'style'}
                     />
-                    <TextArea/>
                 </div>
-                <div className='comp-name style'>
-                    <TextArea/>
+                <div>
+                    <TextArea
+                        placeholder='INVOICE'
+                        className='inv' />
+                </div>
+                <div className='comp-name'>
+                    <TextArea
+                        placeholder='Your name'
+                        className=''
+                    />
+                </div>
+                <div className='comp-name'>
+                    <TextArea
+                        placeholder={`Company's Address`}
+                        className=''
+                    />
+                </div>
+                <div className='comp-name'>
+                    <TextArea
+                        placeholder='City, State Zip Code'
+                        className=''
+                    />
+                </div>
+                <div className='comp-name'>
+                    <TextArea
+                        placeholder='Country'
+                        className=''
+                    />
                 </div>
             </div>
         </body>

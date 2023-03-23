@@ -1134,3 +1134,32 @@ li {
     border: 0;
     display: block;
 }
+
+  .page{
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    margin-top: 30px;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    width: 21cm;
+    height: 29.7cm; 
+  }
+ 
+  .inv-logo {
+    padding: 50px;
+  }
+
+  .textAreaWithoutStyle {
+    resize: 'none';
+    background: '#FFFFFF';
+    border: 0;
+    margin-left: 50px;
+  }
+
+  .style ::placeholder {
+    font-size: large;
+    font-weight: 800;
+  }
+
+  

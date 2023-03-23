@@ -47,6 +47,7 @@ const TextArea = ({ className, placeholder, value, onChange }) => {
             style={boxStyle}
             className={className || ''}
             placeholder={placeholder || ''}
+            value={value || ''}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         />
@@ -73,27 +74,83 @@ const Invoice = () => {
                         placeholder='INVOICE'
                         className='inv' />
                 </div>
-                <div className='comp-name'>
+                <div className=''>
                     <TextArea
                         placeholder='Your name'
                         className=''
                     />
                 </div>
-                <div className='comp-name'>
+                <div className=''>
                     <TextArea
                         placeholder={`Company's Address`}
                         className=''
                     />
                 </div>
-                <div className='comp-name'>
+                <div className=''>
                     <TextArea
                         placeholder='City, State Zip Code'
                         className=''
                     />
                 </div>
-                <div className='comp-name'>
+                <div className=''>
                     <TextArea
                         placeholder='Country'
+                        className=''
+                    />
+                </div>
+                <div className='separator'>
+                </div>
+                <div className=''>
+                    <TextArea
+                        value='Bill To:'
+                        className=''
+                    />
+                    <TextArea
+                        value='Invoice No:'
+                        className='mb-sm'
+                    />
+                    <TextArea
+                        placeholder={'INV-0001'}
+                        className='mb-md'
+                    />
+                </div>
+                <div className=''>
+                    <TextArea
+                        placeholder={`Client's Name:`}
+                        className=''
+                    />
+                    <TextArea
+                        value='Invoice Date:'
+                        className='mb-sm'
+                    />
+                    <TextArea
+                        placeholder={`Today's Date`}
+                        className='mb-md'
+                    />
+                </div>
+                <div className=''>
+                    <TextArea
+                        placeholder={`Client's Address:`}
+                        className=''
+                    />
+                    <TextArea
+                        value='Due Date:'
+                        className='mb-sm'
+                    />
+                    <TextArea
+                        placeholder={`Due Date`}
+                        className='mb-md'
+                    />
+                </div>
+                <div className=''>
+                    <TextArea
+                        placeholder={`City, State Zip Code`}
+                        className=''
+                    />
+                </div>
+                <div className=''>
+                    <TextArea
+                        placeholder={`Country`}
                         className=''
                     />
                 </div>

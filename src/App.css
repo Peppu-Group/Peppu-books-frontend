@@ -1167,15 +1167,23 @@ li {
     width: 40%;
     font-size: 50px;
     font-weight: 500;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-  }
-
-  .inv ::placeholder{
-    text-align: right !important;
-  }
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
 
   .side {
     float: left;
   }
 
-  
+.separator {
+    margin-top: 50px;
+}
+
+.mb-sm {
+    width: 14%
+}
+
+.mb-md {
+    width: 20%;
+    margin-right: -4%;
+}

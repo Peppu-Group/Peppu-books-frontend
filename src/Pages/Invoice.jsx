@@ -41,7 +41,7 @@ const TextArea = ({ className, placeholder, value, onChange }) => {
             maxRows={4}
             style={boxStyle}
             className={className || ''}
-            placeholder={ placeholder || ''}
+            placeholder={placeholder || ''}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             value={valueOfInput || value}
@@ -54,7 +54,22 @@ const TextArea = ({ className, placeholder, value, onChange }) => {
 const EditTable = () => {
     return (
         <div className='box'>
-            <TextArea/>
+            <TextArea
+                value='Item Description'
+                className='mb-lg box-align-right'
+            />
+            <TextArea
+                value='Qty'
+                className='mb-sm box-align-left'
+            />
+            <TextArea
+                value='Rate'
+                className='mb-sm box-align-left'
+            />
+            <TextArea
+                value='Amount'
+                className='mb-sm box-align-left'
+            />
         </div>
     );
 }
@@ -176,6 +191,7 @@ const Invoice = () => {
                         className='mb-sm align-right'
                     />
                 </div>
+                <EditTable/>
             </div>
         </body>
 

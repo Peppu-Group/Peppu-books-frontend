@@ -10,12 +10,6 @@ Font.register({
     src: 'https://fonts.gstatic.com/s/oswald/v13/Y_TKV6o8WovbUd3m_X9aAA.ttf',
 });
 
-const Subtitle = ({ children, ...props }) => (
-    <Text style={styles.subtitle} {...props}>
-        {children}
-    </Text>
-);
-
 
 
 const TextArea = ({ className, placeholder, value, onChange }) => {
@@ -53,6 +47,14 @@ const TextArea = ({ className, placeholder, value, onChange }) => {
         />
     );
 
+}
+
+const EditTable = () => {
+    return (
+        <div className='box'>
+            <TextArea/>
+        </div>
+    );
 }
 
 const Invoice = () => {
@@ -152,6 +154,24 @@ const Invoice = () => {
                     <TextArea
                         placeholder={`Country`}
                         className=''
+                    />
+                </div>
+                <div className='parent'>
+                    <TextArea
+                        value='Item Description'
+                        className='mb-lg align-left'
+                    />
+                    <TextArea
+                        value='Qty'
+                        className='mb-sm align-right'
+                    />
+                    <TextArea
+                        value='Rate'
+                        className='mb-sm align-right'
+                    />
+                    <TextArea
+                        value='Amount'
+                        className='mb-sm align-right'
                     />
                 </div>
             </div>

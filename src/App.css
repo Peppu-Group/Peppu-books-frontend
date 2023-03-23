@@ -1178,6 +1178,9 @@ li {
 .separator {
     margin-top: 50px;
 }
+.mb-lg {
+    width: 28%
+}
 
 .mb-sm {
     width: 14%
@@ -1185,5 +1188,22 @@ li {
 
 .mb-md {
     width: 20%;
-    margin-right: -4%;
+}
+
+.align-right {
+    text-align: right;
+    background-color: #1a1b1c !important;
+    color: #e8eaed;
+}
+
+.align-left {
+    text-align: left;
+    background-color: #1a1b1c !important;
+    color: #e8eaed;
+}
+
+.parent{ 
+    background-color: #1a1b1c; /* aligns horizontally */
+    padding: 10px 0 5px 0;
+    margin:0 40px 0 40px;
 }

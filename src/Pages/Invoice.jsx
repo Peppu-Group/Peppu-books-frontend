@@ -14,6 +14,7 @@ Font.register({
 
 const TextArea = ({ className, placeholder, value, onChange }) => {
     const [isHover, setIsHover] = useState(false);
+    const [valueOfInput, setValueOfInput] = useState('');
 
     const handleMouseEnter = () => {
         setIsHover(true);
@@ -24,7 +25,7 @@ const TextArea = ({ className, placeholder, value, onChange }) => {
     };
 
     const onInputChange = (e) => {
-        return e.target.value;
+        setValueOfInput(e.target.value);
     };
 
     const boxStyle = {
@@ -40,10 +41,11 @@ const TextArea = ({ className, placeholder, value, onChange }) => {
             maxRows={4}
             style={boxStyle}
             className={className || ''}
-            placeholder={placeholder || ''}
-            value={value || ''}
+            placeholder={ placeholder || ''}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
+            value={valueOfInput || value}
+            onChange={onInputChange}
         />
     );
 

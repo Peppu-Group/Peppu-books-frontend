@@ -1207,3 +1207,12 @@ li {
     padding: 10px 0 5px 0;
     margin:0 40px 0 40px;
 }
+
+.box {
+    border-bottom: 1px dotted #000;
+    margin:0 40px 0 40px;
+}
+
+.box-align-left {
+    text-align: right;
+}

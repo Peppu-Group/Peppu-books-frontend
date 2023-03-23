@@ -51,7 +51,8 @@ const TextArea = ({ className, placeholder, value, onChange }) => {
 
 }
 
-const EditTable = () => {
+const Input = ({qty, rate}) => {
+    
     return (
         <div className='box'>
             <TextArea
@@ -59,15 +60,15 @@ const EditTable = () => {
                 className='mb-lg box-align-right'
             />
             <TextArea
-                value='Qty'
+                value={2 || qty}
                 className='mb-sm box-align-left'
             />
             <TextArea
-                value='Rate'
+                value={100 || rate}
                 className='mb-sm box-align-left'
             />
             <TextArea
-                value='Amount'
+                value={200 || qty * rate}
                 className='mb-sm box-align-left'
             />
         </div>
@@ -75,6 +76,11 @@ const EditTable = () => {
 }
 
 const Invoice = () => {
+    const [inputList, setInputList] = useState([]);
+
+    const onAddBtnClick = event => {
+      setInputList(inputList.concat(<Input key={inputList.length} />));
+    };
 
     return (
         <body className='inv-none'>
@@ -191,7 +197,9 @@ const Invoice = () => {
                         className='mb-sm align-right'
                     />
                 </div>
-                <EditTable/>
+                <Input/>
+                {inputList}
+                <button onClick={onAddBtnClick}>Add input</button>
             </div>
         </body>
 

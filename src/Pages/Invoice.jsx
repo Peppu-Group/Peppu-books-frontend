@@ -18,7 +18,7 @@ const Subtitle = ({ children, ...props }) => (
 
 
 
-const TextArea = () => {
+const TextArea = ({className, placeholder, value, onChange}) => {
     const [isHover, setIsHover] = useState(false);
 
     const handleMouseEnter = () => {
@@ -44,8 +44,8 @@ const TextArea = () => {
     return (
         <TextareaAutosize
             maxRows={4}
-            placeholder="Your Company"
             style={boxStyle}
+            placeholder={ placeholder || ''}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         />
@@ -85,6 +85,9 @@ const Invoice = () => {
                     Logo
                 </div>
                 <div className='comp-name style'>
+                    <TextArea
+                    placeholder='Your Company'
+                    />
                     <TextArea/>
                 </div>
                 <div className='comp-name style'>

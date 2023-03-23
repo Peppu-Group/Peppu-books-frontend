@@ -85,56 +85,10 @@ const Invoice = () => {
                     Logo
                 </div>
                 <div className='comp-name style'>
-                    <TextareaAutosize
-                        maxRows={4}
-                        placeholder="Your Company"
-                        style={boxStyle}
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}
-                    />
-
-                    <TextareaAutosize
-                        maxRows={4}
-                        className='textAreaWithoutStyle'
-                        value='INVOICE'
-                        placeholder="Invoice"
-                        style={boxStyle}
-                    />
+                    <TextArea/>
                 </div>
-
-                <div className='comp-name'>
-                    <TextareaAutosize
-                        maxRows={4}
-                        className='textAreaWithoutStyle'
-                        placeholder="Your Name"
-                        style={boxStyle}
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}
-                    />
-                </div>
-
-                <div className='comp-name'>
-                    <TextareaAutosize
-                        maxRows={4}
-                        className='textAreaWithoutStyle'
-                        placeholder="Company's Address"
-                    />
-                </div>
-
-                <div className='comp-name'>
-                    <TextareaAutosize
-                        maxRows={4}
-                        className='textAreaWithoutStyle'
-                        placeholder="City, Zip code"
-                    />
-                </div>
-
-                <div className='comp-name'>
-                    <TextareaAutosize
-                        maxRows={4}
-                        className='textAreaWithoutStyle'
-                        placeholder="Country"
-                    />
+                <div className='comp-name style'>
+                    <TextArea/>
                 </div>
             </div>
         </body>

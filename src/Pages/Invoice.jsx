@@ -1,19 +1,12 @@
 import { React, useState } from 'react'
-import { Page, Image, PDFViewer, Text, View, Font, Document, StyleSheet } from '@react-pdf/renderer';
+import { PDFDownloadLink, Document } from '@react-pdf/renderer';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import TextareaAutosize from 'react-textarea-autosize'
 
-
-Font.register({
-    family: 'Oswald',
-    src: 'https://fonts.gstatic.com/s/oswald/v13/Y_TKV6o8WovbUd3m_X9aAA.ttf',
-});
-
-
-
 const TextArea = ({ className, placeholder, value, onChange }) => {
     const [isHover, setIsHover] = useState(false);
+    const [valueOfInput, setValueOfInput] = useState('');
 
     const handleMouseEnter = () => {
         setIsHover(true);
@@ -24,7 +17,7 @@ const TextArea = ({ className, placeholder, value, onChange }) => {
     };
 
     const onInputChange = (e) => {
-        return e.target.value;
+        setValueOfInput(e.target.value);
     };
 
     const boxStyle = {
@@ -41,23 +34,45 @@ const TextArea = ({ className, placeholder, value, onChange }) => {
             style={boxStyle}
             className={className || ''}
             placeholder={placeholder || ''}
-            value={value || ''}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
+            value={valueOfInput || value}
+            onChange={onInputChange}
         />
     );
 
 }
 
-const EditTable = () => {
+const Input = ({ qty, rate }) => {
+
     return (
         <div className='box'>
-            <TextArea/>
+            <TextArea
+                value='Item Description'
+                className='mb-lg box-align-right'
+            />
+            <TextArea
+                value={2 || qty}
+                className='mb-sm box-align-left'
+            />
+            <TextArea
+                value={100 || rate}
+                className='mb-sm box-align-left'
+            />
+            <TextArea
+                value={200 || qty * rate}
+                className='mb-sm box-align-left'
+            />
         </div>
     );
 }
 
 const Invoice = () => {
+    const [inputList, setInputList] = useState([]);
+
+    const onAddBtnClick = event => {
+        setInputList(inputList.concat(<Input key={inputList.length} />));
+    };
 
     return (
         <body className='inv-none'>
@@ -174,6 +189,82 @@ const Invoice = () => {
                         className='mb-sm align-right'
                     />
                 </div>
+                <Input />
+                {inputList}
+                <div className='input-bttn'>
+                    <button onClick={onAddBtnClick}>Add New Item</button>
+                </div>
+                <div>
+                    <div >
+                        <TextArea
+                            className='mb-lg box-align-right'
+                        />
+                        <TextArea
+                            className='mb-sm box-align-left'
+                        />
+                        <TextArea
+                            value='Sub-Total'
+                            className='mb-sm box-align-left'
+                        />
+                        <TextArea
+                            value={200 || qty * rate}
+                            className='mb-sm box-align-left'
+                        />
+                    </div>
+                    <div >
+                        <TextArea
+                            className='mb-lg box-align-right'
+                        />
+                        <TextArea
+                            className='mb-sm box-align-left'
+                        />
+                        <TextArea
+                            value='Sales Tax'
+                            className='mb-sm box-align-left'
+                        />
+                        <TextArea
+                            value={20 || qty * rate}
+                            className='mb-sm box-align-left'
+                        />
+                    </div>
+                    <div >
+                        <TextArea
+                            className='mb-lg box-align-right'
+                        />
+                        <TextArea
+                            className='mb-sm box-align-left'
+                        />
+                        <TextArea
+                            value='Total'
+                            className='mb-sm box-align-left'
+                        />
+                        <TextArea
+                            value={220 || qty * rate}
+                            className='mb-sm box-align-left'
+                        />
+                    </div>
+                    <div className='mg notes'>
+                        <TextArea
+                            className='bd mb-xl'
+                            value={'Notes'}
+                        />
+                        <TextArea
+                            className='mb-xl'
+                            value={'It was great doing business with you.'}
+                        />
+                    </div>
+                    <div className='mg notes'>
+                        <TextArea
+                            className='bd mb-xl'
+                            value={'Terms & Conditions'}
+                        />
+                        <TextArea
+                            className='mb-xl'
+                            value={'Please make the payment by the due date.'}
+                        />
+                    </div>
+                </div>
+                
             </div>
         </body>
 

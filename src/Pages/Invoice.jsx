@@ -1,84 +1,7 @@
 import { React, useState } from 'react'
 import { PDFDownloadLink, Document, Page, View, Text } from '@react-pdf/renderer';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import TextareaAutosize from 'react-textarea-autosize'
-import { MdSavedSearch } from 'react-icons/md';
-
-const TextArea = ({ className, placeholder, value, onChange }) => {
-    const [isHover, setIsHover] = useState(false);
-    const [valueOfInput, setValueOfInput] = useState('');
-
-    const handleMouseEnter = () => {
-        setIsHover(true);
-    };
-
-    const handleMouseLeave = () => {
-        setIsHover(false);
-    };
-
-    const onInputChange = (e) => {
-        setValueOfInput(e.target.value);
-    };
-
-    const boxStyle = {
-        resize: 'none',
-        background: '#FFFFFF',
-        border: 0,
-        backgroundColor: isHover ? 'lightblue' : 'white',
-        resize: 'none',
-        margin: '0 0 0 50px'
-    };
-    return (
-        <TextareaAutosize
-            maxRows={4}
-            style={boxStyle}
-            className={className || ''}
-            placeholder={placeholder || ''}
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-            value={valueOfInput || value}
-            onChange={onInputChange}
-        />
-    );
-
-}
-
-const Input = ({ qty, rate }) => {
-
-    return (
-        <div className='box'>
-            <TextArea
-                value='Item Description'
-                className='mb-lg box-align-right'
-            />
-            <TextArea
-                value={2 || qty}
-                className='mb-sm box-align-left'
-            />
-            <TextArea
-                value={100 || rate}
-                className='mb-sm box-align-left'
-            />
-            <TextArea
-                value={200 || qty * rate}
-                className='mb-sm box-align-left'
-            />
-        </div>
-    );
-}
-
-const Mydoc = () => {
-    return (
-        <Document>
-            <Page size="A4">
-                <View>
-                    <Text>Meew</Text>
-                </View>
-            </Page>
-        </Document>
-    );
-}
+import TextArea from '../Components/TextArea';
+import Input from '../Components/Input';
 
 const Invoice = () => {
     const [inputList, setInputList] = useState([]);
@@ -88,10 +11,10 @@ const Invoice = () => {
     };
 
     return (
-        <body className='inv-none'>
-            <div className='page'>
+        <Document className='inv-none'>
+            <Page className='page'>
                 <div className='inv-logo'>
-                    Logo
+                    <Text>Logo</Text>
                 </div>
                 <div className='side'>
                     <TextArea
@@ -277,20 +200,10 @@ const Invoice = () => {
                         />
                     </div>
                 </div>
-                <div>
-                    <PDFDownloadLink
-                        document={<Mydoc />}
-                        fileName={'Mee.pdf'}
-                        aria-label="Save PDF"
-                    >
-                        {({ blob, url, loading, error }) =>
-                            loading ? 'Loading document...' : <button className={'download-pdf'}></button>
-                        }
-                    </PDFDownloadLink>
-                </div>
-            </div>
+               
+            </Page>
 
-        </body>
+        </Document>
 
     )
 }

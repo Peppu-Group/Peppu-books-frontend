@@ -1,16 +1,8 @@
 import { React, useState } from 'react'
-import { Page, Image, PDFViewer, Text, View, Font, Document, StyleSheet } from '@react-pdf/renderer';
+import { PDFDownloadLink, Document } from '@react-pdf/renderer';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import TextareaAutosize from 'react-textarea-autosize'
-
-
-Font.register({
-    family: 'Oswald',
-    src: 'https://fonts.gstatic.com/s/oswald/v13/Y_TKV6o8WovbUd3m_X9aAA.ttf',
-});
-
-
 
 const TextArea = ({ className, placeholder, value, onChange }) => {
     const [isHover, setIsHover] = useState(false);
@@ -272,6 +264,7 @@ const Invoice = () => {
                         />
                     </div>
                 </div>
+                
             </div>
         </body>
 

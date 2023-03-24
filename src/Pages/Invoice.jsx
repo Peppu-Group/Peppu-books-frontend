@@ -3,6 +3,7 @@ import { PDFDownloadLink, Document, Page, View, Text } from '@react-pdf/renderer
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import TextareaAutosize from 'react-textarea-autosize'
+import { MdSavedSearch } from 'react-icons/md';
 
 const TextArea = ({ className, placeholder, value, onChange }) => {
     const [isHover, setIsHover] = useState(false);
@@ -276,14 +277,14 @@ const Invoice = () => {
                         />
                     </div>
                 </div>
-                <div className={'download-pdf'}>
+                <div>
                     <PDFDownloadLink
                         document={<Mydoc />}
                         fileName={'Mee.pdf'}
                         aria-label="Save PDF"
                     >
                         {({ blob, url, loading, error }) =>
-                            loading ? "s" : "Save Pdf"
+                            loading ? 'Loading document...' : <button className={'download-pdf'}></button>
                         }
                     </PDFDownloadLink>
                 </div>

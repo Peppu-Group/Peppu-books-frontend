@@ -68,13 +68,15 @@ const Input = ({ qty, rate }) => {
 }
 
 const Mydoc = () => {
-    <Document>
-        <Page size="A4">
-            <View>
-                <Text>Meew</Text>
-            </View>
-        </Page>
-    </Document>
+    return (
+        <Document>
+            <Page size="A4">
+                <View>
+                    <Text>Meew</Text>
+                </View>
+            </Page>
+        </Document>
+    );
 }
 
 const Invoice = () => {
@@ -276,10 +278,14 @@ const Invoice = () => {
                 </div>
                 <div className={'download-pdf'}>
                     <PDFDownloadLink
-                        document={Mydoc}
+                        document={<Mydoc />}
                         fileName={'Mee.pdf'}
                         aria-label="Save PDF"
-                    ></PDFDownloadLink>
+                    >
+                        {({ blob, url, loading, error }) =>
+                            loading ? "s" : "Save Pdf"
+                        }
+                    </PDFDownloadLink>
                 </div>
             </div>
 

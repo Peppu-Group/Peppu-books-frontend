@@ -1233,3 +1233,13 @@ li {
 .bd {
     font-weight: bolder;
 }
+
+.download-pdf {
+    position: fixed;
+  top: 100px;
+  margin-left: -110px;
+  width: 40px;
+  height: 40px;
+  background: url('./assets/download.svg');
+  transition: opacity 0.2s ease-in-out;
+}

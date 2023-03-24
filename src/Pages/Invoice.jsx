@@ -1,5 +1,5 @@
 import { React, useState } from 'react'
-import { PDFDownloadLink, Document } from '@react-pdf/renderer';
+import { PDFDownloadLink, Document, Page, View, Text } from '@react-pdf/renderer';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import TextareaAutosize from 'react-textarea-autosize'
@@ -65,6 +65,16 @@ const Input = ({ qty, rate }) => {
             />
         </div>
     );
+}
+
+const Mydoc = () => {
+    <Document>
+        <Page size="A4">
+            <View>
+                <Text>Meew</Text>
+            </View>
+        </Page>
+    </Document>
 }
 
 const Invoice = () => {
@@ -264,8 +274,15 @@ const Invoice = () => {
                         />
                     </div>
                 </div>
-                
+                <div className={'download-pdf'}>
+                    <PDFDownloadLink
+                        document={Mydoc}
+                        fileName={'Mee.pdf'}
+                        aria-label="Save PDF"
+                    ></PDFDownloadLink>
+                </div>
             </div>
+
         </body>
 
     )

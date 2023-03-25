@@ -1,8 +1,7 @@
-import { React, useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { PDFDownloadLink } from '@react-pdf/renderer';
-import Invoice from '../Pages/Invoice';
-
-const Download = () => {
+import {Invoice as InvoicePage} from '../Pages/Invoice';
+const Download = ({ data }) => {
     const [show, setShow] = useState(false);
     useEffect(() => {
         setShow(false);
@@ -10,20 +9,10 @@ const Download = () => {
             setShow(true);
         }, 500);
         return () => clearTimeout(timeout);
-    });
-    return (
-        <div>
-            {show && (
-            <PDFDownloadLink
-                document={<Invoice/>}
-                fileName={'Mee.pdf'}
-                aria-label="Save PDF"
-            >
-                {({ blob, url, loading, error }) =>
-                    loading ? 'Loading document...' : <button className={'download-pdf'}></button>
-                }
-            </PDFDownloadLink>)}
-        </div>
-    );
+    }, [data]);
+    return (<div className={'download-pdf ' + (!show ? 'loading' : '')} title="Save PDF">
+      {show && (<PDFDownloadLink document={<InvoicePage pdfMode={true} data={data}/>} fileName={`${data.invoiceTitle ? data.invoiceTitle.toLowerCase() : 'invoice'}.pdf`} aria-label="Save PDF"></PDFDownloadLink>)}
+    </div>);
 };
+
 export default Download;

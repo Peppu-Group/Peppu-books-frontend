@@ -106,8 +106,7 @@ const Invoice = ({ data, pdfMode, onChange }) => {
     }, [onChange, invoice]);
     return (<Document pdfMode={pdfMode}>
         <Page className="invoice-wrapper" pdfMode={pdfMode}>
-            {!pdfMode && <Download data={invoice} />}
-
+        {!pdfMode && <Download data={invoice} />}
             <View className="flex" pdfMode={pdfMode}>
                 <View className="w-50" pdfMode={pdfMode}>
                     <EditableFileImage className="logo" placeholder="Your Logo" value={invoice.logo} width={invoice.logoWidth} pdfMode={pdfMode} onChangeImage={(value) => handleChange('logo', value)} onChangeWidth={(value) => handleChange('logoWidth', value)} />

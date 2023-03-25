@@ -2,6 +2,7 @@ import { React, useState } from 'react'
 import { PDFDownloadLink, Document, Page, View, Text } from '@react-pdf/renderer';
 import TextArea from '../Components/TextArea';
 import Input from '../Components/Input';
+import Download from '../Components/Download';
 
 const Invoice = () => {
     const [inputList, setInputList] = useState([]);
@@ -10,12 +11,36 @@ const Invoice = () => {
         setInputList(inputList.concat(<Input key={inputList.length} />));
     };
 
+    const [openFileSelector, { filesContent, loading, errors }] = useFilePicker({
+        readAs: "DataURL",
+        accept: "image/*",
+        multiple: true,
+        limitFilesConfig: { max: 2 },
+        // minFileSize: 1,
+        maxFileSize: 50 // in megabytes
+      });
+    
+      if (loading) {
+        return <div>Loading...</div>;
+      }
+    
+      if (errors.length) {
+        return <div>Error...</div>;
+      }
+    
+
     return (
         <Document className='inv-none'>
             <Page className='page'>
-                <div className='inv-logo'>
-                    <Text>Logo</Text>
-                </div>
+            <input id="upload" ref="upload" type="file" accept="image/*"
+           onChange={(event)=> { 
+               this.readFile(event) 
+          }}
+        onClick={(event)=> { 
+               event.target.value = null
+          }}
+
+/>
                 <div className='side'>
                     <TextArea
                         placeholder='Your Company'
@@ -200,7 +225,8 @@ const Invoice = () => {
                         />
                     </div>
                 </div>
-               
+                <div>
+                </div>
             </Page>
 
         </Document>

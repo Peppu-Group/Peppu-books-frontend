@@ -1,7 +1,6 @@
 import { React } from 'react';
 import TextArea from './TextArea';
 
-
 const Input = ({ qty, rate }) => {
 
     return (

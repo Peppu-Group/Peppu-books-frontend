@@ -78,6 +78,9 @@ const styles = {
     'p-5': {
         padding: '5px',
     },
+    'p-1': {
+        padding: '5px',
+    },
     'pb-10': {
         paddingBottom: '10px',
     },

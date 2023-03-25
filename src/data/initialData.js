@@ -28,12 +28,6 @@ export const initialInvoice = {
     productLineQuantityRate: 'Rate',
     productLineQuantityAmount: 'Amount',
     productLines: [
-        {
-            description: 'Brochure Design',
-            quantity: '2',
-            rate: '100.00',
-        },
-        { ...initialProductLine },
         { ...initialProductLine },
     ],
     subTotalLabel: 'Sub Total',

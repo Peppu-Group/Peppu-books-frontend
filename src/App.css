@@ -1210,7 +1210,6 @@ li {
 
 .box {
     border-bottom: 1px dotted #000;
-    margin:0 40px 0 40px;
 }
 
 .box-align-left {
@@ -1364,4 +1363,224 @@ li {
     left: 0;
     border-radius: 4px;
     box-shadow: 2px 1px 6px rgba(0, 0, 0, 0.15);
+}
+
+/*Invoice Section*/
+.invoice-wrapper {
+    position: relative;
+    background: #fff;
+    padding: 40px 35px;
+    box-shadow: 0 0 17px 0 rgba(16, 40, 73, 0.09);
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .w-50 {
+    width: 50%;
+  }
+
+  .bold {
+    font-weight: 600;
+  }
+  
+  .fs-20 {
+    font-size: 20px;
+  }
+
+  .w-50 {
+    width: 50%;
+  }
+
+  .fs-45 {
+    font-size: 45px;
+  }
+
+  .right {
+    text-align: right;
+  }
+
+  .mt-40 {
+    margin-top: 40px;
+  }
+
+  .w-55 {
+    width: 55%;
+  }
+
+  .fs-45 {
+    font-size: 45px;
+  }
+
+  .dark {
+    color: #222;
+  }
+
+  .mb-5 {
+    margin-bottom: 5px;
+  }
+  
+  .w-45 {
+    width: 45%;
+  }
+
+  .w-40 {
+    width: 40%;
+  }
+
+  .w-60 {
+    width: 60%;
+  }
+
+  .mt-30 {
+    margin-top: 30px;
+  }
+
+  .bg-dark {
+    background-color: #666;
+  }
+
+  .w-48 {
+    width: 48%;
+  }
+
+  .p-4-8 {
+    padding: 4px 8px;
+  }
+
+  .w-17 {
+    width: 17%;
+  }
+  
+  .w-18 {
+    width: 18%;
+  }
+
+  .white {
+    color: #fff;
+    background-color: #000;
+  }
+
+  .pb-10 {
+    padding-bottom: 10px;
+  }
+
+  button.link {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: 0;
+    color: #428bca;
+}
+button.link:hover, button.link:focus {
+    text-decoration: underline;
+}
+button.link:focus {
+    outline: 1px dotted #66afe9;
+    opacity: 1;
+}
+
+.row__remove {
+    display: flex;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.row:hover .row__remove, .row:focus-within .row__remove {
+    opacity: 1;
+}
+
+.icon {
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border: 0;
+    border-radius: 50%;
+}
+.icon-absolute {
+    position: absolute;
+}
+.icon-remove::before, .icon-remove::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    left: 7px;
+    top: 3px;
+    background-color: #fff;
+}
+.icon-remove::before {
+    transform: rotate(45deg);
+}
+.icon-remove::after {
+    transform: rotate(-45deg);
+}
+.icon-add::before, .icon-add::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    left: 7px;
+    top: 3px;
+    background-color: #fff;
+}
+.icon-add::after {
+    transform: rotate(-90deg);
+}
+
+.bg-red {
+    background-color: #f03434;
+  }
+
+  .mt-10 {
+    margin-top: 10px;
+  }
+
+.bg-green {
+    background-color: #26a65b;
+  }
+
+  .mr-10 {
+    margin-right: 10px;
+  }
+
+  .mt-20 {
+    margin-top: 20px;
+  }
+
+  .p-5 {
+    padding: 5px;
+  }
+
+  .bg-gray {
+    background-color: #e3e3e3;
+  }
+
+  .txt-gray {
+    background-color: #e3e3e3;
+  }
+
+  .ml-30 {
+    margin-left: 30px;
+  }
+
+  .w-auto {
+    width: auto !important;
+  }
+
+  .w-100 {
+    width: 100% !important;
+  }
+
+  .p-1 {
+    margin: 5px;
+  }
+
+  .box {
+    border-bottom: 1px dotted #000;
 }

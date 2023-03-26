@@ -37,7 +37,7 @@ const Homepage = () => {
             <p>done seamlessly</p>
           </div>
           <div className='first-paragragh'>
-            <p>We offer a seamless and easy to use  algorithm that suits your desire.</p>
+            <p>Turn your spreadsheet into an invoicing and accounting software with easy to use  algorithm that suits your desire.</p>
           </div>
           <Stack direction="horizontal" gap={3} className='body-buttons'>
             <div>
@@ -73,7 +73,7 @@ const Homepage = () => {
             </Col>
             <Col>
               <h2 className='pb-4'>Automate</h2>
-              <p className='lead fw-normal'>Get automated bookkeeping <br />process with few clicks.</p>
+              <p className='lead fw-normal'>Automate bookkeeping <br />process with few clicks.</p>
               <a href='/about'><p className='learn-more fw-normal lead'>LEARN MORE <AiOutlineArrowRight /> </p></a>
             </Col>
           </Row>
